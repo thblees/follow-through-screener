@@ -1,7 +1,7 @@
 {
-  "stand": "21.06.2026 (taeglich nach US-Schluss)",
+  "stand": "21.06.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Ueberblick:</b> Staerkster Sektor der Woche: <b>Technology</b> (+4,5 %). 6 von 11 Sektoren positiv. Top-Sektoren fuer die Rotation: Technology, Industrials, Utilities.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Technology</b> (+4,5 %). 6 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Technology, Industrials, Utilities.",
   "sectors": [
     {
       "name": "Technology",
@@ -76,7 +76,7 @@
       "name": "Technology",
       "etf": "XLK",
       "week": 4.48,
-      "note": "Leader = staerkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzuegler ueber GD50 mit gesundem RSI (48-67).",
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "WDC",
@@ -186,7 +186,7 @@
       "name": "Industrials",
       "etf": "XLI",
       "week": 2.78,
-      "note": "Leader = staerkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzuegler ueber GD50 mit gesundem RSI (48-67).",
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "ENTG",
@@ -296,7 +296,7 @@
       "name": "Utilities",
       "etf": "XLU",
       "week": 1.29,
-      "note": "Leader = staerkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzuegler ueber GD50 mit gesundem RSI (48-67).",
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "TLN",
