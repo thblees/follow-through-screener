@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Follow-Through-Screener</title>
+<style>
+  :root{
+    --bg:#0b1220; --panel:#151e2e; --panel2:#1b2740; --border:#27324a;
+    --text:#e2e8f0; --muted:#93a4bd; --faint:#647089;
+    --green:#34d399; --green-bg:rgba(52,211,153,.12);
+    --red:#f87171; --red-bg:rgba(248,113,113,.12);
+    --amber:#fbbf24; --amber-bg:rgba(251,191,36,.14);
+    --accent:#818cf8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.45;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px 16px 60px;}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .back{font-size:13px;color:var(--faint);display:inline-flex;gap:6px;align-items:center;margin-bottom:14px}
+  h1{font-size:24px;margin:0;display:flex;align-items:center;gap:10px}
+  .sub{color:var(--muted);font-size:13px;margin-top:4px}
+  .badge-src{font-size:11px;color:var(--faint);border:1px solid var(--border);border-radius:6px;padding:2px 7px}
+  /* Insight */
+  .insight{background:var(--amber-bg);border:1px solid rgba(251,191,36,.3);border-radius:12px;
+    padding:13px 15px;margin:18px 0 22px;font-size:14px;color:#f3e7c9;display:flex;gap:10px}
+  .insight b{color:#fde9b8}
+  .insight .ico{flex-shrink:0;font-size:18px;line-height:1.3}
+  /* Section */
+  .sec-title{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);
+    font-weight:700;margin:0 0 10px}
+  /* Ranking */
+  .rank-row{display:flex;align-items:center;gap:12px;padding:6px 8px;border-radius:9px}
+  .rank-row.top{background:var(--green-bg);outline:1px solid rgba(52,211,153,.25)}
+  .rank-num{width:18px;text-align:right;font-size:12px;font-weight:700;color:var(--faint)}
+  .rank-name{width:200px;flex-shrink:0;font-size:14px;font-weight:600}
+  .rank-name .etf{color:var(--faint);font-weight:400;font-size:12px;margin-left:5px}
+  .bar{flex:1;height:18px;background:#0e1626;border-radius:5px;overflow:hidden}
+  .bar-fill{height:100%;border-radius:5px}
+  .bar-fill.pos{background:linear-gradient(90deg,#1f9e74,#34d399)}
+  .bar-fill.neg{background:linear-gradient(90deg,#b14444,#f87171)}
+  .rank-week{width:64px;text-align:right;font-weight:700;font-size:14px}
+  .rank-month{width:78px;text-align:right;font-size:12px;color:var(--faint)}
+  .pos{color:var(--green)} .neg{color:var(--red)}
+  /* Deep card */
+  .deep{border:1px solid var(--border);border-radius:14px;overflow:hidden;margin:16px 0;background:var(--panel)}
+  .deep-head{background:var(--panel2);padding:11px 16px;display:flex;justify-content:space-between;
+    align-items:center;font-weight:700}
+  .deep-head .etf{color:var(--faint);font-weight:400;font-size:13px;margin-left:6px}
+  .deep-note{font-size:12px;color:var(--muted);padding:9px 16px;border-bottom:1px solid var(--border);
+    background:#101a2b}
+  .cols{display:grid;grid-template-columns:1fr 1fr}
+  .col{padding:12px}
+  .col:first-child{border-right:1px solid var(--border)}
+  .col.ft{background:rgba(52,211,153,.04)}
+  .col-title{font-size:11px;letter-spacing:.05em;text-transform:uppercase;font-weight:700;margin-bottom:8px}
+  .col-title.leader{color:#fb923c}
+  .col-title.ft-title{color:var(--green)}
+  /* Stock table */
+  .thead,.srow{display:grid;grid-template-columns:2.5fr 3.3fr 2fr 1fr .8fr;gap:4px;align-items:center}
+  .thead{font-size:10px;letter-spacing:.04em;text-transform:uppercase;color:var(--faint);
+    font-weight:700;padding:0 6px 5px;border-bottom:1px solid var(--border)}
+  .thead .r{text-align:right}
+  .srow{padding:6px;border-radius:7px;font-size:13px}
+  .srow:hover{background:#101a2b}
+  .tk .t{font-weight:700} .tk .p{font-size:10px;color:var(--faint)}
+  .nm{min-width:0} .nm .n{font-size:12px;color:#c7d2e1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .nm .mc{font-size:10px;color:var(--faint)}
+  .wk{text-align:right} .wk .big{font-weight:700} .wk .m{font-size:10px;color:var(--faint)}
+  .rsi{text-align:right}
+  .badge{padding:2px 6px;border-radius:5px;font-size:11px;font-weight:700}
+  .badge.green{background:var(--green-bg);color:var(--green)}
+  .badge.amber{background:var(--amber-bg);color:var(--amber)}
+  .badge.red{background:var(--red-bg);color:var(--red)}
+  .gd{text-align:right;font-weight:700}
+  /* Method */
+  details{margin:6px 0 0;font-size:13px;color:var(--muted)}
+  summary{cursor:pointer;color:var(--accent);font-size:12px;font-weight:600;margin-bottom:6px}
+  .method{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin-top:8px}
+  .method p{margin:6px 0}
+  /* Footer */
+  .foot{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);font-size:12px;color:var(--faint)}
+  @media(max-width:680px){
+    .cols{grid-template-columns:1fr}
+    .col:first-child{border-right:none;border-bottom:1px solid var(--border)}
+    .rank-name{width:130px}.rank-month{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="https://thblees.github.io/trading-command-center/">← Zurück zum Command Center</a>
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap">
+    <div>
+      <h1>📊 Follow-Through-Screener</h1>
+      <div class="sub">US-Markt · Relative Stärke der Woche · Stand: <span id="stand">–</span></div>
+    </div>
+    <span class="badge-src">Quelle: <span id="src">–</span></span>
+  </div>
+
+  <div class="insight">
+    <span class="ico">💡</span>
+    <div id="insight"></div>
+  </div>
+
+  <div class="sec-title">Sektor-Ranking · Wochenperformance</div>
+  <div id="ranking"></div>
+
+  <div id="deep" style="margin-top:24px"></div>
+
+  <details>
+    <summary>Methodik &amp; Lesart</summary>
+    <div class="method">
+      <p>🔥 <b style="color:#fb923c">Leader</b> – stärkste Wochengewinner des Sektors, oft schon überdehnt. Orientierung, nicht Kaufliste.</p>
+      <p>🎯 <b style="color:var(--green)">Follow-Through</b> – zweite Reihe: positive, aber moderate Wochenrendite, Kurs über GD50, RSI nicht überkauft, liquide (Marktkap. &gt; 2 Mrd. $, Volumen &gt; 800k). Die eigentlichen Anschluss-Kandidaten für die Folgewoche.</p>
+      <p style="color:var(--faint);font-size:12px"><b>RSI:</b> &lt;50 schwach · 50–69 gesund · ≥70 überkauft &nbsp;|&nbsp; <b>GD50:</b> ✓ = Kurs über dem 50er-EMA.</p>
+    </div>
+  </details>
+
+  <div class="foot" id="foot"></div>
+</div>
+
+<script>
+/* ===== DATEN (Fallback) – identisch zum Inhalt einer data.json ===== */
+const EMBEDDED = {
+  "stand":"20.06.2026 (Woche bis 19.06.)",
+  "quelle":"eingebettet",
+  "insight":"<b>Profiblick der Woche:</b> Das gesamte Leaderboard ist im Kern <i>ein</i> Makro-Thema – der KI-Infrastruktur-Aufbau. Tech (Speicher/Semis), Industrials (Halbleiter-Equipment) und Utilities (Strom-Produzenten für Rechenzentren) hängen am selben Treiber. Tragfähigste „zweite Reihe\": <b>Tech &amp; Industrials</b>. Utilities ist dünn (nur 4 IPPs tragen). Wer Breite statt Konzentration sucht: <b>Financials</b> (+1,2 % W / +4,6 % 1M) ist der sauberere zyklische Dritte.",
+  "sectors":[
+    {"name":"Technology","etf":"XLK","week":4.48,"month":9.61},
+    {"name":"Industrials","etf":"XLI","week":2.78,"month":6.90},
+    {"name":"Utilities","etf":"XLU","week":1.29,"month":0.22},
+    {"name":"Financials","etf":"XLF","week":1.15,"month":4.57},
+    {"name":"Materials","etf":"XLB","week":0.19,"month":5.76},
+    {"name":"Consumer Discretionary","etf":"XLY","week":0.12,"month":1.64},
+    {"name":"Consumer Staples","etf":"XLP","week":-2.53,"month":-2.66},
+    {"name":"Real Estate","etf":"XLRE","week":-2.62,"month":0.00},
+    {"name":"Communication Services","etf":"XLC","week":-3.06,"month":-5.36},
+    {"name":"Health Care","etf":"XLV","week":-3.59,"month":1.26},
+    {"name":"Energy","etf":"XLE","week":-5.32,"month":-11.58}
+  ],
+  "topN":3,
+  "deep":[
+    {"name":"Technology","etf":"XLK","week":4.48,
+     "note":"Strength getrieben von Speicher (WDC, Micron-Komplex) und Halbleitern. Nachzügler sind hochwertige, liquide Semis/Software mit noch gesundem RSI.",
+     "leaders":[
+       {"t":"WDC","n":"Western Digital","p":746.23,"w":49.9,"m":68.9,"rsi":78,"a":true,"mc":257e9},
+       {"t":"EQPT","n":"EquipmentShare.com","p":26.32,"w":41.5,"m":11.3,"rsi":68,"a":true,"mc":6.7e9},
+       {"t":"CIFR","n":"Cipher Mining","p":29.18,"w":40.4,"m":55.2,"rsi":67,"a":true,"mc":11.9e9},
+       {"t":"NBIS","n":"Nebius Group","p":286.69,"w":39.6,"m":50.1,"rsi":70,"a":true,"mc":72e9},
+       {"t":"BE","n":"Bloom Energy","p":328.91,"w":37.2,"m":30.1,"rsi":65,"a":true,"mc":93.6e9}
+     ],
+     "follow":[
+       {"t":"ADI","n":"Analog Devices","p":434.46,"w":8.1,"m":6.2,"rsi":59,"a":true,"mc":212e9},
+       {"t":"TEL","n":"TE Connectivity","p":217.64,"w":7.6,"m":9.8,"rsi":55,"a":true,"mc":63.5e9},
+       {"t":"NXPI","n":"NXP Semiconductors","p":313.27,"w":7.5,"m":9.7,"rsi":55,"a":true,"mc":79e9},
+       {"t":"ON","n":"ON Semiconductor","p":121.62,"w":7.0,"m":15.2,"rsi":55,"a":true,"mc":47.7e9},
+       {"t":"CRWD","n":"CrowdStrike","p":684.86,"w":6.1,"m":10.5,"rsi":58,"a":true,"mc":174e9}
+     ]},
+    {"name":"Industrials","etf":"XLI","week":2.78,
+     "note":"Achtung: Die Industrials-Leader sind fast komplett Halbleiter-Equipment (ENTG, ICHR, ACMR, UCTT) – de facto der Semi-/KI-Trade. Die Nachzügler dagegen sind echte Industriewerte (Automation, Bau, HVAC).",
+     "leaders":[
+       {"t":"ENTG","n":"Entegris","p":178.77,"w":33.4,"m":45.3,"rsi":68,"a":true,"mc":27.3e9},
+       {"t":"ICHR","n":"Ichor Holdings","p":98.61,"w":32.2,"m":54.3,"rsi":72,"a":true,"mc":3.4e9},
+       {"t":"ACMR","n":"ACM Research","p":109.87,"w":30.3,"m":72.5,"rsi":72,"a":true,"mc":7.6e9},
+       {"t":"UCTT","n":"Ultra Clean Holdings","p":121.28,"w":28.6,"m":62.2,"rsi":73,"a":true,"mc":5.4e9},
+       {"t":"SMR","n":"NuScale Power","p":11.74,"w":27.4,"m":14.3,"rsi":53,"a":true,"mc":4.3e9}
+     ],
+     "follow":[
+       {"t":"CSL","n":"Carlisle Companies","p":360.96,"w":8.5,"m":8.1,"rsi":57,"a":true,"mc":14.6e9},
+       {"t":"STRL","n":"Sterling Infrastructure","p":861.88,"w":8.1,"m":15.5,"rsi":55,"a":true,"mc":26.4e9},
+       {"t":"BLD","n":"TopBuild","p":426.51,"w":7.8,"m":5.8,"rsi":58,"a":true,"mc":12e9},
+       {"t":"ROK","n":"Rockwell Automation","p":473.79,"w":7.1,"m":10.0,"rsi":61,"a":true,"mc":52.7e9},
+       {"t":"TT","n":"Trane Technologies","p":483.40,"w":6.3,"m":5.7,"rsi":60,"a":true,"mc":107e9}
+     ]},
+    {"name":"Utilities","etf":"XLU","week":1.29,
+     "note":"Vorsicht: Die Stärke steckt fast nur in 4 Strom-Produzenten für Rechenzentren (TLN, VST, CEG, NRG) – wieder der KI-Strom-Trade. CEG & NRG stehen trotz zweistelligem Wochenplus noch UNTER dem GD50 (Bounce, kein bestätigter Trend). Die Follow-Through-Bank ist dünn und defensiv – hier am ehesten Vorsicht beim Nachkaufen.",
+     "leaders":[
+       {"t":"TLN","n":"Talen Energy","p":436.29,"w":28.6,"m":36.3,"rsi":69,"a":true,"mc":19.8e9},
+       {"t":"VST","n":"Vistra","p":163.75,"w":16.1,"m":20.6,"rsi":61,"a":true,"mc":55.2e9},
+       {"t":"CEG","n":"Constellation Energy","p":274.06,"w":11.9,"m":6.0,"rsi":52,"a":false,"mc":98.4e9},
+       {"t":"NRG","n":"NRG Energy","p":135.06,"w":11.6,"m":8.9,"rsi":51,"a":false,"mc":28.5e9},
+       {"t":"TAC","n":"TransAlta","p":13.74,"w":10.5,"m":9.1,"rsi":57,"a":true,"mc":4.1e9}
+     ],
+     "follow":[
+       {"t":"EE","n":"Excelerate Energy","p":34.56,"w":4.2,"m":-3.0,"rsi":55,"a":true,"mc":3.9e9},
+       {"t":"RNW","n":"ReNew Energy Global","p":6.32,"w":3.8,"m":16.0,"rsi":59,"a":true,"mc":2.3e9},
+       {"t":"D","n":"Dominion Energy","p":68.41,"w":2.1,"m":1.8,"rsi":61,"a":true,"mc":60.2e9},
+       {"t":"PEG","n":"Public Service Enterprise","p":79.89,"w":0.8,"m":4.4,"rsi":54,"a":true,"mc":39.8e9}
+     ]}
+  ]
+};
+
+/* ===== Helpers ===== */
+const num = v => Number(v);
+function fmtPct(v){ if(v===null||v===undefined||isNaN(v)) return "–"; return (v>0?"+":"")+num(v).toFixed(1).replace(".",",")+" %"; }
+function fmtPrice(v){ return v>=1000 ? Math.round(v).toLocaleString("de-DE")+" $" : num(v).toFixed(2).replace(".",",")+" $"; }
+function fmtMc(v){ if(v>=1e12) return (v/1e12).toFixed(2).replace(".",",")+" Bio."; if(v>=1e9) return (v/1e9).toFixed(1).replace(".",",")+" Mrd."; return (v/1e6).toFixed(0)+" Mio."; }
+function rsiClass(r){ return r>=70?"red":(r>=50?"green":"amber"); }
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+function stockTable(stocks){
+  let h = '<div class="thead"><div>Ticker</div><div>Name</div><div class="r">Woche · 1M</div><div class="r">RSI</div><div class="r">GD50</div></div>';
+  h += stocks.map(s=>`
+    <div class="srow">
+      <div class="tk"><div class="t">${esc(s.t)}</div><div class="p">${fmtPrice(s.p)}</div></div>
+      <div class="nm"><div class="n" title="${esc(s.n)}">${esc(s.n)}</div><div class="mc">${fmtMc(s.mc)}</div></div>
+      <div class="wk"><div class="big ${s.w>=0?'pos':'neg'}">${fmtPct(s.w)}</div><div class="m">1M ${fmtPct(s.m)}</div></div>
+      <div class="rsi"><span class="badge ${rsiClass(s.rsi)}">${Math.round(s.rsi)}</span></div>
+      <div class="gd">${s.a?'<span class="pos">✓</span>':'<span class="neg">✗</span>'}</div>
+    </div>`).join("");
+  return h;
+}
+
+function render(data){
+  document.getElementById("stand").textContent = data.stand || "–";
+  document.getElementById("src").textContent = data.quelle || "eingebettet";
+  document.getElementById("insight").innerHTML = data.insight || "";
+
+  const topN = data.topN || 3;
+  const ranked = [...data.sectors].sort((a,b)=>b.week-a.week);
+  const maxAbs = Math.max(...ranked.map(s=>Math.abs(s.week)));
+  document.getElementById("ranking").innerHTML = ranked.map((s,i)=>{
+    const pos = s.week>=0, w = Math.abs(s.week)/maxAbs*100;
+    return `<div class="rank-row ${i<topN?'top':''}">
+      <div class="rank-num">${i+1}</div>
+      <div class="rank-name">${esc(s.name)} <span class="etf">${esc(s.etf)}</span></div>
+      <div class="bar"><div class="bar-fill ${pos?'pos':'neg'}" style="width:${w}%"></div></div>
+      <div class="rank-week ${pos?'pos':'neg'}">${fmtPct(s.week)}</div>
+      <div class="rank-month">1M ${fmtPct(s.month)}</div>
+    </div>`;
+  }).join("");
+
+  document.getElementById("deep").innerHTML = data.deep.map(d=>`
+    <div class="deep">
+      <div class="deep-head"><span>${esc(d.name)} <span class="etf">${esc(d.etf)}</span></span><span class="pos">${fmtPct(d.week)}</span></div>
+      ${d.note?`<div class="deep-note">${esc(d.note)}</div>`:""}
+      <div class="cols">
+        <div class="col"><div class="col-title leader">🔥 Leader (ausgereizt)</div>${stockTable(d.leaders)}</div>
+        <div class="col ft"><div class="col-title ft-title">🎯 Follow-Through-Kandidaten</div>${stockTable(d.follow)}</div>
+      </div>
+    </div>`).join("");
+
+  document.getElementById("foot").innerHTML =
+    `Stand: ${esc(data.stand||"")} · Daten via TradingView (Wochen-/Monatsperformance, RSI 14, EMA50) · Liquiditätsfilter: Marktkap. &gt; 2 Mrd. $, Volumen &gt; 800k.<br>
+     Update über <code>data.json</code> im selben Ordner – fehlt sie, werden die eingebetteten Daten genutzt. Keine Anlageberatung.`;
+}
+
+/* ===== Laden: erst data.json, sonst eingebettet ===== */
+(async function(){
+  try{
+    const r = await fetch("data.json",{cache:"no-store"});
+    if(r.ok){ const j = await r.json(); j.quelle = j.quelle || "data.json"; render(j); return; }
+  }catch(e){}
+  render(EMBEDDED);
+})();
+</script>
+</body>
+</html>
