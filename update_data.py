@@ -136,20 +136,20 @@ def main():
         tv = sec_map[sec["name"]]
         deep.append({
             "name": sec["name"], "etf": sec["etf"], "week": sec["week"],
-            "note": ("Leader = staerkste Wochengewinner (oft ausgereizt). "
-                     "Follow-Through = liquide Nachzuegler ueber GD50 mit gesundem RSI (48-67)."),
+            "note": ("Leader = stärkste Wochengewinner (oft ausgereizt). "
+                     "Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67)."),
             "leaders": get_leaders(tv),
             "follow": get_follow(tv),
         })
 
     n_pos = sum(1 for s in sectors if s["week"] > 0)
     t3 = ", ".join(s["name"] for s in top)
-    insight = (f"<b>Auto-Ueberblick:</b> Staerkster Sektor der Woche: "
+    insight = (f"<b>Auto-Überblick:</b> Stärkster Sektor der Woche: "
                f"<b>{ranked[0]['name']}</b> ({fmt_pct(ranked[0]['week'])}). "
-               f"{n_pos} von 11 Sektoren positiv. Top-Sektoren fuer die Rotation: {t3}.")
+               f"{n_pos} von 11 Sektoren positiv. Top-Sektoren für die Rotation: {t3}.")
 
     data = {
-        "stand": datetime.datetime.utcnow().strftime("%d.%m.%Y") + " (taeglich nach US-Schluss)",
+        "stand": datetime.datetime.utcnow().strftime("%d.%m.%Y") + " (täglich nach US-Schluss)",
         "quelle": "TradingView (auto)",
         "insight": insight,
         "sectors": sectors,
