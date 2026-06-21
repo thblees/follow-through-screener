@@ -66,7 +66,10 @@
   .thead .r{text-align:right}
   .srow{padding:6px;border-radius:7px;font-size:13px}
   .srow:hover{background:#101a2b}
-  .tk .t{font-weight:700} .tk .p{font-size:10px;color:var(--faint)}
+  .tk .t{font-weight:700}
+  .tk .t a{color:var(--text);text-decoration:none;border-bottom:1px dashed transparent}
+  .tk .t a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .tk .p{font-size:10px;color:var(--faint)}
   .nm{min-width:0} .nm .n{font-size:12px;color:#c7d2e1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .nm .mc{font-size:10px;color:var(--faint)}
   .wk{text-align:right} .wk .big{font-weight:700} .wk .m{font-size:10px;color:var(--faint)}
@@ -206,7 +209,7 @@ function stockTable(stocks){
   let h = '<div class="thead"><div>Ticker</div><div>Name</div><div class="r">Woche · 1M</div><div class="r">RSI</div><div class="r">GD50</div></div>';
   h += stocks.map(s=>`
     <div class="srow">
-      <div class="tk"><div class="t">${esc(s.t)}</div><div class="p">${fmtPrice(s.p)}</div></div>
+      <div class="tk"><div class="t"><a href="https://www.tradingview.com/chart/?symbol=${encodeURIComponent(s.t)}" target="_blank" rel="noopener" title="${esc(s.t)} – TradingView-Chart öffnen">${esc(s.t)}</a></div><div class="p">${fmtPrice(s.p)}</div></div>
       <div class="nm"><div class="n" title="${esc(s.n)}">${esc(s.n)}</div><div class="mc">${fmtMc(s.mc)}</div></div>
       <div class="wk"><div class="big ${s.w>=0?'pos':'neg'}">${fmtPct(s.w)}</div><div class="m">1M ${fmtPct(s.m)}</div></div>
       <div class="rsi"><span class="badge ${rsiClass(s.rsi)}">${Math.round(s.rsi)}</span></div>
