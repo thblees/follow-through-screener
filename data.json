@@ -1,73 +1,73 @@
 {
-  "stand": "10.07.2026 (täglich nach US-Schluss)",
+  "stand": "13.07.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Energy</b> (+3,5 %). 8 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Energy, Communication Services, Utilities.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Energy</b> (+6,9 %). 4 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Energy, Communication Services, Financials.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": 0.16,
-      "month": 4.28
+      "week": -0.76,
+      "month": -1.07
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": -1.51,
-      "month": 4.21
+      "week": -2.34,
+      "month": 2.47
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": 0.84,
-      "month": 2.69
+      "week": 0.02,
+      "month": 3.46
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 0.78,
-      "month": 6.12
+      "week": 0.4,
+      "month": 5.87
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": -0.99,
-      "month": 0.28
+      "week": -2.58,
+      "month": -2.19
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": -1.17,
-      "month": 1.54
+      "week": -1.26,
+      "month": -0.84
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": 0.44,
-      "month": -0.76
+      "week": -0.25,
+      "month": -1.02
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 0.18,
-      "month": -1.46
+      "week": -0.07,
+      "month": -0.75
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 1.85,
-      "month": 0.04
+      "week": 1.38,
+      "month": -1.17
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": 0.11,
-      "month": 3.79
+      "week": -1.1,
+      "month": 4.16
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": 3.46,
-      "month": -4.94
+      "week": 6.94,
+      "month": -0.09
     }
   ],
   "topN": 3,
@@ -75,310 +75,300 @@
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": 3.46,
+      "week": 6.94,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
+          "t": "PARR",
+          "n": "Par Pacific Holdings, Inc. Common Stock",
+          "p": 70.92,
+          "w": 21.23,
+          "m": 28.95,
+          "rsi": 72.8,
+          "a": true,
+          "mc": 3556231964.1325636
+        },
+        {
           "t": "PBF",
           "n": "PBF Energy Inc.",
-          "p": 53.18,
-          "w": 10.52,
-          "m": 30.47,
-          "rsi": 72.7,
+          "p": 57.44,
+          "w": 20.34,
+          "m": 41.06,
+          "rsi": 78.1,
           "a": true,
-          "mc": 6291644864.848246
+          "mc": 6795638845.584054
         },
         {
-          "t": "SU",
-          "n": "Suncor Energy Inc.",
-          "p": 59.25,
-          "w": 9.74,
-          "m": -4.17,
-          "rsi": 53.6,
-          "a": false,
-          "mc": 69959156455.61949
-        },
-        {
-          "t": "OXY",
-          "n": "Occidental Petroleum Corporation",
-          "p": 52.89,
-          "w": 9.19,
-          "m": -7.16,
-          "rsi": 50.2,
-          "a": false,
-          "mc": 52606228758.14513
-        },
-        {
-          "t": "DINO",
-          "n": "HF Sinclair Corporation",
-          "p": 78.07,
-          "w": 7.4,
-          "m": 11.8,
-          "rsi": 67.9,
+          "t": "CVI",
+          "n": "CVR Energy Inc.",
+          "p": 33.46,
+          "w": 17.86,
+          "m": 11.38,
+          "rsi": 65.6,
           "a": true,
-          "mc": 14074102710.72949
+          "mc": 3363753851.150791
         },
         {
-          "t": "PBR",
-          "n": "Petroleo Brasileiro S.A. Petrobras",
-          "p": 17.32,
-          "w": 7.11,
-          "m": -2.86,
-          "rsi": 50.2,
+          "t": "NOG",
+          "n": "Northern Oil and Gas, Inc.",
+          "p": 20.36,
+          "w": 14.7,
+          "m": 1.39,
+          "rsi": 53.4,
           "a": false,
-          "mc": 103462618530.18239
+          "mc": 2214845487.4859614
+        },
+        {
+          "t": "PSX",
+          "n": "Phillips 66",
+          "p": 198.29,
+          "w": 13.02,
+          "m": 11.64,
+          "rsi": 72.5,
+          "a": true,
+          "mc": 79501406974.68979
         }
       ],
       "follow": [
         {
-          "t": "PSX",
-          "n": "Phillips 66",
-          "p": 188.36,
-          "w": 7.02,
-          "m": 4.14,
-          "rsi": 65.0,
+          "t": "SHEL",
+          "n": "Shell PLC",
+          "p": 83.98,
+          "w": 8.1,
+          "m": -1.21,
+          "rsi": 58.8,
           "a": true,
-          "mc": 75520124802.4221
+          "mc": 225954021957.64
+        },
+        {
+          "t": "WTTR",
+          "n": "Select Water Solutions, Inc.",
+          "p": 19.55,
+          "w": 8.01,
+          "m": 6.31,
+          "rsi": 58.2,
+          "a": true,
+          "mc": 2748242256.4441557
+        },
+        {
+          "t": "CVX",
+          "n": "Chevron Corporation",
+          "p": 182.2,
+          "w": 7.9,
+          "m": -1.56,
+          "rsi": 57.5,
+          "a": true,
+          "mc": 362869102654.5805
         },
         {
           "t": "EC",
           "n": "Ecopetrol S.A.",
-          "p": 15.58,
-          "w": 6.2,
-          "m": -2.32,
-          "rsi": 56.3,
+          "p": 15.88,
+          "w": 7.66,
+          "m": -1.06,
+          "rsi": 59.2,
           "a": true,
-          "mc": 31581939253.007965
+          "mc": 32229732787.656097
         },
         {
-          "t": "OVV",
-          "n": "Ovintiv Inc. (DE)",
-          "p": 55.53,
-          "w": 5.83,
-          "m": -2.6,
-          "rsi": 52.0,
+          "t": "EOG",
+          "n": "EOG Resources, Inc.",
+          "p": 139.61,
+          "w": 7.57,
+          "m": 2.99,
+          "rsi": 58.3,
           "a": true,
-          "mc": 15604961820.027794
-        },
-        {
-          "t": "NEXT",
-          "n": "NextDecade Corporation",
-          "p": 7.99,
-          "w": 5.13,
-          "m": -2.2,
-          "rsi": 53.2,
-          "a": true,
-          "mc": 2117294151.4900503
-        },
-        {
-          "t": "VLO",
-          "n": "Valero Energy Corporation",
-          "p": 280.69,
-          "w": 4.0,
-          "m": 8.79,
-          "rsi": 65.4,
-          "a": true,
-          "mc": 83346059147.92642
+          "mc": 74360265337.87363
         }
       ]
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 1.85,
+      "week": 1.38,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "VOD",
           "n": "Vodafone Group Plc",
-          "p": 14.72,
-          "w": 11.6,
-          "m": -0.94,
-          "rsi": 59.6,
+          "p": 15.47,
+          "w": 17.78,
+          "m": 0.78,
+          "rsi": 66.7,
           "a": true,
-          "mc": 30170232441.6152
+          "mc": 33973473912.940002
+        },
+        {
+          "t": "RCI",
+          "n": "Rogers Communication, Inc.",
+          "p": 33.38,
+          "w": 5.03,
+          "m": -14.45,
+          "rsi": 40.1,
+          "a": false,
+          "mc": 18136267093.48948
         },
         {
           "t": "TMUS",
           "n": "T-Mobile US, Inc.",
-          "p": 187.61,
-          "w": 6.6,
-          "m": 3.25,
-          "rsi": 55.7,
+          "p": 188.41,
+          "w": 4.77,
+          "m": 0.99,
+          "rsi": 56.5,
           "a": true,
-          "mc": 203032421221.83902
+          "mc": 203898190435.34897
         },
         {
-          "t": "VIV",
-          "n": "Telefonica Brasil S.A.",
-          "p": 13.94,
-          "w": 6.05,
-          "m": 10.02,
-          "rsi": 59.7,
-          "a": true,
-          "mc": 21561540024.1176
-        },
-        {
-          "t": "TIGO",
-          "n": "Millicom International Cellular S.A.",
-          "p": 96.96,
-          "w": 5.69,
-          "m": 10.84,
-          "rsi": 65.1,
-          "a": true,
-          "mc": 16244759173.64566
-        },
-        {
-          "t": "SKM",
-          "n": "SK Telecom Co., Ltd.",
-          "p": 33.23,
-          "w": 3.13,
-          "m": -13.91,
-          "rsi": 44.2,
+          "t": "T",
+          "n": "AT&T Inc.",
+          "p": 21.55,
+          "w": 3.86,
+          "m": -6.71,
+          "rsi": 42.5,
           "a": false,
-          "mc": 12078337789.764181
+          "mc": 149736696640.30292
+        },
+        {
+          "t": "TU",
+          "n": "Telus Corporation",
+          "p": 10.54,
+          "w": 2.78,
+          "m": -11.65,
+          "rsi": 30.9,
+          "a": false,
+          "mc": 16589960257.073168
         }
       ],
       "follow": [
         {
           "t": "TMUS",
           "n": "T-Mobile US, Inc.",
-          "p": 187.61,
-          "w": 6.6,
-          "m": 3.25,
-          "rsi": 55.7,
+          "p": 188.41,
+          "w": 4.77,
+          "m": 0.99,
+          "rsi": 56.5,
           "a": true,
-          "mc": 203032421221.83902
-        },
-        {
-          "t": "VIV",
-          "n": "Telefonica Brasil S.A.",
-          "p": 13.94,
-          "w": 6.05,
-          "m": 10.02,
-          "rsi": 59.7,
-          "a": true,
-          "mc": 21561540024.1176
+          "mc": 203898190435.34897
         },
         {
           "t": "TIGO",
           "n": "Millicom International Cellular S.A.",
-          "p": 96.96,
-          "w": 5.69,
-          "m": 10.84,
-          "rsi": 65.1,
+          "p": 95.74,
+          "w": 1.42,
+          "m": 3.54,
+          "rsi": 61.9,
           "a": true,
-          "mc": 16244759173.64566
+          "mc": 16040359154.252476
         }
       ]
     },
     {
-      "name": "Utilities",
-      "etf": "XLU",
-      "week": 0.84,
+      "name": "Financials",
+      "etf": "XLF",
+      "week": 0.4,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "CSAN",
-          "n": "Cosan S.A.",
-          "p": 3.15,
-          "w": 9.0,
-          "m": 19.77,
-          "rsi": 58.3,
-          "a": false,
-          "mc": 2970527436.5975995
-        },
-        {
-          "t": "CIG",
-          "n": "Comp En De Mn Cemig",
-          "p": 2.2,
-          "w": 6.8,
-          "m": 7.32,
-          "rsi": 59.3,
+          "t": "JXN",
+          "n": "Jackson Financial Inc.",
+          "p": 120.8,
+          "w": 14.88,
+          "m": 10.27,
+          "rsi": 72.1,
           "a": true,
-          "mc": 7077678656.299199
+          "mc": 8424966999.369648
         },
         {
-          "t": "CEG",
-          "n": "Constellation Energy Corporation",
-          "p": 251.38,
-          "w": 5.58,
-          "m": 0.95,
-          "rsi": 45.0,
-          "a": false,
-          "mc": 90271067832.00494
-        },
-        {
-          "t": "SBS",
-          "n": "Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp",
-          "p": 6.06,
-          "w": 4.48,
-          "m": 12.85,
-          "rsi": 64.9,
+          "t": "LNC",
+          "n": "Lincoln National Corporation",
+          "p": 40.85,
+          "w": 7.93,
+          "m": 10.73,
+          "rsi": 69.5,
           "a": true,
-          "mc": 20555081912.0304
+          "mc": 7811058958.839669
         },
         {
-          "t": "TAC",
-          "n": "TransAlta Corporation",
-          "p": 14.22,
-          "w": 3.57,
-          "m": 11.27,
+          "t": "BEKE",
+          "n": "KE Holdings Inc",
+          "p": 16.07,
+          "w": 5.65,
+          "m": -4.35,
+          "rsi": 56.8,
+          "a": true,
+          "mc": 17157579693.04121
+        },
+        {
+          "t": "NDAQ",
+          "n": "Nasdaq, Inc.",
+          "p": 89.21,
+          "w": 5.41,
+          "m": 1.51,
           "rsi": 59.1,
           "a": true,
-          "mc": 4234716015.230769
+          "mc": 50451898718.03406
+        },
+        {
+          "t": "SCHW",
+          "n": "Charles Schwab Corporation (The)",
+          "p": 102.38,
+          "w": 5.34,
+          "m": 14.35,
+          "rsi": 70.9,
+          "a": true,
+          "mc": 178052697032.16928
         }
       ],
       "follow": [
         {
-          "t": "CIG",
-          "n": "Comp En De Mn Cemig",
-          "p": 2.2,
-          "w": 6.8,
-          "m": 7.32,
-          "rsi": 59.3,
+          "t": "BEKE",
+          "n": "KE Holdings Inc",
+          "p": 16.07,
+          "w": 5.65,
+          "m": -4.35,
+          "rsi": 56.8,
           "a": true,
-          "mc": 7077678656.299199
+          "mc": 17157579693.04121
         },
         {
-          "t": "SBS",
-          "n": "Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp",
-          "p": 6.06,
-          "w": 4.48,
-          "m": 12.85,
-          "rsi": 64.9,
-          "a": true,
-          "mc": 20555081912.0304
-        },
-        {
-          "t": "TAC",
-          "n": "TransAlta Corporation",
-          "p": 14.22,
-          "w": 3.57,
-          "m": 11.27,
+          "t": "NDAQ",
+          "n": "Nasdaq, Inc.",
+          "p": 89.21,
+          "w": 5.41,
+          "m": 1.51,
           "rsi": 59.1,
           "a": true,
-          "mc": 4234716015.230769
+          "mc": 50451898718.03406
         },
         {
-          "t": "VST",
-          "n": "Vistra Corp.",
-          "p": 158.86,
-          "w": 3.19,
-          "m": 10.82,
-          "rsi": 52.6,
+          "t": "VIRT",
+          "n": "Virtu Financial, Inc.",
+          "p": 64.67,
+          "w": 4.69,
+          "m": 15.59,
+          "rsi": 64.3,
           "a": true,
-          "mc": 53564804877.82392
+          "mc": 10029434999.482676
         },
         {
-          "t": "D",
-          "n": "Dominion Energy, Inc.",
-          "p": 70.08,
-          "w": 2.83,
-          "m": 4.86,
-          "rsi": 61.5,
+          "t": "CTOS",
+          "n": "Custom Truck One Source, Inc.",
+          "p": 10.67,
+          "w": 4.61,
+          "m": -1.39,
+          "rsi": 52.4,
           "a": true,
-          "mc": 61636234147.34514
+          "mc": 2426708348.185782
+        },
+        {
+          "t": "IVZ",
+          "n": "Invesco Ltd",
+          "p": 28.4,
+          "w": 4.6,
+          "m": -0.84,
+          "rsi": 56.1,
+          "a": true,
+          "mc": 12589624117.170462
         }
       ]
     }
