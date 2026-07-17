@@ -1,394 +1,404 @@
 {
-  "stand": "16.07.2026 (täglich nach US-Schluss)",
+  "stand": "17.07.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Communication Services</b> (+4,2 %). 7 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Communication Services, Energy, Financials.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Energy</b> (+4,7 %). 6 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Energy, Consumer Staples, Real Estate.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": -3.92,
-      "month": -7.17
+      "week": -4.57,
+      "month": -7.1
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": -1.25,
-      "month": 0.32
+      "week": -0.96,
+      "month": -0.31
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": -0.19,
-      "month": 1.4
+      "week": 0.11,
+      "month": 0.78
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 3.05,
-      "month": 5.08
+      "week": 0.48,
+      "month": 3.63
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": 1.03,
-      "month": -3.42
+      "week": 0.48,
+      "month": -3.79
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": 2.28,
-      "month": -1.12
+      "week": -1.83,
+      "month": -2.01
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": 2.7,
-      "month": 0.02
+      "week": 2.34,
+      "month": 0.0
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 2.85,
-      "month": 0.55
+      "week": 2.11,
+      "month": 1.02
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 4.23,
-      "month": 0.37
+      "week": -0.96,
+      "month": -0.74
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": 0.0,
-      "month": 5.34
+      "week": -0.86,
+      "month": 5.95
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": 3.15,
-      "month": 3.67
+      "week": 4.72,
+      "month": 4.38
     }
   ],
   "topN": 3,
   "deep": [
     {
-      "name": "Communication Services",
-      "etf": "XLC",
-      "week": 4.23,
-      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
-      "leaders": [
-        {
-          "t": "VOD",
-          "n": "Vodafone Group Plc",
-          "p": 15.62,
-          "w": 19.51,
-          "m": 3.17,
-          "rsi": 64.6,
-          "a": true,
-          "mc": 34970268605.038
-        },
-        {
-          "t": "TMUS",
-          "n": "T-Mobile US, Inc.",
-          "p": 192.85,
-          "w": 8.51,
-          "m": 1.89,
-          "rsi": 60.7,
-          "a": true,
-          "mc": 208703173261.00763
-        },
-        {
-          "t": "RCI",
-          "n": "Rogers Communication, Inc.",
-          "p": 34.8,
-          "w": 5.78,
-          "m": -10.54,
-          "rsi": 51.9,
-          "a": false,
-          "mc": 18910446849.51219
-        },
-        {
-          "t": "TKC",
-          "n": "Turkcell Iletisim Hizmetleri AS",
-          "p": 5.97,
-          "w": 5.48,
-          "m": -3.24,
-          "rsi": 54.3,
-          "a": true,
-          "mc": 5018463269.308021
-        },
-        {
-          "t": "T",
-          "n": "AT&T Inc.",
-          "p": 21.98,
-          "w": 5.07,
-          "m": -5.73,
-          "rsi": 49.0,
-          "a": false,
-          "mc": 152724490475.36725
-        }
-      ],
-      "follow": [
-        {
-          "t": "TMUS",
-          "n": "T-Mobile US, Inc.",
-          "p": 192.85,
-          "w": 8.51,
-          "m": 1.89,
-          "rsi": 60.7,
-          "a": true,
-          "mc": 208703173261.00763
-        },
-        {
-          "t": "TKC",
-          "n": "Turkcell Iletisim Hizmetleri AS",
-          "p": 5.97,
-          "w": 5.48,
-          "m": -3.24,
-          "rsi": 54.3,
-          "a": true,
-          "mc": 5018463269.308021
-        },
-        {
-          "t": "VIV",
-          "n": "Telefonica Brasil S.A.",
-          "p": 13.9,
-          "w": 4.28,
-          "m": 6.03,
-          "rsi": 56.6,
-          "a": true,
-          "mc": 22361617697.7931
-        },
-        {
-          "t": "TIGO",
-          "n": "Millicom International Cellular S.A.",
-          "p": 95.58,
-          "w": 1.08,
-          "m": 7.64,
-          "rsi": 58.5,
-          "a": true,
-          "mc": 16013552255.863146
-        }
-      ]
-    },
-    {
       "name": "Energy",
       "etf": "XLE",
-      "week": 3.15,
+      "week": 4.72,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "PBF",
           "n": "PBF Energy Inc.",
-          "p": 60.94,
-          "w": 16.52,
-          "m": 56.3,
-          "rsi": 76.4,
+          "p": 62.75,
+          "w": 15.86,
+          "m": 60.36,
+          "rsi": 78.2,
           "a": true,
-          "mc": 7209718263.228387
-        },
-        {
-          "t": "DINO",
-          "n": "HF Sinclair Corporation",
-          "p": 86.84,
-          "w": 12.41,
-          "m": 30.8,
-          "rsi": 78.9,
-          "a": true,
-          "mc": 15655118953.829144
-        },
-        {
-          "t": "DK",
-          "n": "Delek US Holdings, Inc.",
-          "p": 61.59,
-          "w": 10.26,
-          "m": 39.98,
-          "rsi": 74.9,
-          "a": true,
-          "mc": 3774699783.0186186
+          "mc": 7423856642.012635
         },
         {
           "t": "PARR",
           "n": "Par Pacific Holdings, Inc. Common Stock",
-          "p": 73.97,
-          "w": 9.23,
-          "m": 40.9,
-          "rsi": 75.1,
+          "p": 76.25,
+          "w": 14.94,
+          "m": 44.25,
+          "rsi": 77.4,
           "a": true,
-          "mc": 3709172025.033738
+          "mc": 3823501082.3982697
         },
         {
-          "t": "MPC",
-          "n": "Marathon Petroleum Corporation",
-          "p": 305.85,
-          "w": 8.68,
-          "m": 23.51,
-          "rsi": 75.4,
+          "t": "DINO",
+          "n": "HF Sinclair Corporation",
+          "p": 88.59,
+          "w": 13.93,
+          "m": 33.02,
+          "rsi": 80.5,
           "a": true,
-          "mc": 89288811509.32466
+          "mc": 15970600237.400162
+        },
+        {
+          "t": "CRGY",
+          "n": "Crescent Energy Company",
+          "p": 10.75,
+          "w": 12.21,
+          "m": -1.38,
+          "rsi": 56.3,
+          "a": false,
+          "mc": 3550204926.806358
+        },
+        {
+          "t": "NOG",
+          "n": "Northern Oil and Gas, Inc.",
+          "p": 21.19,
+          "w": 11.64,
+          "m": 7.56,
+          "rsi": 58.3,
+          "a": true,
+          "mc": 2305136351.857073
         }
       ],
       "follow": [
         {
           "t": "BP",
           "n": "BP p.l.c.",
-          "p": 41.08,
-          "w": 5.69,
-          "m": -0.54,
-          "rsi": 55.7,
+          "p": 41.9,
+          "w": 8.35,
+          "m": 2.24,
+          "rsi": 59.6,
           "a": true,
-          "mc": 106173182752.69049
+          "mc": 106207255160.29799
         },
         {
-          "t": "SM",
-          "n": "SM Energy Company",
-          "p": 30.21,
-          "w": 5.63,
-          "m": 8.2,
-          "rsi": 57.3,
+          "t": "TALO",
+          "n": "Talos Energy, Inc.",
+          "p": 14.92,
+          "w": 8.27,
+          "m": 7.8,
+          "rsi": 58.6,
           "a": true,
-          "mc": 7242808391.524891
+          "mc": 2490533091.328612
+        },
+        {
+          "t": "FANG",
+          "n": "Diamondback Energy, Inc.",
+          "p": 195.54,
+          "w": 7.5,
+          "m": 4.41,
+          "rsi": 59.7,
+          "a": true,
+          "mc": 55008008782.790405
         },
         {
           "t": "CVX",
           "n": "Chevron Corporation",
-          "p": 183.86,
-          "w": 5.29,
-          "m": 2.94,
-          "rsi": 59.5,
+          "p": 187.38,
+          "w": 7.1,
+          "m": 4.68,
+          "rsi": 63.8,
           "a": true,
-          "mc": 366175179829.2849
+          "mc": 373185592940.9683
         },
         {
-          "t": "XOM",
-          "n": "ExxonMobil Holdings Corporation",
-          "p": 145.95,
-          "w": 4.5,
-          "m": 4.11,
-          "rsi": 57.1,
+          "t": "CVE",
+          "n": "Cenovus Energy Inc",
+          "p": 27.95,
+          "w": 7.09,
+          "m": 6.23,
+          "rsi": 59.7,
           "a": true,
-          "mc": 604883266923.7648
-        },
-        {
-          "t": "EC",
-          "n": "Ecopetrol S.A.",
-          "p": 15.8,
-          "w": 4.15,
-          "m": 1.94,
-          "rsi": 56.7,
-          "a": true,
-          "mc": 32906102425.54687
+          "mc": 52219488533.82022
         }
       ]
     },
     {
-      "name": "Financials",
-      "etf": "XLF",
-      "week": 3.05,
+      "name": "Consumer Staples",
+      "etf": "XLP",
+      "week": 2.34,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "BEKE",
-          "n": "KE Holdings Inc",
-          "p": 17.46,
-          "w": 15.63,
-          "m": 7.18,
-          "rsi": 69.4,
+          "t": "COTY",
+          "n": "Coty Inc.",
+          "p": 2.61,
+          "w": 20.28,
+          "m": 26.7,
+          "rsi": 73.4,
           "a": true,
-          "mc": 18471342000.26878
+          "mc": 2298017393.0963855
         },
         {
-          "t": "NDAQ",
-          "n": "Nasdaq, Inc.",
-          "p": 94.25,
-          "w": 11.72,
-          "m": 2.78,
-          "rsi": 66.4,
+          "t": "VSTS",
+          "n": "Vestis Corporation",
+          "p": 16.5,
+          "w": 14.98,
+          "m": 25.48,
+          "rsi": 77.8,
           "a": true,
-          "mc": 53302223820.89536
+          "mc": 2179733698.8124237
         },
         {
-          "t": "IVZ",
-          "n": "Invesco Ltd",
-          "p": 30.3,
-          "w": 11.07,
-          "m": 2.96,
-          "rsi": 65.9,
+          "t": "UA",
+          "n": "Under Armour, Inc.",
+          "p": 7.28,
+          "w": 12.52,
+          "m": 28.4,
+          "rsi": 73.0,
           "a": true,
-          "mc": 13431887577
+          "mc": 3140328866.5049367
         },
         {
-          "t": "GPN",
-          "n": "Global Payments Inc.",
-          "p": 80.49,
-          "w": 11.02,
-          "m": 18.63,
-          "rsi": 66.7,
+          "t": "UAA",
+          "n": "Under Armour, Inc.",
+          "p": 7.43,
+          "w": 12.07,
+          "m": 27.23,
+          "rsi": 71.6,
           "a": true,
-          "mc": 22017515656.426743
+          "mc": 3134301672.2234483
         },
         {
-          "t": "REXR",
-          "n": "Rexford Industrial Realty, Inc.",
-          "p": 37.58,
-          "w": 10.66,
-          "m": 7.49,
-          "rsi": 70.7,
+          "t": "GIS",
+          "n": "General Mills, Inc.",
+          "p": 37.97,
+          "w": 7.55,
+          "m": 10.86,
+          "rsi": 61.0,
           "a": true,
-          "mc": 8482487151.154744
+          "mc": 20264907361.2801
         }
       ],
       "follow": [
         {
-          "t": "ARX",
-          "n": "Accelerant Holdings",
-          "p": 13.96,
-          "w": 8.98,
-          "m": 4.73,
-          "rsi": 54.4,
+          "t": "GIS",
+          "n": "General Mills, Inc.",
+          "p": 37.97,
+          "w": 7.55,
+          "m": 10.86,
+          "rsi": 61.0,
           "a": true,
-          "mc": 3046090784.3470035
+          "mc": 20264907361.2801
         },
         {
-          "t": "DEI",
-          "n": "Douglas Emmett, Inc.",
-          "p": 12.75,
-          "w": 8.97,
-          "m": 3.57,
-          "rsi": 63.2,
+          "t": "PM",
+          "n": "Philip Morris International Inc",
+          "p": 192.98,
+          "w": 6.28,
+          "m": 5.76,
+          "rsi": 63.0,
           "a": true,
-          "mc": 2135436986.5384612
+          "mc": 300770678734.5788
         },
         {
-          "t": "HLNE",
-          "n": "Hamilton Lane Incorporated",
-          "p": 85.9,
-          "w": 8.79,
-          "m": 2.15,
-          "rsi": 58.8,
+          "t": "CAG",
+          "n": "ConAgra Brands, Inc.",
+          "p": 14.28,
+          "w": 6.09,
+          "m": 5.54,
+          "rsi": 55.6,
           "a": true,
-          "mc": 4770354742.693787
+          "mc": 6833917512.099516
         },
+        {
+          "t": "TAP",
+          "n": "Molson Coors Beverage Company",
+          "p": 40.93,
+          "w": 5.38,
+          "m": 1.31,
+          "rsi": 54.9,
+          "a": true,
+          "mc": 7687202728.466251
+        },
+        {
+          "t": "MDLZ",
+          "n": "Mondelez International, Inc.",
+          "p": 61,
+          "w": 4.99,
+          "m": -1.18,
+          "rsi": 53.0,
+          "a": true,
+          "mc": 78302634262.35754
+        }
+      ]
+    },
+    {
+      "name": "Real Estate",
+      "etf": "XLRE",
+      "week": 2.11,
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
+      "leaders": [
+        {
+          "t": "WU",
+          "n": "Western Union Company (The)",
+          "p": 8.88,
+          "w": 13.55,
+          "m": 22.82,
+          "rsi": 75.8,
+          "a": true,
+          "mc": 2774423642.215828
+        },
+        {
+          "t": "BEKE",
+          "n": "KE Holdings Inc",
+          "p": 17.4,
+          "w": 11.4,
+          "m": 10.76,
+          "rsi": 68.5,
+          "a": true,
+          "mc": 19262604312.26288
+        },
+        {
+          "t": "CLBK",
+          "n": "Columbia Financial, Inc.",
+          "p": 23.42,
+          "w": 10.58,
+          "m": 15.65,
+          "rsi": 78.5,
+          "a": true,
+          "mc": 2437043949.165142
+        },
+        {
+          "t": "TRV",
+          "n": "The Travelers Companies, Inc.",
+          "p": 368.98,
+          "w": 9.37,
+          "m": 20.21,
+          "rsi": 75.5,
+          "a": true,
+          "mc": 78461637144.0855
+        },
+        {
+          "t": "GNW",
+          "n": "Genworth Financial Inc",
+          "p": 10.09,
+          "w": 9.2,
+          "m": 13.37,
+          "rsi": 73.7,
+          "a": true,
+          "mc": 3864563477.5059886
+        }
+      ],
+      "follow": [
         {
           "t": "WY",
           "n": "Weyerhaeuser Company",
-          "p": 24.45,
-          "w": 8.67,
-          "m": -1.41,
-          "rsi": 55.2,
+          "p": 24.49,
+          "w": 7.13,
+          "m": -0.81,
+          "rsi": 55.6,
           "a": true,
-          "mc": 17629501965.595985
+          "mc": 17658344350.090794
         },
         {
-          "t": "BX",
-          "n": "Blackstone Inc.",
-          "p": 128.97,
-          "w": 8.54,
-          "m": 1.66,
-          "rsi": 63.0,
+          "t": "WPC",
+          "n": "W. P. Carey Inc. REIT",
+          "p": 75.86,
+          "w": 6.56,
+          "m": 0.97,
+          "rsi": 63.2,
           "a": true,
-          "mc": 157538685744.63043
+          "mc": 16896989139.890308
+        },
+        {
+          "t": "SLG",
+          "n": "SL Green Realty Corp",
+          "p": 51.54,
+          "w": 6.55,
+          "m": 1.46,
+          "rsi": 57.8,
+          "a": true,
+          "mc": 3968724399.6598372
+        },
+        {
+          "t": "PEB",
+          "n": "Pebblebrook Hotel Trust",
+          "p": 19.01,
+          "w": 5.67,
+          "m": -1.3,
+          "rsi": 61.6,
+          "a": true,
+          "mc": 2155148997.985035
+        },
+        {
+          "t": "WSC",
+          "n": "WillScot Holdings Corporation",
+          "p": 27.23,
+          "w": 5.48,
+          "m": -3.35,
+          "rsi": 53.0,
+          "a": true,
+          "mc": 4927580157.948979
         }
       ]
     }
