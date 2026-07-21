@@ -1,73 +1,73 @@
 {
-  "stand": "20.07.2026 (täglich nach US-Schluss)",
+  "stand": "21.07.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Energy</b> (+3,7 %). 4 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Energy, Real Estate, Consumer Staples.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Energy</b> (+2,6 %). 4 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Energy, Real Estate, Financials.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": -4.04,
-      "month": -7.73
+      "week": -1.59,
+      "month": -5.06
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": -1.87,
-      "month": -2.4
+      "week": -1.66,
+      "month": -2.1
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": -1.12,
-      "month": 0.76
+      "week": -2.2,
+      "month": 0.72
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 0.11,
-      "month": 2.73
+      "week": 0.92,
+      "month": 2.86
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": -1.84,
-      "month": -4.19
+      "week": -2.05,
+      "month": -4.06
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": -2.21,
-      "month": -1.75
+      "week": -0.98,
+      "month": -1.53
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": 0.37,
-      "month": 1.22
+      "week": -0.53,
+      "month": 0.27
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 1.39,
-      "month": 1.92
+      "week": 1.01,
+      "month": 1.85
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": -0.88,
-      "month": 0.86
+      "week": -0.72,
+      "month": 0.15
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": -1.07,
-      "month": 5.28
+      "week": 0.29,
+      "month": 5.94
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": 3.72,
-      "month": 7.02
+      "week": 2.63,
+      "month": 8.05
     }
   ],
   "topN": 3,
@@ -75,330 +75,330 @@
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": 3.72,
+      "week": 2.63,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
+          "t": "DK",
+          "n": "Delek US Holdings, Inc.",
+          "p": 67.19,
+          "w": 13.53,
+          "m": 61.13,
+          "rsi": 81.0,
+          "a": true,
+          "mc": 4117910059.365254
+        },
+        {
           "t": "PBF",
           "n": "PBF Energy Inc.",
-          "p": 63.85,
-          "w": 16.28,
-          "m": 72.43,
-          "rsi": 79.2,
+          "p": 66.05,
+          "w": 13.29,
+          "m": 78.37,
+          "rsi": 81.1,
           "a": true,
-          "mc": 7553996131.548207
+          "mc": 7814274589.875488
         },
         {
           "t": "PARR",
           "n": "Par Pacific Holdings, Inc. Common Stock",
-          "p": 77.56,
-          "w": 14.55,
-          "m": 54.84,
-          "rsi": 78.5,
+          "p": 80.4,
+          "w": 10.95,
+          "m": 60.51,
+          "rsi": 80.9,
           "a": true,
-          "mc": 3889190020.113312
+          "mc": 4031599636.400206
         },
         {
           "t": "DINO",
           "n": "HF Sinclair Corporation",
-          "p": 90.41,
-          "w": 13.72,
-          "m": 37.44,
-          "rsi": 82.1,
+          "p": 91.69,
+          "w": 10.84,
+          "m": 39.39,
+          "rsi": 83.1,
           "a": true,
-          "mc": 16298701531.695564
+          "mc": 16529455432.937172
         },
         {
-          "t": "DK",
-          "n": "Delek US Holdings, Inc.",
-          "p": 64.64,
-          "w": 13.34,
-          "m": 55.01,
-          "rsi": 78.5,
+          "t": "CRGY",
+          "n": "Crescent Energy Company",
+          "p": 11.04,
+          "w": 10.07,
+          "m": 4.45,
+          "rsi": 59.3,
           "a": true,
-          "mc": 3961626860.511621
-        },
-        {
-          "t": "NOG",
-          "n": "Northern Oil and Gas, Inc.",
-          "p": 21.22,
-          "w": 10.12,
-          "m": 11.45,
-          "rsi": 58.4,
-          "a": true,
-          "mc": 2308399865.7866917
+          "mc": 3645977949.7535815
         }
       ],
       "follow": [
         {
+          "t": "NOG",
+          "n": "Northern Oil and Gas, Inc.",
+          "p": 21.91,
+          "w": 8.36,
+          "m": 15.07,
+          "rsi": 62.3,
+          "a": true,
+          "mc": 2383460798.776155
+        },
+        {
           "t": "SM",
           "n": "SM Energy Company",
-          "p": 31.28,
-          "w": 8.5,
-          "m": 13.01,
-          "rsi": 61.6,
+          "p": 32.22,
+          "w": 7.58,
+          "m": 16.4,
+          "rsi": 65.2,
           "a": true,
-          "mc": 7499339356.97318
-        },
-        {
-          "t": "CHRD",
-          "n": "Chord Energy Corporation",
-          "p": 128.8,
-          "w": 7.4,
-          "m": 2.7,
-          "rsi": 57.4,
-          "a": true,
-          "mc": 7251335101.90164
-        },
-        {
-          "t": "EQNR",
-          "n": "Equinor ASA",
-          "p": 37.35,
-          "w": 7.02,
-          "m": 15.76,
-          "rsi": 64.9,
-          "a": true,
-          "mc": 88539714794.49481
+          "mc": 7724703380.783248
         },
         {
           "t": "MUR",
           "n": "Murphy Oil Corporation",
-          "p": 36.83,
-          "w": 6.2,
-          "m": 5.83,
-          "rsi": 57.6,
+          "p": 37.3,
+          "w": 6.42,
+          "m": 7.18,
+          "rsi": 59.5,
           "a": true,
-          "mc": 5279565252.000001
+          "mc": 5346939557.415152
         },
         {
-          "t": "CVX",
-          "n": "Chevron Corporation",
-          "p": 189.71,
-          "w": 5.97,
-          "m": 8.01,
-          "rsi": 66.3,
+          "t": "PTEN",
+          "n": "Patterson-UTI Energy, Inc.",
+          "p": 10.53,
+          "w": 5.19,
+          "m": 3.54,
+          "rsi": 57.3,
           "a": true,
-          "mc": 377826024370.40485
+          "mc": 3997373955.6297026
+        },
+        {
+          "t": "OVV",
+          "n": "Ovintiv Inc. (DE)",
+          "p": 59.37,
+          "w": 4.41,
+          "m": 12.34,
+          "rsi": 64.9,
+          "a": true,
+          "mc": 16684073535.892677
         }
       ]
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 1.39,
+      "week": 1.01,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "CLBK",
           "n": "Columbia Financial, Inc.",
-          "p": 24.5,
-          "w": 19.57,
-          "m": 22.19,
-          "rsi": 83.1,
+          "p": 11.08,
+          "w": 14.5,
+          "m": 21.58,
+          "rsi": 80.9,
           "a": true,
-          "mc": 2549426770.3672075
+          "mc": 2549368878.32
         },
         {
           "t": "BMNR",
           "n": "BitMine Immersion Technologies, Inc.",
-          "p": 16.63,
-          "w": 12.67,
-          "m": 4.2,
-          "rsi": 55.6,
-          "a": false,
-          "mc": 10031654421.491394
+          "p": 17.23,
+          "w": 11.74,
+          "m": 7.96,
+          "rsi": 58.7,
+          "a": true,
+          "mc": 10393589992.368612
+        },
+        {
+          "t": "SBRA",
+          "n": "Sabra Health Care REIT, Inc.",
+          "p": 22.04,
+          "w": 11.71,
+          "m": 21.77,
+          "rsi": 73.8,
+          "a": true,
+          "mc": 5558269671.76
         },
         {
           "t": "LXP",
           "n": "LXP Industrial Trust",
-          "p": 60.85,
-          "w": 10.62,
-          "m": 16.19,
-          "rsi": 76.4,
+          "p": 61.15,
+          "w": 11.3,
+          "m": 16.77,
+          "rsi": 77.1,
           "a": true,
-          "mc": 3587260181.3963428
+          "mc": 3604945946.8052588
+        },
+        {
+          "t": "COIN",
+          "n": "Coinbase Global, Inc.",
+          "p": 175.85,
+          "w": 10.05,
+          "m": 4.83,
+          "rsi": 58.7,
+          "a": true,
+          "mc": 46329616850
+        }
+      ],
+      "follow": [
+        {
+          "t": "MPT",
+          "n": "Medical Properties Trust, Inc.",
+          "p": 4.87,
+          "w": 8.71,
+          "m": 4.73,
+          "rsi": 58.8,
+          "a": true,
+          "mc": 2912746881.069474
+        },
+        {
+          "t": "DHC",
+          "n": "Diversified Healthcare Trust",
+          "p": 9.64,
+          "w": 8.68,
+          "m": 10.05,
+          "rsi": 64.5,
+          "a": true,
+          "mc": 2333910790.3692307
         },
         {
           "t": "WU",
           "n": "Western Union Company (The)",
-          "p": 8.66,
-          "w": 9.76,
-          "m": 21.12,
-          "rsi": 67.9,
+          "p": 8.47,
+          "w": 8.31,
+          "m": 18.46,
+          "rsi": 61.9,
           "a": true,
-          "mc": 2705687906.511261
+          "mc": 2646325158.1154737
         },
         {
-          "t": "TRV",
-          "n": "The Travelers Companies, Inc.",
-          "p": 368.5,
-          "w": 9.27,
-          "m": 19.38,
-          "rsi": 75.0,
+          "t": "APAM",
+          "n": "Artisan Partners Asset Management Inc.",
+          "p": 39.21,
+          "w": 6.96,
+          "m": 7.54,
+          "rsi": 65.5,
           "a": true,
-          "mc": 78359568327.7183
-        }
-      ],
-      "follow": [
+          "mc": 3178274894.762153
+        },
         {
           "t": "REXR",
           "n": "Rexford Industrial Realty, Inc.",
-          "p": 36.91,
-          "w": 7.3,
-          "m": 12.02,
-          "rsi": 64.3,
+          "p": 37.14,
+          "w": 6.63,
+          "m": 12.72,
+          "rsi": 65.4,
           "a": true,
-          "mc": 8331255767.619594
-        },
-        {
-          "t": "GPN",
-          "n": "Global Payments Inc.",
-          "p": 82.37,
-          "w": 7.29,
-          "m": 23.6,
-          "rsi": 66.2,
-          "a": true,
-          "mc": 22531776981.49139
-        },
-        {
-          "t": "BEKE",
-          "n": "KE Holdings Inc",
-          "p": 16.97,
-          "w": 6.13,
-          "m": 11.87,
-          "rsi": 61.7,
-          "a": true,
-          "mc": 19026047037.08912
-        },
-        {
-          "t": "JEF",
-          "n": "Jefferies Financial Group Inc.",
-          "p": 55.18,
-          "w": 5.95,
-          "m": -10.55,
-          "rsi": 52.2,
-          "a": true,
-          "mc": 12721874123.943502
-        },
-        {
-          "t": "PEB",
-          "n": "Pebblebrook Hotel Trust",
-          "p": 19.31,
-          "w": 5.92,
-          "m": 2.74,
-          "rsi": 64.4,
-          "a": true,
-          "mc": 2189159900.0683846
+          "mc": 8383171105.39637
         }
       ]
     },
     {
-      "name": "Consumer Staples",
-      "etf": "XLP",
-      "week": 0.37,
+      "name": "Financials",
+      "etf": "XLF",
+      "week": 0.92,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "COTY",
-          "n": "Coty Inc.",
-          "p": 2.7,
-          "w": 20.81,
-          "m": 41.36,
-          "rsi": 75.9,
+          "t": "CLBK",
+          "n": "Columbia Financial, Inc.",
+          "p": 11.08,
+          "w": 14.5,
+          "m": 21.58,
+          "rsi": 80.9,
           "a": true,
-          "mc": 2377259267.5862074
+          "mc": 2549368878.32
         },
         {
-          "t": "VSTS",
-          "n": "Vestis Corporation",
-          "p": 16.14,
-          "w": 10.85,
-          "m": 27.09,
-          "rsi": 71.7,
+          "t": "BMNR",
+          "n": "BitMine Immersion Technologies, Inc.",
+          "p": 17.23,
+          "w": 11.74,
+          "m": 7.96,
+          "rsi": 58.7,
           "a": true,
-          "mc": 2132175862.08
+          "mc": 10393589992.368612
         },
         {
-          "t": "UAA",
-          "n": "Under Armour, Inc.",
-          "p": 7.28,
-          "w": 7.69,
-          "m": 29.08,
-          "rsi": 67.1,
+          "t": "SBRA",
+          "n": "Sabra Health Care REIT, Inc.",
+          "p": 22.04,
+          "w": 11.71,
+          "m": 21.77,
+          "rsi": 73.8,
           "a": true,
-          "mc": 3073804652.9205923
+          "mc": 5558269671.76
         },
         {
-          "t": "UA",
-          "n": "Under Armour, Inc.",
-          "p": 7.13,
-          "w": 7.38,
-          "m": 27.78,
-          "rsi": 68.2,
+          "t": "LXP",
+          "n": "LXP Industrial Trust",
+          "p": 61.15,
+          "w": 11.3,
+          "m": 16.77,
+          "rsi": 77.1,
           "a": true,
-          "mc": 3072499696.4560437
+          "mc": 3604945946.8052588
         },
         {
-          "t": "PM",
-          "n": "Philip Morris International Inc",
-          "p": 192.72,
-          "w": 6.05,
-          "m": 7.32,
-          "rsi": 62.6,
+          "t": "COIN",
+          "n": "Coinbase Global, Inc.",
+          "p": 175.85,
+          "w": 10.05,
+          "m": 4.83,
+          "rsi": 58.7,
           "a": true,
-          "mc": 300365452588.12024
+          "mc": 46329616850
         }
       ],
       "follow": [
         {
-          "t": "PM",
-          "n": "Philip Morris International Inc",
-          "p": 192.72,
-          "w": 6.05,
-          "m": 7.32,
-          "rsi": 62.6,
+          "t": "MPT",
+          "n": "Medical Properties Trust, Inc.",
+          "p": 4.87,
+          "w": 8.71,
+          "m": 4.73,
+          "rsi": 58.8,
           "a": true,
-          "mc": 300365452588.12024
+          "mc": 2912746881.069474
         },
         {
-          "t": "BTI",
-          "n": "British American Tobacco Industries, p.l.c.",
-          "p": 62.49,
-          "w": 5.56,
-          "m": 6.46,
-          "rsi": 55.7,
+          "t": "DHC",
+          "n": "Diversified Healthcare Trust",
+          "p": 9.64,
+          "w": 8.68,
+          "m": 10.05,
+          "rsi": 64.5,
           "a": true,
-          "mc": 135759189789.2124
+          "mc": 2333910790.3692307
         },
         {
-          "t": "TAP",
-          "n": "Molson Coors Beverage Company",
-          "p": 41.61,
-          "w": 4.89,
-          "m": 6.53,
-          "rsi": 57.9,
+          "t": "WU",
+          "n": "Western Union Company (The)",
+          "p": 8.47,
+          "w": 8.31,
+          "m": 18.46,
+          "rsi": 61.9,
           "a": true,
-          "mc": 7833113935.729783
+          "mc": 2646325158.1154737
         },
         {
-          "t": "CAG",
-          "n": "ConAgra Brands, Inc.",
-          "p": 14.64,
-          "w": 4.57,
-          "m": 11.67,
-          "rsi": 59.5,
+          "t": "APAM",
+          "n": "Artisan Partners Asset Management Inc.",
+          "p": 39.21,
+          "w": 6.96,
+          "m": 7.54,
+          "rsi": 65.5,
           "a": true,
-          "mc": 7006200887.378151
+          "mc": 3178274894.762153
         },
         {
-          "t": "SFD",
-          "n": "Smithfield Foods, Inc.",
-          "p": 25.9,
-          "w": 4.31,
-          "m": 3.52,
-          "rsi": 59.1,
+          "t": "REXR",
+          "n": "Rexford Industrial Realty, Inc.",
+          "p": 37.14,
+          "w": 6.63,
+          "m": 12.72,
+          "rsi": 65.4,
           "a": true,
-          "mc": 10191061329.28211
+          "mc": 8383171105.39637
         }
       ]
     }
