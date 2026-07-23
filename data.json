@@ -1,73 +1,73 @@
 {
-  "stand": "22.07.2026 (täglich nach US-Schluss)",
+  "stand": "23.07.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Energy</b> (+4,0 %). 6 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Energy, Consumer Staples, Health Care.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Energy</b> (+4,8 %). 5 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Energy, Utilities, Industrials.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": -2.61,
-      "month": -6.57
+      "week": -0.31,
+      "month": -3.37
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": -1.07,
-      "month": -1.06
+      "week": 1.76,
+      "month": 1.55
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": 0.44,
-      "month": 3.26
+      "week": 2.1,
+      "month": 3.22
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": -0.44,
-      "month": 4.54
+      "week": -1.64,
+      "month": 4.1
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": 0.32,
-      "month": -0.7
+      "week": -0.04,
+      "month": -1.53
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": -2.1,
-      "month": -1.7
+      "week": -7.14,
+      "month": -4.55
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": 1.54,
-      "month": 2.08
+      "week": -1.11,
+      "month": -0.49
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 0.9,
-      "month": 3.07
+      "week": 0.54,
+      "month": 1.86
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": -2.24,
-      "month": 0.99
+      "week": -7.24,
+      "month": -1.07
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": 1.3,
-      "month": 6.76
+      "week": 0.68,
+      "month": 6.57
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": 3.97,
-      "month": 10.59
+      "week": 4.8,
+      "month": 9.68
     }
   ],
   "topN": 3,
@@ -75,330 +75,330 @@
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": 3.97,
+      "week": 4.8,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "CHRD",
-          "n": "Chord Energy Corporation",
-          "p": 137.4,
-          "w": 12.62,
-          "m": 12.16,
-          "rsi": 66.7,
-          "a": true,
-          "mc": 7735507870.377824
-        },
-        {
-          "t": "CRGY",
-          "n": "Crescent Energy Company",
-          "p": 11.38,
-          "w": 12.45,
-          "m": 8.48,
-          "rsi": 63.2,
-          "a": true,
-          "mc": 3758263393.543479
-        },
-        {
           "t": "MUR",
           "n": "Murphy Oil Corporation",
-          "p": 38.76,
-          "w": 11.32,
-          "m": 12.12,
-          "rsi": 64.7,
+          "p": 39.4,
+          "w": 15.0,
+          "m": 12.57,
+          "rsi": 66.8,
           "a": true,
-          "mc": 5556229562.850402
+          "mc": 5647973162.497419
         },
         {
           "t": "EQNR",
           "n": "Equinor ASA",
-          "p": 39.96,
-          "w": 10.43,
-          "m": 22.5,
-          "rsi": 73.8,
+          "p": 40.99,
+          "w": 14.95,
+          "m": 26.08,
+          "rsi": 76.4,
           "a": true,
-          "mc": 90342291994.23131
+          "mc": 94491851165.72269
+        },
+        {
+          "t": "CHRD",
+          "n": "Chord Energy Corporation",
+          "p": 138.89,
+          "w": 12.34,
+          "m": 12.13,
+          "rsi": 68.1,
+          "a": true,
+          "mc": 7819393164.785589
+        },
+        {
+          "t": "CRGY",
+          "n": "Crescent Energy Company",
+          "p": 11.39,
+          "w": 11.67,
+          "m": 9.94,
+          "rsi": 63.3,
+          "a": true,
+          "mc": 3761565960.2073812
         },
         {
           "t": "SM",
           "n": "SM Energy Company",
-          "p": 33.19,
-          "w": 10.05,
-          "m": 20.82,
-          "rsi": 68.5,
+          "p": 33.51,
+          "w": 11.03,
+          "m": 22.08,
+          "rsi": 69.5,
           "a": true,
-          "mc": 7957259753.711048
+          "mc": 8033978704.782464
         }
       ],
       "follow": [
         {
-          "t": "NOG",
-          "n": "Northern Oil and Gas, Inc.",
-          "p": 22.05,
-          "w": 8.67,
-          "m": 13.48,
-          "rsi": 63.0,
+          "t": "TTE",
+          "n": "TotalEnergies SE",
+          "p": 86.23,
+          "w": 8.63,
+          "m": 7.05,
+          "rsi": 63.4,
           "a": true,
-          "mc": 2398690640.846645
+          "mc": 192481551549.52054
         },
         {
           "t": "EQT",
           "n": "EQT Corporation",
-          "p": 54.01,
-          "w": 8.43,
-          "m": 5.58,
-          "rsi": 61.6,
+          "p": 53.39,
+          "w": 7.75,
+          "m": 3.67,
+          "rsi": 58.4,
           "a": true,
-          "mc": 33782067739.81626
+          "mc": 33394270842.09832
         },
         {
-          "t": "TALO",
-          "n": "Talos Energy, Inc.",
-          "p": 15.27,
-          "w": 7.46,
-          "m": 9.7,
-          "rsi": 59.8,
+          "t": "COP",
+          "n": "ConocoPhillips",
+          "p": 120.2,
+          "w": 7.11,
+          "m": 9.79,
+          "rsi": 66.7,
           "a": true,
-          "mc": 2548957224.463101
-        },
-        {
-          "t": "PTEN",
-          "n": "Patterson-UTI Energy, Inc.",
-          "p": 10.72,
-          "w": 7.41,
-          "m": 5.82,
-          "rsi": 59.5,
-          "a": true,
-          "mc": 4069501053.7663827
+          "mc": 146438933355.1292
         },
         {
           "t": "RRC",
           "n": "Range Resources Corporation",
-          "p": 38.75,
-          "w": 6.93,
-          "m": 6.34,
-          "rsi": 58.5,
+          "p": 38.87,
+          "w": 7.08,
+          "m": 7.23,
+          "rsi": 59.1,
           "a": true,
-          "mc": 9130362320.430464
+          "mc": 9083122929.359741
+        },
+        {
+          "t": "OXY",
+          "n": "Occidental Petroleum Corporation",
+          "p": 57.6,
+          "w": 6.84,
+          "m": 10.56,
+          "rsi": 64.7,
+          "a": true,
+          "mc": 57290958984.45914
         }
       ]
     },
     {
-      "name": "Consumer Staples",
-      "etf": "XLP",
-      "week": 1.54,
+      "name": "Utilities",
+      "etf": "XLU",
+      "week": 2.1,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "UTZ",
-          "n": "Utz Brands Inc",
-          "p": 14.06,
-          "w": 88.22,
-          "m": 100.86,
-          "rsi": 86.9,
-          "a": true,
-          "mc": 2023038115
+          "t": "FRVO",
+          "n": "Fervo Energy Company",
+          "p": 26.37,
+          "w": 8.52,
+          "m": -23.79,
+          "rsi": 43.9,
+          "a": false,
+          "mc": 7769787807.861291
         },
         {
-          "t": "COTY",
-          "n": "Coty Inc.",
-          "p": 2.73,
-          "w": 20.8,
-          "m": 40,
-          "rsi": 75.4,
+          "t": "BIP",
+          "n": "Brookfield Infrastructure Partners LP Limited Partnership",
+          "p": 41.04,
+          "w": 7.21,
+          "m": 13.68,
+          "rsi": 76.2,
           "a": true,
-          "mc": 2403673355.3890905
+          "mc": 18898459101.936893
         },
         {
-          "t": "UAA",
-          "n": "Under Armour, Inc.",
-          "p": 7.26,
-          "w": 11.69,
-          "m": 21.2,
-          "rsi": 65.0,
-          "a": true,
-          "mc": 3063117795.3134327
-        },
-        {
-          "t": "PM",
-          "n": "Philip Morris International Inc",
-          "p": 194.3,
-          "w": 10.12,
-          "m": 9.13,
+          "t": "CEG",
+          "n": "Constellation Energy Corporation",
+          "p": 275.6,
+          "w": 7.13,
+          "m": 2.68,
           "rsi": 61.8,
           "a": true,
-          "mc": 302827971389.84204
+          "mc": 98968514587.60425
         },
         {
-          "t": "SJM",
-          "n": "The J.M. Smucker Company",
-          "p": 118.05,
-          "w": 9.44,
-          "m": 7.58,
+          "t": "VST",
+          "n": "Vistra Corp.",
+          "p": 168.98,
+          "w": 7.04,
+          "m": 5.56,
           "rsi": 62.5,
           "a": true,
-          "mc": 12617264733.961555
+          "mc": 56977094745.59193
+        },
+        {
+          "t": "KEP",
+          "n": "Korea Electric Power Corporation",
+          "p": 12.07,
+          "w": 5.23,
+          "m": 1.0,
+          "rsi": 48.9,
+          "a": false,
+          "mc": 14646217218.219234
         }
       ],
       "follow": [
         {
-          "t": "CAG",
-          "n": "ConAgra Brands, Inc.",
-          "p": 14.83,
-          "w": 8.33,
-          "m": 12.78,
-          "rsi": 61.3,
+          "t": "CEG",
+          "n": "Constellation Energy Corporation",
+          "p": 275.6,
+          "w": 7.13,
+          "m": 2.68,
+          "rsi": 61.8,
           "a": true,
-          "mc": 7097128672.887543
+          "mc": 98968514587.60425
         },
         {
-          "t": "ELF",
-          "n": "e.l.f. Beauty, Inc.",
-          "p": 79.03,
-          "w": 8.26,
-          "m": 24.46,
-          "rsi": 64.8,
+          "t": "VST",
+          "n": "Vistra Corp.",
+          "p": 168.98,
+          "w": 7.04,
+          "m": 5.56,
+          "rsi": 62.5,
           "a": true,
-          "mc": 4657794235.5919895
+          "mc": 56977094745.59193
         },
         {
-          "t": "ZGN",
-          "n": "Ermenegildo Zegna N.V.",
-          "p": 13.88,
-          "w": 7.02,
-          "m": 0.4,
-          "rsi": 53.2,
+          "t": "NRG",
+          "n": "NRG Energy, Inc.",
+          "p": 142.99,
+          "w": 4.37,
+          "m": 6.3,
+          "rsi": 57.4,
           "a": true,
-          "mc": 5875312723.127375
+          "mc": 30168953774.636883
         },
         {
-          "t": "SFD",
-          "n": "Smithfield Foods, Inc.",
-          "p": 26.44,
-          "w": 7.0,
-          "m": 6.53,
-          "rsi": 63.9,
+          "t": "TAC",
+          "n": "TransAlta Corporation",
+          "p": 14.11,
+          "w": 4.21,
+          "m": 4.06,
+          "rsi": 56.8,
           "a": true,
-          "mc": 10403538960.254997
+          "mc": 4459114868.642206
         },
         {
-          "t": "BTI",
-          "n": "British American Tobacco Industries, p.l.c.",
-          "p": 62.06,
-          "w": 5.99,
-          "m": 6.03,
-          "rsi": 53.6,
+          "t": "WTRG",
+          "n": "Essential Utilities, Inc.",
+          "p": 39.59,
+          "w": 3.91,
+          "m": 6.45,
+          "rsi": 59.3,
           "a": true,
-          "mc": 132838594633.08699
+          "mc": 11229029522.45254
         }
       ]
     },
     {
-      "name": "Health Care",
-      "etf": "XLV",
-      "week": 1.3,
+      "name": "Industrials",
+      "etf": "XLI",
+      "week": 1.76,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "IOVA",
-          "n": "Iovance Biotherapeutics, Inc.",
-          "p": 5.17,
-          "w": 31.89,
-          "m": 31.89,
-          "rsi": 63.4,
+          "t": "WAB",
+          "n": "Westinghouse Air Brake Technologies Corporation",
+          "p": 297.99,
+          "w": 15.13,
+          "m": 9.9,
+          "rsi": 73.4,
           "a": true,
-          "mc": 2308417472.153284
+          "mc": 50562149844.78217
         },
         {
-          "t": "ATAI",
-          "n": "AtaiBeckley Inc.",
-          "p": 7.18,
-          "w": 24.87,
-          "m": 72.18,
-          "rsi": 74.0,
+          "t": "VG",
+          "n": "Venture Global, Inc.",
+          "p": 15.16,
+          "w": 14.94,
+          "m": 35.36,
+          "rsi": 70.0,
           "a": true,
-          "mc": 2656272944.207428
+          "mc": 37662866474.94467
         },
         {
-          "t": "ARWR",
-          "n": "Arrowhead Pharmaceuticals, Inc.",
-          "p": 88.7,
-          "w": 23.35,
-          "m": 6.87,
-          "rsi": 64.5,
+          "t": "MEDP",
+          "n": "Medpace Holdings, Inc.",
+          "p": 605.82,
+          "w": 14.38,
+          "m": 32.95,
+          "rsi": 75.4,
           "a": true,
-          "mc": 12494016214.235106
+          "mc": 17302030368.20484
         },
         {
-          "t": "LQDA",
-          "n": "Liquidia Corporation",
-          "p": 87.04,
-          "w": 16.24,
-          "m": 19.28,
-          "rsi": 65.4,
+          "t": "LITE",
+          "n": "Lumentum Holdings Inc.",
+          "p": 833.64,
+          "w": 13.98,
+          "m": 0.18,
+          "rsi": 52.8,
           "a": true,
-          "mc": 7740301816.467796
+          "mc": 64857195498.53498
         },
         {
-          "t": "ABT",
-          "n": "Abbott Laboratories",
-          "p": 100.57,
-          "w": 14.3,
-          "m": 14.1,
-          "rsi": 63.9,
+          "t": "OII",
+          "n": "Oceaneering International, Inc.",
+          "p": 48.02,
+          "w": 12.99,
+          "m": 34.62,
+          "rsi": 77.1,
           "a": true,
-          "mc": 175174067630.3384
+          "mc": 4789737446.330667
         }
       ],
       "follow": [
         {
-          "t": "MMED",
-          "n": "MiniMed Group, Inc.",
-          "p": 16.33,
-          "w": 7.58,
-          "m": 11.77,
-          "rsi": 60.2,
+          "t": "MLI",
+          "n": "Mueller Industries, Inc.",
+          "p": 63.13,
+          "w": 8.79,
+          "m": -7.37,
+          "rsi": 56.3,
           "a": true,
-          "mc": 4586163696.497005
+          "mc": 13960645190.18848
         },
         {
-          "t": "THC",
-          "n": "Tenet Healthcare Corporation",
-          "p": 195.35,
-          "w": 7.21,
-          "m": 12.32,
-          "rsi": 53.3,
+          "t": "FLR",
+          "n": "Fluor Corporation",
+          "p": 53.26,
+          "w": 6.67,
+          "m": 0.6,
+          "rsi": 59.5,
           "a": true,
-          "mc": 16826863623.072166
+          "mc": 7438818435.242488
         },
         {
-          "t": "ALMS",
-          "n": "Alumis Inc.",
-          "p": 28.81,
-          "w": 7.02,
-          "m": 20.24,
-          "rsi": 57.1,
+          "t": "TEX",
+          "n": "Terex Corporation",
+          "p": 68.52,
+          "w": 6.36,
+          "m": 2.56,
+          "rsi": 55.8,
           "a": true,
-          "mc": 3673043731.9194674
+          "mc": 7824983754.811392
         },
         {
-          "t": "BMY",
-          "n": "Bristol-Myers Squibb Company",
-          "p": 60.76,
-          "w": 6.5,
-          "m": 12.1,
-          "rsi": 59.9,
+          "t": "FTI",
+          "n": "TechnipFMC plc",
+          "p": 76.02,
+          "w": 6.31,
+          "m": 14.75,
+          "rsi": 67.0,
           "a": true,
-          "mc": 124076252145.11998
+          "mc": 30309318148.496407
         },
         {
-          "t": "RCUS",
-          "n": "Arcus Biosciences, Inc.",
-          "p": 29.97,
-          "w": 6.05,
-          "m": 20.41,
-          "rsi": 60.0,
+          "t": "KNTK",
+          "n": "Kinetik Holdings Inc.",
+          "p": 51.71,
+          "w": 6.16,
+          "m": 10.14,
+          "rsi": 63.7,
           "a": true,
-          "mc": 3769421631.8354816
+          "mc": 8643840167.02499
         }
       ]
     }
