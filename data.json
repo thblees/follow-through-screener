@@ -1,73 +1,73 @@
 {
-  "stand": "05.08.2026 (täglich nach US-Schluss)",
+  "stand": "07.08.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Technology</b> (+8,6 %). 6 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Technology, Consumer Discretionary, Industrials.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Technology</b> (+7,2 %). 7 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Technology, Consumer Discretionary, Communication Services.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": 8.64,
-      "month": 1.78
+      "week": 7.24,
+      "month": 3.05
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": 2.96,
-      "month": 0.89
+      "week": 3.26,
+      "month": 0.12
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": -4.59,
-      "month": -4.48
+      "week": -4.02,
+      "month": -4.93
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 1.24,
-      "month": 3.86
+      "week": 1.74,
+      "month": 2.67
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": 0.57,
-      "month": 1.39
+      "week": -0.08,
+      "month": 0.4
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": 5.98,
-      "month": 0.95
+      "week": 5.29,
+      "month": -0.69
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": -1.17,
-      "month": 0.63
+      "week": -1.03,
+      "month": -0.48
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": -1.84,
-      "month": 1.05
+      "week": -2.46,
+      "month": 0.64
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 1.24,
-      "month": 0.72
+      "week": 4.42,
+      "month": -0.44
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": -1.79,
-      "month": 0.59
+      "week": 0.74,
+      "month": -0.18
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": -3.0,
-      "month": 8.01
+      "week": 0.14,
+      "month": 8.49
     }
   ],
   "topN": 3,
@@ -75,330 +75,330 @@
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": 8.64,
+      "week": 7.24,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "AXTI",
           "n": "AXT Inc",
-          "p": 68.61,
-          "w": 55.93,
-          "m": 11.74,
-          "rsi": 55.6,
+          "p": 75.17,
+          "w": 82.3,
+          "m": 26.73,
+          "rsi": 59.3,
           "a": true,
-          "mc": 4488684647.21817
-        },
-        {
-          "t": "AAOI",
-          "n": "Applied Optoelectronics, Inc.",
-          "p": 128.56,
-          "w": 45.78,
-          "m": 6.95,
-          "rsi": 54.6,
-          "a": true,
-          "mc": 10316010551.146091
-        },
-        {
-          "t": "AEHR",
-          "n": "Aehr Test Systems",
-          "p": 98.78,
-          "w": 41.34,
-          "m": 36.4,
-          "rsi": 56.1,
-          "a": true,
-          "mc": 3222247940.884885
-        },
-        {
-          "t": "MTRN",
-          "n": "Materion Corporation",
-          "p": 297.08,
-          "w": 39.91,
-          "m": 10.59,
-          "rsi": 66.5,
-          "a": true,
-          "mc": 6179705347.594539
+          "mc": 4917861030.258855
         },
         {
           "t": "VOYG",
           "n": "Voyager Technologies, Inc.",
-          "p": 34.73,
-          "w": 35.51,
-          "m": 2.21,
-          "rsi": 61.4,
+          "p": 38.31,
+          "w": 67.95,
+          "m": 16.09,
+          "rsi": 66.5,
           "a": true,
-          "mc": 2058174503.2033439
+          "mc": 2338023202.7803054
+        },
+        {
+          "t": "AAOI",
+          "n": "Applied Optoelectronics, Inc.",
+          "p": 124.22,
+          "w": 49.03,
+          "m": 5.14,
+          "rsi": 52.8,
+          "a": false,
+          "mc": 9967756369.368856
+        },
+        {
+          "t": "AVEX",
+          "n": "AEVEX Corp.",
+          "p": 21.49,
+          "w": 46.19,
+          "m": 9.14,
+          "rsi": 63.4,
+          "a": true,
+          "mc": 2573811348.48934
+        },
+        {
+          "t": "RDW",
+          "n": "Redwire Corporation",
+          "p": 11.83,
+          "w": 46.05,
+          "m": 6.58,
+          "rsi": 59.8,
+          "a": true,
+          "mc": 2825303935.7453356
         }
       ],
       "follow": [
         {
-          "t": "ASAN",
-          "n": "Asana, Inc.",
-          "p": 8.88,
-          "w": 8.96,
-          "m": 23.33,
-          "rsi": 65.3,
+          "t": "FSLY",
+          "n": "Fastly, Inc.",
+          "p": 22.68,
+          "w": 8.93,
+          "m": 19.81,
+          "rsi": 56.6,
           "a": true,
-          "mc": 2046927285.5342472
+          "mc": 3549420093.2293506
         },
         {
-          "t": "AVAV",
-          "n": "AeroVironment, Inc.",
-          "p": 168.06,
-          "w": 8.8,
-          "m": -11.65,
-          "rsi": 57.1,
+          "t": "WAY",
+          "n": "Waystar Holding Corp.",
+          "p": 23.37,
+          "w": 8.85,
+          "m": -5.12,
+          "rsi": 55.5,
           "a": true,
-          "mc": 8505186110.835286
+          "mc": 4481160609.785287
         },
         {
           "t": "GTLB",
           "n": "GitLab Inc.",
-          "p": 36.16,
-          "w": 8.67,
-          "m": 15.45,
-          "rsi": 64.9,
+          "p": 35.68,
+          "w": 8.52,
+          "m": 6.73,
+          "rsi": 62.3,
           "a": true,
-          "mc": 6107424033.701755
+          "mc": 6026352083.871681
         },
         {
-          "t": "AUR",
-          "n": "Aurora Innovation, Inc.",
-          "p": 6.69,
-          "w": 8.43,
-          "m": 0.9,
-          "rsi": 54.5,
+          "t": "HNGE",
+          "n": "Hinge Health, Inc.",
+          "p": 80.08,
+          "w": 8.07,
+          "m": -9.79,
+          "rsi": 54.2,
           "a": true,
-          "mc": 13407737566.302906
+          "mc": 6196600780.96101
         },
         {
-          "t": "VSAT",
-          "n": "ViaSat, Inc.",
-          "p": 81.03,
-          "w": 8.33,
-          "m": -5.15,
-          "rsi": 57.2,
+          "t": "BA",
+          "n": "Boeing Company (The)",
+          "p": 232.19,
+          "w": 8.03,
+          "m": -1.57,
+          "rsi": 58.0,
           "a": true,
-          "mc": 11162326849.297007
+          "mc": 183516011031.78662
         }
       ]
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": 5.98,
+      "week": 5.29,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "SHAK",
-          "n": "Shake Shack, Inc.",
-          "p": 74.33,
-          "w": 19.29,
-          "m": 33.69,
+          "t": "VAC",
+          "n": "Marriott Vacations Worldwide Corporation",
+          "p": 124.75,
+          "w": 22.81,
+          "m": 27.45,
           "rsi": 78.0,
           "a": true,
-          "mc": 3179950432.784657
+          "mc": 4284297063.1216826
         },
         {
-          "t": "AMZN",
-          "n": "Amazon.com, Inc.",
-          "p": 272.65,
-          "w": 18.9,
-          "m": 11.84,
-          "rsi": 63.5,
+          "t": "FTDR",
+          "n": "Frontdoor, Inc.",
+          "p": 89.92,
+          "w": 19.56,
+          "m": 13.26,
+          "rsi": 77.8,
           "a": true,
-          "mc": 2940888777990.2607
-        },
-        {
-          "t": "LIND",
-          "n": "Lindblad Expeditions Holdings Inc.",
-          "p": 34.11,
-          "w": 16.46,
-          "m": 30.39,
-          "rsi": 79.8,
-          "a": true,
-          "mc": 2238287633.8046346
+          "mc": 6315524166.979839
         },
         {
           "t": "W",
           "n": "Wayfair Inc.",
-          "p": 107.57,
-          "w": 15.9,
-          "m": 13.61,
-          "rsi": 63.3,
+          "p": 104.07,
+          "w": 17.53,
+          "m": 11.54,
+          "rsi": 59.9,
           "a": true,
-          "mc": 14198864042.479324
+          "mc": 14254276340.381706
         },
         {
-          "t": "SN",
-          "n": "SharkNinja, Inc.",
-          "p": 182.11,
-          "w": 15.7,
-          "m": 18.86,
-          "rsi": 79.2,
+          "t": "AMZN",
+          "n": "Amazon.com, Inc.",
+          "p": 272.26,
+          "w": 16.67,
+          "m": 10.24,
+          "rsi": 63.2,
           "a": true,
-          "mc": 25772275042.715206
-        }
-      ],
-      "follow": [
-        {
-          "t": "CCL",
-          "n": "Carnival Corporation Ltd.",
-          "p": 29.67,
-          "w": 7.97,
-          "m": 5.96,
-          "rsi": 64.9,
-          "a": true,
-          "mc": 40637491081.158844
-        },
-        {
-          "t": "BRSL",
-          "n": "Brightstar Lottery PLC Trading under the Legal Name to begin at the market open on July 21, 2025.",
-          "p": 11.3,
-          "w": 7.72,
-          "m": 0.18,
-          "rsi": 60.7,
-          "a": true,
-          "mc": 2079103477.0000002
-        },
-        {
-          "t": "EDU",
-          "n": "New Oriental Education & Technology Group, Inc. Sponsored",
-          "p": 56.93,
-          "w": 7.42,
-          "m": 19.73,
-          "rsi": 65.9,
-          "a": true,
-          "mc": 9710001116.48896
-        },
-        {
-          "t": "CHWY",
-          "n": "Chewy, Inc.",
-          "p": 24.03,
-          "w": 7.23,
-          "m": 14.76,
-          "rsi": 66.0,
-          "a": true,
-          "mc": 9838463991.643568
+          "mc": 2936681907267.451
         },
         {
           "t": "CVNA",
           "n": "Carvana Co.",
-          "p": 69.48,
-          "w": 6.86,
-          "m": 0.94,
-          "rsi": 56.3,
+          "p": 68.34,
+          "w": 15.93,
+          "m": -2.82,
+          "rsi": 54.1,
           "a": true,
-          "mc": 76460223304.28458
-        }
-      ]
-    },
-    {
-      "name": "Industrials",
-      "etf": "XLI",
-      "week": 2.96,
-      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
-      "leaders": [
-        {
-          "t": "LITE",
-          "n": "Lumentum Holdings Inc.",
-          "p": 826.26,
-          "w": 26.11,
-          "m": 13.34,
-          "rsi": 54.3,
-          "a": true,
-          "mc": 64283028304.44792
-        },
-        {
-          "t": "ENTG",
-          "n": "Entegris, Inc.",
-          "p": 145.55,
-          "w": 25.7,
-          "m": -3.87,
-          "rsi": 55.4,
-          "a": true,
-          "mc": 22196374625.452408
-        },
-        {
-          "t": "USAR",
-          "n": "USA Rare Earth, Inc.",
-          "p": 17.16,
-          "w": 22.92,
-          "m": -10.11,
-          "rsi": 50.3,
-          "a": false,
-          "mc": 4199396698.9545593
-        },
-        {
-          "t": "ATKR",
-          "n": "Atkore Inc.",
-          "p": 93.68,
-          "w": 22.44,
-          "m": 35.06,
-          "rsi": 72.7,
-          "a": true,
-          "mc": 3163317373.731637
-        },
-        {
-          "t": "XE",
-          "n": "X-Energy, Inc.",
-          "p": 19.05,
-          "w": 22.19,
-          "m": 9.17,
-          "rsi": 56.9,
-          "a": false,
-          "mc": 7741273767.988691
+          "mc": 75205699579.81863
         }
       ],
       "follow": [
         {
-          "t": "HSAI",
-          "n": "Hesai Group",
-          "p": 17.91,
-          "w": 8.61,
-          "m": 4.19,
-          "rsi": 60.1,
+          "t": "SWK",
+          "n": "Stanley Black & Decker, Inc.",
+          "p": 101.04,
+          "w": 8.65,
+          "m": 10.07,
+          "rsi": 66.5,
           "a": true,
-          "mc": 2791727799.71496
+          "mc": 15258721551.375618
         },
         {
-          "t": "JBLU",
-          "n": "JetBlue Airways Corporation",
-          "p": 6.36,
-          "w": 8.53,
-          "m": 7.61,
-          "rsi": 62.5,
+          "t": "OLLI",
+          "n": "Ollie's Bargain Outlet Holdings, Inc.",
+          "p": 77.97,
+          "w": 8.58,
+          "m": 12.72,
+          "rsi": 66.0,
           "a": true,
-          "mc": 2399705501.709829
+          "mc": 4713543334.572321
         },
         {
-          "t": "LUV",
-          "n": "Southwest Airlines Company",
-          "p": 48.79,
-          "w": 8.42,
-          "m": -4.33,
-          "rsi": 56.6,
+          "t": "DIS",
+          "n": "Walt Disney Company (The)",
+          "p": 104.68,
+          "w": 7.47,
+          "m": 6.66,
+          "rsi": 65.8,
           "a": true,
-          "mc": 23868468008.872482
+          "mc": 181778012199.8616
         },
         {
-          "t": "FLS",
-          "n": "Flowserve Corporation",
-          "p": 78.67,
-          "w": 8.29,
-          "m": 8.27,
-          "rsi": 62.2,
+          "t": "FOX",
+          "n": "Fox Corporation",
+          "p": 55.37,
+          "w": 7.22,
+          "m": 9.64,
+          "rsi": 65.3,
           "a": true,
-          "mc": 9999962606.321182
+          "mc": 24620991197.829308
         },
         {
-          "t": "LYFT",
-          "n": "Lyft, Inc.",
-          "p": 16.48,
-          "w": 8.14,
-          "m": 7.01,
-          "rsi": 62.9,
+          "t": "WSM",
+          "n": "Williams-Sonoma, Inc.",
+          "p": 246.89,
+          "w": 6.6,
+          "m": 9.41,
+          "rsi": 65.9,
           "a": true,
-          "mc": 6257167851.18948
+          "mc": 29070461815.54117
+        }
+      ]
+    },
+    {
+      "name": "Communication Services",
+      "etf": "XLC",
+      "week": 4.42,
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
+      "leaders": [
+        {
+          "t": "ASTS",
+          "n": "AST SpaceMobile, Inc.",
+          "p": 67.36,
+          "w": 22.36,
+          "m": -14.82,
+          "rsi": 50.4,
+          "a": false,
+          "mc": 26144069137.338406
+        },
+        {
+          "t": "SKM",
+          "n": "SK Telecom Co., Ltd.",
+          "p": 35.67,
+          "w": 17.1,
+          "m": 14.25,
+          "rsi": 57.9,
+          "a": true,
+          "mc": 13721584437.789846
+        },
+        {
+          "t": "LBRDK",
+          "n": "Liberty Broadband Corporation",
+          "p": 37.04,
+          "w": 11.84,
+          "m": 16.19,
+          "rsi": 68.4,
+          "a": true,
+          "mc": 5315873261.528202
+        },
+        {
+          "t": "TIGO",
+          "n": "Millicom International Cellular S.A.",
+          "p": 104.31,
+          "w": 10.76,
+          "m": 9.83,
+          "rsi": 67.3,
+          "a": true,
+          "mc": 17476184414.017864
+        },
+        {
+          "t": "TDS",
+          "n": "Telephone and Data Systems, Inc.",
+          "p": 36,
+          "w": 5.82,
+          "m": 1.1,
+          "rsi": 56.3,
+          "a": false,
+          "mc": 3826800043.7411695
+        }
+      ],
+      "follow": [
+        {
+          "t": "GSAT",
+          "n": "Globalstar, Inc.",
+          "p": 83.24,
+          "w": 4.59,
+          "m": 3.52,
+          "rsi": 64.6,
+          "a": true,
+          "mc": 10720389738.704374
+        },
+        {
+          "t": "BCE",
+          "n": "BCE, Inc.",
+          "p": 22.77,
+          "w": 2.34,
+          "m": 8.58,
+          "rsi": 59.8,
+          "a": true,
+          "mc": 21233613293.128
+        },
+        {
+          "t": "KT",
+          "n": "KT Corporation",
+          "p": 18.53,
+          "w": 2.04,
+          "m": 3.58,
+          "rsi": 54.7,
+          "a": true,
+          "mc": 8847586047.134668
+        },
+        {
+          "t": "T",
+          "n": "AT&T Inc.",
+          "p": 23.71,
+          "w": 1.28,
+          "m": 13.34,
+          "rsi": 57.5,
+          "a": true,
+          "mc": 162470062184.26065
+        },
+        {
+          "t": "VZ",
+          "n": "Verizon Communications Inc.",
+          "p": 46.99,
+          "w": 1.27,
+          "m": 10.05,
+          "rsi": 58.1,
+          "a": true,
+          "mc": 195232900733.87692
         }
       ]
     }
