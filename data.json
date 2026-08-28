@@ -1,394 +1,404 @@
 {
-  "stand": "27.08.2026 (täglich nach US-Schluss)",
+  "stand": "28.08.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Materials</b> (+2,2 %). 7 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Materials, Communication Services, Financials.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Technology</b> (+2,8 %). 4 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Technology, Materials, Financials.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": -1.9,
-      "month": 2.82
+      "week": 2.8,
+      "month": 10.16
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": -2.12,
-      "month": -1.79
+      "week": -1.22,
+      "month": -2.1
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": -1.69,
-      "month": -5.67
+      "week": -1.48,
+      "month": -5.84
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 0.66,
-      "month": 2.64
+      "week": 0.71,
+      "month": 1.31
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": 2.19,
-      "month": 4.27
+      "week": 2.17,
+      "month": 2.37
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": 0.22,
-      "month": 5.67
+      "week": -1.0,
+      "month": 3.78
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": 0.64,
-      "month": 2.19
+      "week": -0.14,
+      "month": -2.29
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 0.45,
-      "month": -1.67
+      "week": -0.8,
+      "month": -3.27
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 1.97,
-      "month": 4.73
+      "week": 0.2,
+      "month": 2.84
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": 0.62,
-      "month": 6.46
+      "week": -1.5,
+      "month": 3.37
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": -2.22,
-      "month": 6.88
+      "week": -3.05,
+      "month": 6.64
     }
   ],
   "topN": 3,
   "deep": [
     {
+      "name": "Technology",
+      "etf": "XLK",
+      "week": 2.8,
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
+      "leaders": [
+        {
+          "t": "OKTA",
+          "n": "Okta, Inc.",
+          "p": 172.91,
+          "w": 24.42,
+          "m": 26.9,
+          "rsi": 70.4,
+          "a": true,
+          "mc": 30053030088.65645
+        },
+        {
+          "t": "CRM",
+          "n": "Salesforce, Inc.",
+          "p": 252.05,
+          "w": 22.82,
+          "m": 42.48,
+          "rsi": 80.0,
+          "a": true,
+          "mc": 206428945098.00626
+        },
+        {
+          "t": "MSTR",
+          "n": "Strategy Inc",
+          "p": 137.4,
+          "w": 21.35,
+          "m": 43.92,
+          "rsi": 72.9,
+          "a": true,
+          "mc": 52792586154.88595
+        },
+        {
+          "t": "LIFE",
+          "n": "Ethos Technologies Inc.",
+          "p": 39.44,
+          "w": 20.02,
+          "m": 119.97,
+          "rsi": 81.7,
+          "a": true,
+          "mc": 2514647338.2275634
+        },
+        {
+          "t": "PATH",
+          "n": "UiPath, Inc.",
+          "p": 18.33,
+          "w": 17.88,
+          "m": 57.68,
+          "rsi": 78.6,
+          "a": true,
+          "mc": 9497150093.81563
+        }
+      ],
+      "follow": [
+        {
+          "t": "CDW",
+          "n": "CDW Corporation",
+          "p": 148.97,
+          "w": 8.58,
+          "m": 6.68,
+          "rsi": 60.3,
+          "a": true,
+          "mc": 18623847902.636433
+        },
+        {
+          "t": "ANET",
+          "n": "Arista Networks, Inc.",
+          "p": 201.09,
+          "w": 8.52,
+          "m": 21.45,
+          "rsi": 59.2,
+          "a": true,
+          "mc": 253619656699.12552
+        },
+        {
+          "t": "INGM",
+          "n": "Ingram Micro Holding Corporation",
+          "p": 29.29,
+          "w": 8.36,
+          "m": 1.1,
+          "rsi": 57.6,
+          "a": true,
+          "mc": 6756087338.275033
+        },
+        {
+          "t": "PANW",
+          "n": "Palo Alto Networks, Inc.",
+          "p": 382.85,
+          "w": 8.11,
+          "m": 20.58,
+          "rsi": 60.4,
+          "a": true,
+          "mc": 312022747754.6447
+        },
+        {
+          "t": "SAIL",
+          "n": "SailPoint, Inc.",
+          "p": 20.45,
+          "w": 7.8,
+          "m": 32.62,
+          "rsi": 66.6,
+          "a": true,
+          "mc": 11598891573.30406
+        }
+      ]
+    },
+    {
       "name": "Materials",
       "etf": "XLB",
-      "week": 2.19,
+      "week": 2.17,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "TMC",
           "n": "TMC the metals company Inc.",
-          "p": 5.01,
-          "w": 27.48,
-          "m": 34.32,
-          "rsi": 65.3,
+          "p": 5.09,
+          "w": 29.85,
+          "m": 37.75,
+          "rsi": 66.5,
           "a": true,
-          "mc": 2210088709.548387
+          "mc": 2245379632.0099797
         },
         {
-          "t": "TRLV",
-          "n": "Trulieve Cannabis Corp. Subordinate Voting Shares",
-          "p": 11.43,
-          "w": 18.57,
-          "m": 35.59,
-          "rsi": 74.2,
+          "t": "STDN",
+          "n": "Standard Nuclear, Inc.",
+          "p": 14.31,
+          "w": 19.75,
+          "m": 96.03,
+          "rsi": 60.4,
+          "a": false,
+          "mc": 2299238328.78
+        },
+        {
+          "t": "ALM",
+          "n": "Almonty Industries Inc.",
+          "p": 18.89,
+          "w": 19.48,
+          "m": 46.89,
+          "rsi": 65.5,
           "a": true,
-          "mc": 2201021391.1166077
+          "mc": 5449401174.871712
+        },
+        {
+          "t": "ERO",
+          "n": "Ero Copper Corp.",
+          "p": 39.82,
+          "w": 19.15,
+          "m": 56.71,
+          "rsi": 68.7,
+          "a": true,
+          "mc": 4153331061.5147734
         },
         {
           "t": "UEC",
           "n": "Uranium Energy Corp.",
-          "p": 13.13,
-          "w": 17.55,
-          "m": 34.12,
-          "rsi": 67.8,
+          "p": 13.62,
+          "w": 19.06,
+          "m": 40.41,
+          "rsi": 70.7,
           "a": true,
-          "mc": 6497674514.044461
-        },
-        {
-          "t": "NG",
-          "n": "Novagold Resources Inc.",
-          "p": 9.32,
-          "w": 17.09,
-          "m": 55.07,
-          "rsi": 70.3,
-          "a": true,
-          "mc": 4089435752.9170933
-        },
-        {
-          "t": "FCX",
-          "n": "Freeport-McMoRan, Inc.",
-          "p": 79,
-          "w": 14.66,
-          "m": 24.35,
-          "rsi": 70.3,
-          "a": true,
-          "mc": 113445384227.10551
+          "mc": 6740161813.110434
         }
       ],
       "follow": [
         {
-          "t": "AGI",
-          "n": "Alamos Gold Inc.",
-          "p": 37.55,
-          "w": 8.73,
-          "m": 25.46,
-          "rsi": 66.4,
+          "t": "NG",
+          "n": "Novagold Resources Inc.",
+          "p": 9.12,
+          "w": 8.83,
+          "m": 55.9,
+          "rsi": 67.0,
           "a": true,
-          "mc": 15718597135.787909
+          "mc": 4001679302.9356213
         },
         {
-          "t": "HBM",
-          "n": "Hudbay Minerals Inc.",
-          "p": 29.99,
-          "w": 8.35,
-          "m": 32.32,
-          "rsi": 65.4,
+          "t": "BVN",
+          "n": "Buenaventura Mining Company Inc.",
+          "p": 36.3,
+          "w": 8.16,
+          "m": 16.91,
+          "rsi": 66.4,
           "a": true,
-          "mc": 13319154753.640657
+          "mc": 8901774111.2113
+        },
+        {
+          "t": "SUZ",
+          "n": "Suzano S.A.",
+          "p": 8.96,
+          "w": 8.08,
+          "m": 7.56,
+          "rsi": 65.5,
+          "a": true,
+          "mc": 11204180843.8812
+        },
+        {
+          "t": "CLF",
+          "n": "Cleveland-Cliffs Inc.",
+          "p": 11.83,
+          "w": 7.74,
+          "m": -3.19,
+          "rsi": 53.9,
+          "a": true,
+          "mc": 6749488639.780763
         },
         {
           "t": "UUUU",
           "n": "Energy Fuels Inc",
-          "p": 15.7,
-          "w": 7.98,
-          "m": 35.81,
-          "rsi": 60.4,
+          "p": 15.74,
+          "w": 7.73,
+          "m": 35.69,
+          "rsi": 60.6,
           "a": true,
-          "mc": 3924450507.864746
-        },
-        {
-          "t": "VALE",
-          "n": "VALE S.A.",
-          "p": 15.16,
-          "w": 6.84,
-          "m": 3.84,
-          "rsi": 58.9,
-          "a": true,
-          "mc": 63584785788.7518
-        },
-        {
-          "t": "B",
-          "n": "Barrick Mining Corporation",
-          "p": 47,
-          "w": 6.58,
-          "m": 24.87,
-          "rsi": 66.3,
-          "a": true,
-          "mc": 77356568868.33383
-        }
-      ]
-    },
-    {
-      "name": "Communication Services",
-      "etf": "XLC",
-      "week": 1.97,
-      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
-      "leaders": [
-        {
-          "t": "TIGO",
-          "n": "Millicom International Cellular S.A.",
-          "p": 96.16,
-          "w": 8.82,
-          "m": 1.71,
-          "rsi": 54.2,
-          "a": true,
-          "mc": 16110727022.733171
-        },
-        {
-          "t": "KT",
-          "n": "KT Corporation",
-          "p": 19.66,
-          "w": 3.69,
-          "m": 5.76,
-          "rsi": 66.1,
-          "a": true,
-          "mc": 9187409537.38436
-        },
-        {
-          "t": "T",
-          "n": "AT&T Inc.",
-          "p": 25.87,
-          "w": 3.52,
-          "m": 7.23,
-          "rsi": 72.0,
-          "a": true,
-          "mc": 177271222299.39114
-        },
-        {
-          "t": "VZ",
-          "n": "Verizon Communications Inc.",
-          "p": 50.19,
-          "w": 3.27,
-          "m": 8.22,
-          "rsi": 70.0,
-          "a": true,
-          "mc": 208528176855.56238
-        },
-        {
-          "t": "RCI",
-          "n": "Rogers Communication, Inc.",
-          "p": 36.93,
-          "w": 2.3,
-          "m": 12.52,
-          "rsi": 66.3,
-          "a": true,
-          "mc": 20000785448.56567
-        }
-      ],
-      "follow": [
-        {
-          "t": "TIGO",
-          "n": "Millicom International Cellular S.A.",
-          "p": 96.16,
-          "w": 8.82,
-          "m": 1.71,
-          "rsi": 54.2,
-          "a": true,
-          "mc": 16110727022.733171
-        },
-        {
-          "t": "KT",
-          "n": "KT Corporation",
-          "p": 19.66,
-          "w": 3.69,
-          "m": 5.76,
-          "rsi": 66.1,
-          "a": true,
-          "mc": 9187409537.38436
-        },
-        {
-          "t": "RCI",
-          "n": "Rogers Communication, Inc.",
-          "p": 36.93,
-          "w": 2.3,
-          "m": 12.52,
-          "rsi": 66.3,
-          "a": true,
-          "mc": 20000785448.56567
-        },
-        {
-          "t": "SKM",
-          "n": "SK Telecom Co., Ltd.",
-          "p": 39.8,
-          "w": 1.82,
-          "m": 9.34,
-          "rsi": 62.9,
-          "a": true,
-          "mc": 15009606964.561527
+          "mc": 3934448994.732484
         }
       ]
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 0.66,
+      "week": 0.71,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "PURR",
           "n": "Hyperliquid Strategies Inc",
-          "p": 11.56,
-          "w": 59.23,
-          "m": 81.76,
-          "rsi": 79.2,
+          "p": 12.83,
+          "w": 34.35,
+          "m": 113.83,
+          "rsi": 83.1,
           "a": true,
-          "mc": 2318516236.6301603
+          "mc": 2573232238.8140135
         },
         {
           "t": "BMNR",
           "n": "BitMine Immersion Technologies, Inc.",
-          "p": 24.91,
-          "w": 34.43,
-          "m": 49.12,
-          "rsi": 78.3,
+          "p": 25.63,
+          "w": 19.43,
+          "m": 50.19,
+          "rsi": 79.8,
           "a": true,
-          "mc": 15026368925.476229
-        },
-        {
-          "t": "XXI",
-          "n": "Twenty One Capital, Inc.",
-          "p": 6.3,
-          "w": 28.05,
-          "m": 36.07,
-          "rsi": 66.3,
-          "a": true,
-          "mc": 4104317778.3870964
-        },
-        {
-          "t": "COIN",
-          "n": "Coinbase Global, Inc.",
-          "p": 181.78,
-          "w": 23.24,
-          "m": 11.3,
-          "rsi": 61.1,
-          "a": true,
-          "mc": 47960289860
-        },
-        {
-          "t": "GLXY",
-          "n": "Galaxy Digital Inc.",
-          "p": 24.64,
-          "w": 20.73,
-          "m": 6.62,
-          "rsi": 57.5,
-          "a": true,
-          "mc": 9631507457.794271
-        }
-      ],
-      "follow": [
-        {
-          "t": "VIRT",
-          "n": "Virtu Financial, Inc.",
-          "p": 65.74,
-          "w": 8.43,
-          "m": 8.86,
-          "rsi": 63.3,
-          "a": true,
-          "mc": 10202862712.853987
+          "mc": 15460692009.513044
         },
         {
           "t": "BGC",
           "n": "BGC Group, Inc.",
-          "p": 11.9,
-          "w": 7.3,
-          "m": 0.51,
-          "rsi": 61.2,
+          "p": 12.1,
+          "w": 11.83,
+          "m": 2.46,
+          "rsi": 63.8,
           "a": true,
-          "mc": 5658051475.050847
+          "mc": 5753144499.512605
         },
         {
-          "t": "PGR",
-          "n": "Progressive Corporation (The)",
-          "p": 222.51,
-          "w": 7.2,
-          "m": 4.61,
-          "rsi": 59.1,
+          "t": "COIN",
+          "n": "Coinbase Global, Inc.",
+          "p": 190.72,
+          "w": 10.41,
+          "m": 17.38,
+          "rsi": 64.8,
           "a": true,
-          "mc": 129361029327.3308
+          "mc": 50318992640
         },
         {
-          "t": "IBKR",
-          "n": "Interactive Brokers Group, Inc.",
-          "p": 97.02,
+          "t": "VIRT",
+          "n": "Virtu Financial, Inc.",
+          "p": 67.04,
+          "w": 10.1,
+          "m": 13.22,
+          "rsi": 65.6,
+          "a": true,
+          "mc": 10404623152.834806
+        }
+      ],
+      "follow": [
+        {
+          "t": "HOOD",
+          "n": "Robinhood Markets, Inc.",
+          "p": 109.76,
+          "w": 8.83,
+          "m": 18.45,
+          "rsi": 60.3,
+          "a": true,
+          "mc": 98683272765.63849
+        },
+        {
+          "t": "GLXY",
+          "n": "Galaxy Digital Inc.",
+          "p": 25.29,
+          "w": 7.85,
+          "m": 16.92,
+          "rsi": 59.5,
+          "a": true,
+          "mc": 9885584763.200893
+        },
+        {
+          "t": "MIAX",
+          "n": "Miami International Holdings, Inc.",
+          "p": 44.05,
+          "w": 7.44,
+          "m": 1.73,
+          "rsi": 53.3,
+          "a": true,
+          "mc": 4371120907.440655
+        },
+        {
+          "t": "XXI",
+          "n": "Twenty One Capital, Inc.",
+          "p": 6.32,
+          "w": 6.76,
+          "m": 43.31,
+          "rsi": 66.5,
+          "a": true,
+          "mc": 4117347338.1841273
+        },
+        {
+          "t": "XP",
+          "n": "XP Inc.",
+          "p": 17.68,
           "w": 6.63,
-          "m": 4.43,
-          "rsi": 60.2,
+          "m": 5.24,
+          "rsi": 62.4,
           "a": true,
-          "mc": 165061018486.97998
-        },
-        {
-          "t": "AJG",
-          "n": "Arthur J. Gallagher & Co.",
-          "p": 265.03,
-          "w": 6.25,
-          "m": 6.26,
-          "rsi": 60.0,
-          "a": true,
-          "mc": 67927188235.04433
+          "mc": 9140834306.043797
         }
       ]
     }
