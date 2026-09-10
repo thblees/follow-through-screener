@@ -1,384 +1,404 @@
 {
-  "stand": "09.09.2026 (täglich nach US-Schluss)",
+  "stand": "10.09.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Utilities</b> (+2,7 %). 4 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Utilities, Technology, Communication Services.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Technology</b> (+2,4 %). 3 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Technology, Energy, Utilities.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": 2.27,
-      "month": -0.06
+      "week": 2.4,
+      "month": -0.11
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": 0.05,
-      "month": -5.95
+      "week": -0.89,
+      "month": -7.61
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": 2.72,
-      "month": 0.58
+      "week": 1.27,
+      "month": -1.13
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": -0.54,
-      "month": -0.54
+      "week": -0.56,
+      "month": -0.83
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": -0.95,
-      "month": -0.76
+      "week": -1.85,
+      "month": -2.69
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": -1.24,
-      "month": -3.82
+      "week": -2.2,
+      "month": -5.67
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": -1.74,
-      "month": -0.57
+      "week": -2.72,
+      "month": -1.9
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": -0.52,
-      "month": -2.07
+      "week": -1.36,
+      "month": -2.9
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 0.87,
-      "month": 1.13
+      "week": -0.09,
+      "month": -0.37
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": -3.18,
-      "month": 1.96
+      "week": -3.2,
+      "month": 0.54
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": -0.15,
-      "month": 12.59
+      "week": 1.62,
+      "month": 12.24
     }
   ],
   "topN": 3,
   "deep": [
     {
-      "name": "Utilities",
-      "etf": "XLU",
-      "week": 2.72,
-      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
-      "leaders": [
-        {
-          "t": "FRVO",
-          "n": "Fervo Energy Company",
-          "p": 18.9,
-          "w": 14.75,
-          "m": -18.67,
-          "rsi": 48.8,
-          "a": false,
-          "mc": 5571024342.621146
-        },
-        {
-          "t": "TLN",
-          "n": "Talen Energy Corporation",
-          "p": 325.77,
-          "w": 11.86,
-          "m": -3.83,
-          "rsi": 50.7,
-          "a": false,
-          "mc": 15609027519.332651
-        },
-        {
-          "t": "PCG",
-          "n": "Pacific Gas & Electric Co.",
-          "p": 14.82,
-          "w": 11.43,
-          "m": -12.51,
-          "rsi": 39.9,
-          "a": false,
-          "mc": 32639078535.81818
-        },
-        {
-          "t": "VST",
-          "n": "Vistra Corp.",
-          "p": 151.72,
-          "w": 11.15,
-          "m": 9.45,
-          "rsi": 60.2,
-          "a": true,
-          "mc": 50922572503.35164
-        },
-        {
-          "t": "CEG",
-          "n": "Constellation Energy Corporation",
-          "p": 299.05,
-          "w": 10.93,
-          "m": 13.31,
-          "rsi": 66.8,
-          "a": true,
-          "mc": 105955616881.66295
-        }
-      ],
-      "follow": [
-        {
-          "t": "SBS",
-          "n": "Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp",
-          "p": 5.27,
-          "w": 7.55,
-          "m": -2.59,
-          "rsi": 60.8,
-          "a": true,
-          "mc": 18205596341.031002
-        },
-        {
-          "t": "KEP",
-          "n": "Korea Electric Power Corporation",
-          "p": 12.51,
-          "w": 7.2,
-          "m": -0.71,
-          "rsi": 60.6,
-          "a": true,
-          "mc": 15536974436.203205
-        },
-        {
-          "t": "ENIC",
-          "n": "Enel Chile S.A.",
-          "p": 4.58,
-          "w": 6.26,
-          "m": -0.87,
-          "rsi": 59.0,
-          "a": true,
-          "mc": 6075480296.005641
-        },
-        {
-          "t": "OGE",
-          "n": "OGE Energy Corp",
-          "p": 47.39,
-          "w": 3.45,
-          "m": 1.07,
-          "rsi": 55.7,
-          "a": true,
-          "mc": 9789886646.490408
-        },
-        {
-          "t": "XIFR",
-          "n": "XPLR Infrastructure, LP",
-          "p": 12.25,
-          "w": 3.11,
-          "m": 6.99,
-          "rsi": 60.3,
-          "a": true,
-          "mc": 2364919255.6425037
-        }
-      ]
-    },
-    {
       "name": "Technology",
       "etf": "XLK",
-      "week": 2.27,
+      "week": 2.4,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
+        {
+          "t": "COHU",
+          "n": "Cohu, Inc.",
+          "p": 56.68,
+          "w": 29.32,
+          "m": 4.98,
+          "rsi": 58.3,
+          "a": true,
+          "mc": 2683142250.669926
+        },
         {
           "t": "BE",
           "n": "Bloom Energy Corporation",
-          "p": 277.22,
-          "w": 36.23,
-          "m": 15.42,
-          "rsi": 69.3,
+          "p": 269.28,
+          "w": 28.23,
+          "m": 21.85,
+          "rsi": 65.4,
           "a": true,
-          "mc": 81648868657.83493
+          "mc": 79310323474.32478
         },
         {
           "t": "IREN",
           "n": "IREN Limited",
-          "p": 46.93,
-          "w": 30.07,
-          "m": 18.9,
-          "rsi": 60.4,
+          "p": 45.37,
+          "w": 26.75,
+          "m": 9.91,
+          "rsi": 57.2,
           "a": true,
-          "mc": 18468712516.94606
+          "mc": 17854794089.58172
         },
         {
-          "t": "SMTC",
-          "n": "Semtech Corporation",
-          "p": 162.62,
-          "w": 27.42,
-          "m": 16.02,
-          "rsi": 65.0,
+          "t": "RIOT",
+          "n": "Riot Platforms, Inc.",
+          "p": 22.07,
+          "w": 25.04,
+          "m": 7.92,
+          "rsi": 56.2,
           "a": true,
-          "mc": 15176612176.27873
+          "mc": 8281964927.353549
         },
         {
           "t": "HUT",
           "n": "Hut 8 Corp.",
-          "p": 99.49,
-          "w": 25.32,
-          "m": 5.98,
-          "rsi": 58.6,
+          "p": 95.92,
+          "w": 25.03,
+          "m": 8.48,
+          "rsi": 55.3,
           "a": true,
-          "mc": 12263084239.401783
-        },
-        {
-          "t": "CIFR",
-          "n": "Cipher Digital Inc.",
-          "p": 18.51,
-          "w": 24.35,
-          "m": -1.17,
-          "rsi": 53.5,
-          "a": false,
-          "mc": 7682218735.922775
+          "mc": 11823047924.40165
         }
       ],
       "follow": [
         {
-          "t": "SMCIP",
-          "n": "Super Micro Computer, Inc. - Depositary Shares Each Representing a 1/20th Interest in a Share of 7% Series A Mandatory Convertible Preferred Stock",
-          "p": 67.54,
-          "w": 8.97,
-          "m": 28.21,
-          "rsi": 64.6,
+          "t": "VRNS",
+          "n": "Varonis Systems, Inc.",
+          "p": 46.09,
+          "w": 8.86,
+          "m": 7.51,
+          "rsi": 58.1,
           "a": true,
-          "mc": 26009260012
+          "mc": 5293919474.737571
+        },
+        {
+          "t": "CHYM",
+          "n": "Chime Financial, Inc.",
+          "p": 34.55,
+          "w": 8.34,
+          "m": 18.57,
+          "rsi": 66.4,
+          "a": true,
+          "mc": 13080115602.790157
+        },
+        {
+          "t": "NOK",
+          "n": "Nokia Corporation Sponsored",
+          "p": 10.76,
+          "w": 7.87,
+          "m": 13.38,
+          "rsi": 57.1,
+          "a": true,
+          "mc": 59574939325.66685
+        },
+        {
+          "t": "MIR",
+          "n": "Mirion Technologies, Inc.",
+          "p": 16.62,
+          "w": 7.78,
+          "m": 7.36,
+          "rsi": 59.1,
+          "a": true,
+          "mc": 4139005702.7269506
         },
         {
           "t": "NVT",
           "n": "nVent Electric plc",
-          "p": 162.57,
-          "w": 8.74,
-          "m": -1.8,
-          "rsi": 56.1,
+          "p": 158.54,
+          "w": 7.72,
+          "m": -5.07,
+          "rsi": 51.9,
           "a": true,
-          "mc": 26313245209.73544
-        },
-        {
-          "t": "INFQ",
-          "n": "Infleqtion, Inc.",
-          "p": 13.66,
-          "w": 7.73,
-          "m": 21.75,
-          "rsi": 57.6,
-          "a": true,
-          "mc": 3078377263.136187
-        },
-        {
-          "t": "VOYG",
-          "n": "Voyager Technologies, Inc.",
-          "p": 35.41,
-          "w": 7.3,
-          "m": -9.07,
-          "rsi": 51.0,
-          "a": true,
-          "mc": 2161038876.4655275
-        },
-        {
-          "t": "UMC",
-          "n": "United Microelectronics Corporation (NEW)",
-          "p": 21.82,
-          "w": 6.8,
-          "m": 17.37,
-          "rsi": 62.8,
-          "a": true,
-          "mc": 57019239969.65625
+          "mc": 25660959070.69287
         }
       ]
     },
     {
-      "name": "Communication Services",
-      "etf": "XLC",
-      "week": 0.87,
+      "name": "Energy",
+      "etf": "XLE",
+      "week": 1.62,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "ASTS",
-          "n": "AST SpaceMobile, Inc.",
-          "p": 66.12,
-          "w": 15.27,
-          "m": -4.27,
-          "rsi": 52.5,
-          "a": false,
-          "mc": 25731755379.081367
-        },
-        {
-          "t": "TDS",
-          "n": "Telephone and Data Systems, Inc.",
-          "p": 37.93,
-          "w": 13.12,
-          "m": 7.69,
-          "rsi": 67.8,
+          "t": "CVI",
+          "n": "CVR Energy Inc.",
+          "p": 47.73,
+          "w": 12.09,
+          "m": 49.81,
+          "rsi": 80.2,
           "a": true,
-          "mc": 4081268139.3674335
+          "mc": 4798325498.67346
         },
         {
-          "t": "ECHO",
-          "n": "EchoStar Corporation",
-          "p": 93.42,
-          "w": 9.21,
-          "m": 7.07,
-          "rsi": 59.9,
+          "t": "VLO",
+          "n": "Valero Energy Corporation",
+          "p": 388.95,
+          "w": 8.07,
+          "m": 27.8,
+          "rsi": 80.9,
           "a": true,
-          "mc": 27137641758.889313
+          "mc": 111989387242.27373
         },
         {
-          "t": "LUMN",
-          "n": "Lumen Technologies, Inc.",
-          "p": 6.64,
-          "w": 9.03,
-          "m": 6.92,
-          "rsi": 54.2,
-          "a": false,
-          "mc": 6848797665.890695
-        },
-        {
-          "t": "SPCX",
-          "n": "Space Exploration Technologies Corp",
-          "p": 153.47,
-          "w": 8.18,
-          "m": 33.49,
-          "rsi": 62.3,
+          "t": "CRC",
+          "n": "California Resources Corporation",
+          "p": 56.7,
+          "w": 6.26,
+          "m": 10.66,
+          "rsi": 66.5,
           "a": true,
-          "mc": 2082751960025.416
+          "mc": 5036087898.3984165
+        },
+        {
+          "t": "CLMT",
+          "n": "Calumet, Inc",
+          "p": 55.69,
+          "w": 5.15,
+          "m": 40.52,
+          "rsi": 71.8,
+          "a": true,
+          "mc": 4895052498.635318
+        },
+        {
+          "t": "MPC",
+          "n": "Marathon Petroleum Corporation",
+          "p": 399.44,
+          "w": 5.01,
+          "m": 32.18,
+          "rsi": 80.9,
+          "a": true,
+          "mc": 112172630068.75531
         }
       ],
       "follow": [
         {
-          "t": "SPCX",
-          "n": "Space Exploration Technologies Corp",
-          "p": 153.47,
-          "w": 8.18,
-          "m": 33.49,
-          "rsi": 62.3,
+          "t": "CRC",
+          "n": "California Resources Corporation",
+          "p": 56.7,
+          "w": 6.26,
+          "m": 10.66,
+          "rsi": 66.5,
           "a": true,
-          "mc": 2082751960025.416
+          "mc": 5036087898.3984165
         },
         {
-          "t": "TIGO",
-          "n": "Millicom International Cellular S.A.",
-          "p": 95.97,
-          "w": 3.07,
-          "m": -7.44,
-          "rsi": 54.0,
+          "t": "YPF",
+          "n": "YPF Sociedad Anonima",
+          "p": 54.61,
+          "w": 4.94,
+          "m": 9.4,
+          "rsi": 63.5,
           "a": true,
-          "mc": 16078894007.764948
+          "mc": 22004677483.519485
         },
         {
-          "t": "SKM",
-          "n": "SK Telecom Co., Ltd.",
-          "p": 38.42,
-          "w": 1.67,
-          "m": 8.87,
-          "rsi": 55.4,
+          "t": "EQNR",
+          "n": "Equinor ASA",
+          "p": 45.23,
+          "w": 4.75,
+          "m": 13.99,
+          "rsi": 66.9,
           "a": true,
-          "mc": 14631586358.016962
+          "mc": 103197924786.1888
+        },
+        {
+          "t": "BP",
+          "n": "BP p.l.c.",
+          "p": 45.68,
+          "w": 4.75,
+          "m": 8.92,
+          "rsi": 63.1,
+          "a": true,
+          "mc": 115035364214.90878
+        },
+        {
+          "t": "MUR",
+          "n": "Murphy Oil Corporation",
+          "p": 38.46,
+          "w": 4.37,
+          "m": 12.46,
+          "rsi": 58.5,
+          "a": true,
+          "mc": 5514438096.6673765
+        }
+      ]
+    },
+    {
+      "name": "Utilities",
+      "etf": "XLU",
+      "week": 1.27,
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
+      "leaders": [
+        {
+          "t": "VST",
+          "n": "Vistra Corp.",
+          "p": 151.1,
+          "w": 9.64,
+          "m": 6.48,
+          "rsi": 59.2,
+          "a": true,
+          "mc": 50714478050.74612
+        },
+        {
+          "t": "TLN",
+          "n": "Talen Energy Corporation",
+          "p": 319.67,
+          "w": 9.42,
+          "m": -8.41,
+          "rsi": 47.7,
+          "a": false,
+          "mc": 15316750034.847626
+        },
+        {
+          "t": "KEP",
+          "n": "Korea Electric Power Corporation",
+          "p": 12.21,
+          "w": 5.53,
+          "m": -1.13,
+          "rsi": 55.1,
+          "a": true,
+          "mc": 16243102793.322582
+        },
+        {
+          "t": "TAC",
+          "n": "TransAlta Corporation",
+          "p": 12.35,
+          "w": 5.2,
+          "m": -0.32,
+          "rsi": 48.7,
+          "a": false,
+          "mc": 3906304988.451199
+        },
+        {
+          "t": "CEG",
+          "n": "Constellation Energy Corporation",
+          "p": 293.9,
+          "w": 4.97,
+          "m": 8.73,
+          "rsi": 61.6,
+          "a": true,
+          "mc": 104132704225.07748
+        }
+      ],
+      "follow": [
+        {
+          "t": "KEP",
+          "n": "Korea Electric Power Corporation",
+          "p": 12.21,
+          "w": 5.53,
+          "m": -1.13,
+          "rsi": 55.1,
+          "a": true,
+          "mc": 16243102793.322582
+        },
+        {
+          "t": "CEG",
+          "n": "Constellation Energy Corporation",
+          "p": 293.9,
+          "w": 4.97,
+          "m": 8.73,
+          "rsi": 61.6,
+          "a": true,
+          "mc": 104132704225.07748
+        },
+        {
+          "t": "CIG",
+          "n": "Comp En De Mn Cemig",
+          "p": 2.17,
+          "w": 4.83,
+          "m": 3.83,
+          "rsi": 60.3,
+          "a": true,
+          "mc": 7662045820.825801
+        },
+        {
+          "t": "WTRG",
+          "n": "Essential Utilities, Inc.",
+          "p": 42,
+          "w": 2.61,
+          "m": 5.79,
+          "rsi": 64.1,
+          "a": true,
+          "mc": 11918700598.140202
+        },
+        {
+          "t": "AWK",
+          "n": "American Water Works Company, Inc.",
+          "p": 140.33,
+          "w": 2.3,
+          "m": 4.58,
+          "rsi": 59.4,
+          "a": true,
+          "mc": 27887639947.221905
         }
       ]
     }
