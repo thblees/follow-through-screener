@@ -1,404 +1,404 @@
 {
-  "stand": "26.09.2026 (täglich nach US-Schluss)",
+  "stand": "29.09.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Technology</b> (+3,7 %). 4 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Technology, Health Care, Industrials.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Health Care</b> (+2,4 %). 3 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Health Care, Technology, Consumer Staples.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": 3.72,
-      "month": 8.61
+      "week": 1.43,
+      "month": 3.43
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": 0.85,
-      "month": -4.73
+      "week": -0.93,
+      "month": -5.94
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": -4.51,
-      "month": -8.77
+      "week": -3.73,
+      "month": -9.44
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": -1.47,
-      "month": -5.85
+      "week": -3.32,
+      "month": -6.54
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": -1.24,
-      "month": -7.07
+      "week": -1.32,
+      "month": -7.81
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": -0.81,
-      "month": -6.06
+      "week": -2.28,
+      "month": -6.61
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": -1.3,
-      "month": -5.26
+      "week": 0.23,
+      "month": -3.77
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": -2.42,
-      "month": -8.4
+      "week": -2.36,
+      "month": -7.88
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 0.53,
-      "month": -0.76
+      "week": -0.39,
+      "month": -0.62
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": 1.44,
-      "month": -2.08
+      "week": 2.36,
+      "month": -0.1
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": -3.36,
-      "month": 0.99
+      "week": -1.69,
+      "month": -0.4
     }
   ],
   "topN": 3,
   "deep": [
     {
+      "name": "Health Care",
+      "etf": "XLV",
+      "week": 2.36,
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
+      "leaders": [
+        {
+          "t": "KOD",
+          "n": "Kodiak Sciences Inc",
+          "p": 89.92,
+          "w": 172.15,
+          "m": 132.17,
+          "rsi": 89.8,
+          "a": true,
+          "mc": 2033179831
+        },
+        {
+          "t": "GRAL",
+          "n": "GRAIL, Inc.",
+          "p": 132.63,
+          "w": 41.49,
+          "m": 65.42,
+          "rsi": 88.1,
+          "a": true,
+          "mc": 5924082462.543778
+        },
+        {
+          "t": "MRNA",
+          "n": "Moderna, Inc.",
+          "p": 197.28,
+          "w": 22.5,
+          "m": 43.8,
+          "rsi": 74.9,
+          "a": true,
+          "mc": 78761254438.73773
+        },
+        {
+          "t": "CDNA",
+          "n": "CareDx, Inc.",
+          "p": 64.6,
+          "w": 20.03,
+          "m": 25.45,
+          "rsi": 80.2,
+          "a": true,
+          "mc": 3342030783.8473616
+        },
+        {
+          "t": "BFLY",
+          "n": "Butterfly Network, Inc.",
+          "p": 9.15,
+          "w": 14.38,
+          "m": 4.57,
+          "rsi": 57.8,
+          "a": true,
+          "mc": 2482259513.738019
+        }
+      ],
+      "follow": [
+        {
+          "t": "AMGN",
+          "n": "Amgen Inc.",
+          "p": 418.13,
+          "w": 8.41,
+          "m": -4.51,
+          "rsi": 58.1,
+          "a": true,
+          "mc": 226054458135.79623
+        },
+        {
+          "t": "PRGO",
+          "n": "Perrigo Company plc",
+          "p": 15.1,
+          "w": 7.9,
+          "m": 7.17,
+          "rsi": 63.1,
+          "a": true,
+          "mc": 2095415784.6757455
+        },
+        {
+          "t": "ARQT",
+          "n": "Arcutis Biotherapeutics, Inc.",
+          "p": 27.33,
+          "w": 6.88,
+          "m": 11.1,
+          "rsi": 59.6,
+          "a": true,
+          "mc": 3435161364.059064
+        },
+        {
+          "t": "ALNY",
+          "n": "Alnylam Pharmaceuticals, Inc.",
+          "p": 255.36,
+          "w": 6.24,
+          "m": 13.76,
+          "rsi": 55.4,
+          "a": true,
+          "mc": 34169499773.209564
+        },
+        {
+          "t": "BIIB",
+          "n": "Biogen Inc.",
+          "p": 228.69,
+          "w": 5.81,
+          "m": 3.4,
+          "rsi": 63.9,
+          "a": true,
+          "mc": 33789862663.92522
+        }
+      ]
+    },
+    {
       "name": "Technology",
       "etf": "XLK",
-      "week": 3.72,
+      "week": 1.43,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "SECZ",
           "n": "Securitize Corp.",
-          "p": 15.96,
-          "w": 71.24,
-          "m": 142.19,
-          "rsi": 79.5,
+          "p": 16.63,
+          "w": 42.5,
+          "m": 149.33,
+          "rsi": 80.7,
           "a": true,
-          "mc": 2605720457.1034484
+          "mc": 2715108364.8903503
+        },
+        {
+          "t": "P",
+          "n": "Everpure, Inc.",
+          "p": 129.4,
+          "w": 22.65,
+          "m": 32.38,
+          "rsi": 72.8,
+          "a": true,
+          "mc": 43119608013.9762
+        },
+        {
+          "t": "DDOG",
+          "n": "Datadog, Inc.",
+          "p": 268.7,
+          "w": 16.96,
+          "m": 11.86,
+          "rsi": 67.2,
+          "a": true,
+          "mc": 96483465694.99086
+        },
+        {
+          "t": "TWLO",
+          "n": "Twilio Inc.",
+          "p": 286.98,
+          "w": 16.13,
+          "m": 19.17,
+          "rsi": 65.8,
+          "a": true,
+          "mc": 44073016357.77671
+        },
+        {
+          "t": "INOD",
+          "n": "Innodata Inc.",
+          "p": 66.79,
+          "w": 14.68,
+          "m": 15.14,
+          "rsi": 59.6,
+          "a": true,
+          "mc": 2296417315.576796
+        }
+      ],
+      "follow": [
+        {
+          "t": "BETA",
+          "n": "Beta Technologies, Inc.",
+          "p": 22.88,
+          "w": 8.64,
+          "m": 4.0,
+          "rsi": 53.9,
+          "a": true,
+          "mc": 5352571519.95304
+        },
+        {
+          "t": "NET",
+          "n": "Cloudflare, Inc.",
+          "p": 353.99,
+          "w": 8.25,
+          "m": 15.6,
+          "rsi": 63.6,
+          "a": true,
+          "mc": 126048654137.93443
+        },
+        {
+          "t": "SNPS",
+          "n": "Synopsys, Inc.",
+          "p": 417.61,
+          "w": 7.82,
+          "m": -9.58,
+          "rsi": 55.6,
+          "a": true,
+          "mc": 80029380092.1506
         },
         {
           "t": "MXL",
           "n": "MaxLinear, Inc",
-          "p": 93.84,
-          "w": 23.33,
-          "m": 43.2,
-          "rsi": 67.7,
+          "p": 90,
+          "w": 7.75,
+          "m": 44.12,
+          "rsi": 63.1,
           "a": true,
-          "mc": 8510648133.518698
+          "mc": 8162386232.416881
         },
         {
-          "t": "CRDO",
-          "n": "Credo Technology Group Holding Ltd",
-          "p": 210.97,
-          "w": 23.29,
-          "m": -5.39,
-          "rsi": 57.9,
+          "t": "PANW",
+          "n": "Palo Alto Networks, Inc.",
+          "p": 392.09,
+          "w": 7.69,
+          "m": 3.93,
+          "rsi": 59.8,
           "a": true,
-          "mc": 39652216715.91493
-        },
-        {
-          "t": "OUST",
-          "n": "Ouster, Inc.",
-          "p": 43.72,
-          "w": 23.29,
-          "m": 20.86,
-          "rsi": 64.3,
-          "a": true,
-          "mc": 3152751213.3333335
-        },
-        {
-          "t": "ALAB",
-          "n": "Astera Labs, Inc.",
-          "p": 364.62,
-          "w": 21.53,
-          "m": 29.01,
-          "rsi": 64.4,
-          "a": true,
-          "mc": 63256141581.82025
-        }
-      ],
-      "follow": [
-        {
-          "t": "NBIS",
-          "n": "Nebius Group N.V.",
-          "p": 237.33,
-          "w": 8.92,
-          "m": 10.13,
-          "rsi": 55.5,
-          "a": true,
-          "mc": 64519400603.835526
-        },
-        {
-          "t": "PPLI",
-          "n": "People Incorporated",
-          "p": 40,
-          "w": 8.55,
-          "m": 1.47,
-          "rsi": 57.9,
-          "a": true,
-          "mc": 2978537259.1149454
-        },
-        {
-          "t": "BETA",
-          "n": "Beta Technologies, Inc.",
-          "p": 23.85,
-          "w": 8.41,
-          "m": 8.21,
-          "rsi": 58.5,
-          "a": true,
-          "mc": 5579494169.734343
-        },
-        {
-          "t": "ADI",
-          "n": "Analog Devices, Inc.",
-          "p": 393.6,
-          "w": 8.39,
-          "m": 5.0,
-          "rsi": 62.3,
-          "a": true,
-          "mc": 190724957834.77066
-        },
-        {
-          "t": "KEYS",
-          "n": "Keysight Technologies Inc.",
-          "p": 362.15,
-          "w": 8.35,
-          "m": 12.08,
-          "rsi": 66.3,
-          "a": true,
-          "mc": 61654138039.76016
+          "mc": 320729611642.16547
         }
       ]
     },
     {
-      "name": "Health Care",
-      "etf": "XLV",
-      "week": 1.44,
+      "name": "Consumer Staples",
+      "etf": "XLP",
+      "week": 0.23,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "GRAL",
-          "n": "GRAIL, Inc.",
-          "p": 126.89,
-          "w": 55.73,
-          "m": 56.89,
-          "rsi": 86.8,
+          "t": "VFC",
+          "n": "V.F. Corporation",
+          "p": 14.42,
+          "w": 10.08,
+          "m": 4.87,
+          "rsi": 60.7,
           "a": true,
-          "mc": 5667698271.998164
+          "mc": 5669000087.181625
         },
         {
-          "t": "MRNA",
-          "n": "Moderna, Inc.",
-          "p": 198.88,
-          "w": 25.59,
-          "m": 28.98,
-          "rsi": 76.1,
+          "t": "COTY",
+          "n": "Coty Inc.",
+          "p": 2.68,
+          "w": 9.39,
+          "m": -4.96,
+          "rsi": 50.5,
           "a": true,
-          "mc": 79400032882.60672
+          "mc": 2360239803.8188677
         },
         {
-          "t": "VKTX",
-          "n": "Viking Therapeutics, Inc.",
-          "p": 35.56,
-          "w": 20.26,
-          "m": 4.31,
-          "rsi": 54.0,
-          "a": true,
-          "mc": 4148178504.7923813
-        },
-        {
-          "t": "CDNA",
-          "n": "CareDx, Inc.",
-          "p": 63.68,
-          "w": 17.99,
-          "m": 26.98,
-          "rsi": 79.3,
-          "a": true,
-          "mc": 3294435225.685514
-        },
-        {
-          "t": "BFLY",
-          "n": "Butterfly Network, Inc.",
-          "p": 9.39,
-          "w": 16.21,
-          "m": 5.51,
-          "rsi": 60.5,
-          "a": true,
-          "mc": 2547367825.431456
-        }
-      ],
-      "follow": [
-        {
-          "t": "TNGX",
-          "n": "Tango Therapeutics, Inc.",
-          "p": 24.92,
-          "w": 6.82,
-          "m": 1.1,
-          "rsi": 53.3,
-          "a": true,
-          "mc": 4201770197.708486
-        },
-        {
-          "t": "ISRG",
-          "n": "Intuitive Surgical, Inc.",
-          "p": 405.18,
-          "w": 6.2,
-          "m": 9.96,
-          "rsi": 65.4,
-          "a": true,
-          "mc": 143141194602.42398
-        },
-        {
-          "t": "RXRX",
-          "n": "Recursion Pharmaceuticals, Inc.",
-          "p": 3.74,
-          "w": 5.65,
-          "m": 6.55,
-          "rsi": 55.4,
-          "a": true,
-          "mc": 2005653893.8097684
-        },
-        {
-          "t": "ADMA",
-          "n": "ADMA Biologics Inc",
-          "p": 9.38,
-          "w": 5.16,
-          "m": -3.3,
-          "rsi": 50.4,
-          "a": true,
-          "mc": 2100976401.2647061
-        },
-        {
-          "t": "RVMD",
-          "n": "Revolution Medicines, Inc.",
-          "p": 204.97,
-          "w": 4.05,
-          "m": -2.08,
+          "t": "ONON",
+          "n": "On Holding AG",
+          "p": 30,
+          "w": 8.58,
+          "m": 2.7,
           "rsi": 54.4,
+          "a": false,
+          "mc": 9881175299.3992
+        },
+        {
+          "t": "BIRK",
+          "n": "Birkenstock Holding plc",
+          "p": 32.97,
+          "w": 7.05,
+          "m": -7.15,
+          "rsi": 48.2,
+          "a": false,
+          "mc": 5864961073.131249
+        },
+        {
+          "t": "SHOO",
+          "n": "Steven Madden, Ltd.",
+          "p": 44.9,
+          "w": 6.1,
+          "m": -0.22,
+          "rsi": 55.6,
           "a": true,
-          "mc": 43932537326.0752
+          "mc": 3285651598.6817575
         }
-      ]
-    },
-    {
-      "name": "Industrials",
-      "etf": "XLI",
-      "week": 0.85,
-      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
-      "leaders": [
+      ],
+      "follow": [
         {
-          "t": "AAON",
-          "n": "AAON, Inc.",
-          "p": 89.1,
-          "w": 15.96,
-          "m": 15.5,
-          "rsi": 64.1,
+          "t": "SHOO",
+          "n": "Steven Madden, Ltd.",
+          "p": 44.9,
+          "w": 6.1,
+          "m": -0.22,
+          "rsi": 55.6,
           "a": true,
-          "mc": 7346619369.676041
+          "mc": 3285651598.6817575
         },
         {
-          "t": "AMAT",
-          "n": "Applied Materials, Inc.",
-          "p": 485,
-          "w": 15.01,
-          "m": 1.1,
-          "rsi": 55.7,
-          "a": true,
-          "mc": 384894744873.1787
-        },
-        {
-          "t": "LRCX",
-          "n": "Lam Research Corporation",
-          "p": 315.21,
-          "w": 14.87,
-          "m": 0.19,
+          "t": "ELF",
+          "n": "e.l.f. Beauty, Inc.",
+          "p": 101.8,
+          "w": 4.41,
+          "m": -4.59,
           "rsi": 56.2,
           "a": true,
-          "mc": 394428911272.72626
+          "mc": 6007014081.843031
         },
         {
-          "t": "GRAB",
-          "n": "Grab Holdings Limited",
-          "p": 3.13,
-          "w": 12.19,
-          "m": -12.81,
-          "rsi": 45.9,
-          "a": false,
-          "mc": 12766449791.048231
+          "t": "FIGS",
+          "n": "FIGS, Inc.",
+          "p": 13.62,
+          "w": 3.18,
+          "m": -10.45,
+          "rsi": 52.2,
+          "a": true,
+          "mc": 2262830066.973174
         },
         {
-          "t": "SBET",
-          "n": "Sharplink, Inc.",
-          "p": 9.63,
-          "w": 11.46,
-          "m": 18.01,
-          "rsi": 60.3,
+          "t": "PM",
+          "n": "Philip Morris International Inc",
+          "p": 193.76,
+          "w": 3.06,
+          "m": 1.37,
+          "rsi": 57.4,
           "a": true,
-          "mc": 2091863249.6110556
-        }
-      ],
-      "follow": [
-        {
-          "t": "TT",
-          "n": "Trane Technologies plc",
-          "p": 454.44,
-          "w": 7.98,
-          "m": -0.85,
-          "rsi": 57.9,
-          "a": true,
-          "mc": 99987335003.95348
+          "mc": 301996949905.6085
         },
         {
-          "t": "DAL",
-          "n": "Delta Air Lines, Inc.",
-          "p": 84.94,
-          "w": 6.95,
-          "m": 0.46,
-          "rsi": 58.6,
+          "t": "IFF",
+          "n": "International Flavors & Fragrances, Inc.",
+          "p": 85.72,
+          "w": 1.99,
+          "m": -2.37,
+          "rsi": 55.6,
           "a": true,
-          "mc": 55858497859.137505
-        },
-        {
-          "t": "ETN",
-          "n": "Eaton Corporation, PLC",
-          "p": 439.98,
-          "w": 6.93,
-          "m": 6.8,
-          "rsi": 59.2,
-          "a": true,
-          "mc": 170888229314.1221
-        },
-        {
-          "t": "AME",
-          "n": "AMETEK, Inc.",
-          "p": 250.74,
-          "w": 6.85,
-          "m": 3.18,
-          "rsi": 63.2,
-          "a": true,
-          "mc": 57484966028.434006
-        },
-        {
-          "t": "JCI",
-          "n": "Johnson Controls International plc",
-          "p": 150.2,
-          "w": 6.49,
-          "m": 5.24,
-          "rsi": 60.9,
-          "a": true,
-          "mc": 90982376102.30048
+          "mc": 21871455484.119503
         }
       ]
     }
