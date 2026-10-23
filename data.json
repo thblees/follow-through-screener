@@ -1,404 +1,404 @@
 {
-  "stand": "22.10.2026 (täglich nach US-Schluss)",
+  "stand": "23.10.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Health Care</b> (+4,7 %). 9 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Health Care, Materials, Financials.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Financials</b> (+3,1 %). 8 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Financials, Materials, Health Care.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": -2.81,
-      "month": -1.69
+      "week": -2.17,
+      "month": -6.3
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": 0.3,
-      "month": -1.2
+      "week": 0.08,
+      "month": -2.31
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": 0.48,
-      "month": 3.02
+      "week": 1.62,
+      "month": 5.62
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 3.39,
-      "month": -0.02
+      "week": 3.15,
+      "month": 1.16
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": 3.82,
-      "month": 2.37
+      "week": 3.03,
+      "month": 3.24
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": 3.25,
-      "month": 3.58
+      "week": 2.74,
+      "month": 1.8
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": 2.72,
-      "month": 6.11
+      "week": 2.62,
+      "month": 9.13
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 0.73,
-      "month": -0.68
+      "week": 1.23,
+      "month": -0.14
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": -3.02,
-      "month": -2.37
+      "week": -2.92,
+      "month": -6.55
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": 4.68,
-      "month": 6.95
+      "week": 2.76,
+      "month": 7.41
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": 0.83,
-      "month": 7.9
+      "week": -0.49,
+      "month": 9.64
     }
   ],
   "topN": 3,
   "deep": [
     {
-      "name": "Health Care",
-      "etf": "XLV",
-      "week": 4.68,
+      "name": "Financials",
+      "etf": "XLF",
+      "week": 3.15,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "ALMR",
-          "n": "Alamar Biosciences, Inc.",
-          "p": 31.45,
-          "w": 35.62,
-          "m": -10.65,
-          "rsi": 54.9,
+          "t": "ASST",
+          "n": "Strive, Inc.",
+          "p": 29.03,
+          "w": 22.03,
+          "m": -0.92,
+          "rsi": 56.3,
           "a": true,
-          "mc": 2182402569.3696733
+          "mc": 3601604264.1349597
         },
         {
-          "t": "IRON",
-          "n": "Disc Medicine, Inc.",
-          "p": 76,
-          "w": 35.21,
-          "m": 8.82,
-          "rsi": 63.4,
-          "a": true,
-          "mc": 2917856355.2088575
+          "t": "MIAX",
+          "n": "Miami International Holdings, Inc.",
+          "p": 34.99,
+          "w": 16.91,
+          "m": -8.14,
+          "rsi": 55.0,
+          "a": false,
+          "mc": 3472089239.9734964
         },
         {
-          "t": "VRDN",
-          "n": "Viridian Therapeutics, Inc.",
-          "p": 23.01,
-          "w": 26.5,
-          "m": 3.28,
-          "rsi": 66.0,
+          "t": "RYAN",
+          "n": "Ryan Specialty Holdings, Inc.",
+          "p": 44.49,
+          "w": 14.4,
+          "m": 10.12,
+          "rsi": 70.4,
           "a": true,
-          "mc": 2606855095.666518
+          "mc": 11381199483.452911
         },
         {
-          "t": "AGIO",
-          "n": "Agios Pharmaceuticals, Inc.",
-          "p": 37.18,
-          "w": 23.64,
-          "m": 10.33,
-          "rsi": 67.6,
+          "t": "RLI",
+          "n": "RLI Corp.",
+          "p": 67.01,
+          "w": 13.92,
+          "m": 13.36,
+          "rsi": 79.2,
           "a": true,
-          "mc": 2219715913.4181223
+          "mc": 6149707008.084195
         },
         {
-          "t": "TNGX",
-          "n": "Tango Therapeutics, Inc.",
-          "p": 26.98,
-          "w": 22.75,
-          "m": 23.2,
-          "rsi": 63.6,
+          "t": "BRO",
+          "n": "Brown & Brown, Inc.",
+          "p": 74.49,
+          "w": 12.49,
+          "m": 15.22,
+          "rsi": 75.2,
           "a": true,
-          "mc": 4549107696.584554
+          "mc": 24925124656.24032
         }
       ],
       "follow": [
         {
-          "t": "TXG",
-          "n": "10x Genomics, Inc.",
-          "p": 75.59,
-          "w": 8.73,
-          "m": -4.5,
-          "rsi": 50.2,
+          "t": "HOMB",
+          "n": "Home BancShares, Inc.",
+          "p": 30.15,
+          "w": 8.65,
+          "m": 1.21,
+          "rsi": 65.6,
           "a": true,
-          "mc": 9848709228.039043
+          "mc": 6031496263.299284
         },
         {
-          "t": "AMLX",
-          "n": "Amylyx Pharmaceuticals, Inc.",
-          "p": 29.03,
-          "w": 8.32,
-          "m": -10.81,
-          "rsi": 51.3,
+          "t": "URI",
+          "n": "United Rentals, Inc.",
+          "p": 1111.02,
+          "w": 7.98,
+          "m": 7.07,
+          "rsi": 63.3,
           "a": true,
-          "mc": 3643643790.5436215
+          "mc": 69152648710.90903
         },
         {
-          "t": "RLAY",
-          "n": "Relay Therapeutics, Inc.",
-          "p": 18.41,
-          "w": 8.17,
-          "m": -3.46,
-          "rsi": 52.5,
+          "t": "CURB",
+          "n": "Curbline Properties Corp.",
+          "p": 28.86,
+          "w": 7.53,
+          "m": -0.17,
+          "rsi": 61.0,
           "a": true,
-          "mc": 4034397613.354471
+          "mc": 3319997380.31884
         },
         {
-          "t": "LLY",
-          "n": "Eli Lilly and Company",
-          "p": 1270.75,
-          "w": 7.89,
-          "m": 11.03,
-          "rsi": 66.1,
+          "t": "PNFP",
+          "n": "Pinnacle Financial Partners, Inc.",
+          "p": 100.46,
+          "w": 7.48,
+          "m": 3.12,
+          "rsi": 64.1,
           "a": true,
-          "mc": 1196229510336.7844
+          "mc": 15180775710.676918
         },
         {
-          "t": "AVAH",
-          "n": "Aveanna Healthcare Holdings Inc.",
-          "p": 12.99,
-          "w": 7.62,
-          "m": -4.84,
-          "rsi": 57.6,
+          "t": "FIBK",
+          "n": "First Interstate BancSystem, Inc.",
+          "p": 36.88,
+          "w": 6.93,
+          "m": -0.22,
+          "rsi": 61.3,
           "a": true,
-          "mc": 2835595932.1811767
+          "mc": 3514833880.632465
         }
       ]
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": 3.82,
+      "week": 3.03,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
           "t": "SMG",
           "n": "Scotts Miracle-Gro Company (The)",
-          "p": 55.93,
-          "w": 11.93,
-          "m": 6.57,
-          "rsi": 61.7,
+          "p": 59.15,
+          "w": 14.59,
+          "m": 12.9,
+          "rsi": 70.0,
           "a": true,
-          "mc": 3256259852.0889726
-        },
-        {
-          "t": "LPX",
-          "n": "Louisiana-Pacific Corporation",
-          "p": 72.52,
-          "w": 11.55,
-          "m": 9.96,
-          "rsi": 68.3,
-          "a": true,
-          "mc": 5070845478.195992
-        },
-        {
-          "t": "CLF",
-          "n": "Cleveland-Cliffs Inc.",
-          "p": 14.03,
-          "w": 10.39,
-          "m": 10.56,
-          "rsi": 64.1,
-          "a": true,
-          "mc": 8004676524.797069
-        },
-        {
-          "t": "SLGN",
-          "n": "Silgan Holdings Inc.",
-          "p": 38.96,
-          "w": 10.12,
-          "m": 3.51,
-          "rsi": 59.8,
-          "a": true,
-          "mc": 4117371738.42807
+          "mc": 3443729111.051314
         },
         {
           "t": "TREX",
           "n": "Trex Company, Inc.",
-          "p": 48.83,
-          "w": 9.76,
-          "m": 13.24,
-          "rsi": 68.0,
+          "p": 51.07,
+          "w": 14.17,
+          "m": 16.81,
+          "rsi": 74.0,
           "a": true,
-          "mc": 4974077252.620413
+          "mc": 5202255377.026828
+        },
+        {
+          "t": "LPX",
+          "n": "Louisiana-Pacific Corporation",
+          "p": 74.85,
+          "w": 13.08,
+          "m": 12.66,
+          "rsi": 73.4,
+          "a": true,
+          "mc": 5233766884.273304
+        },
+        {
+          "t": "SSL",
+          "n": "Sasol Ltd.",
+          "p": 17.46,
+          "w": 10.3,
+          "m": 31.16,
+          "rsi": 77.6,
+          "a": true,
+          "mc": 10344630897.756601
+        },
+        {
+          "t": "VMC",
+          "n": "Vulcan Materials Company (Holding Company)",
+          "p": 268.72,
+          "w": 10.08,
+          "m": 7.28,
+          "rsi": 68.6,
+          "a": true,
+          "mc": 34820399691.50484
         }
       ],
       "follow": [
         {
-          "t": "SOLS",
-          "n": "Solstice Advanced Materials Inc.",
-          "p": 64.99,
-          "w": 8.28,
-          "m": 11.61,
-          "rsi": 66.9,
+          "t": "MLM",
+          "n": "Martin Marietta Materials, Inc.",
+          "p": 517.67,
+          "w": 8.3,
+          "m": 1.85,
+          "rsi": 64.3,
           "a": true,
-          "mc": 10326224593.882334
+          "mc": 36765090697.4546
         },
         {
-          "t": "CX",
-          "n": "Cemex, S.A.B. de C.V. Sponsored",
-          "p": 10.39,
-          "w": 7.67,
-          "m": 2.06,
-          "rsi": 58.6,
+          "t": "AMBP",
+          "n": "Ardagh Metal Packaging S.A.",
+          "p": 4.73,
+          "w": 7.26,
+          "m": 2.83,
+          "rsi": 59.3,
           "a": true,
-          "mc": 15621811793.874
+          "mc": 2827150887.623094
         },
         {
-          "t": "CE",
-          "n": "Celanese Corporation",
-          "p": 47.27,
-          "w": 6.49,
-          "m": 3.44,
-          "rsi": 57.2,
+          "t": "JHX",
+          "n": "James Hardie Industries plc.",
+          "p": 26.54,
+          "w": 6.8,
+          "m": -0.38,
+          "rsi": 54.2,
           "a": true,
-          "mc": 5187832059.766624
+          "mc": 15407067286.231937
         },
         {
-          "t": "PPG",
-          "n": "PPG Industries, Inc.",
-          "p": 110.17,
-          "w": 6.39,
-          "m": 4.64,
-          "rsi": 61.8,
+          "t": "LYB",
+          "n": "LyondellBasell Industries NV",
+          "p": 65.37,
+          "w": 6.52,
+          "m": 10.11,
+          "rsi": 65.3,
           "a": true,
-          "mc": 24490791473.70767
+          "mc": 21116989855.945473
         },
         {
-          "t": "AXTA",
-          "n": "Axalta Coating Systems Ltd.",
-          "p": 34.98,
-          "w": 5.58,
-          "m": 7.17,
-          "rsi": 62.9,
+          "t": "CLF",
+          "n": "Cleveland-Cliffs Inc.",
+          "p": 13.05,
+          "w": 5.67,
+          "m": 7.76,
+          "rsi": 54.3,
           "a": true,
-          "mc": 7486419749.247999
+          "mc": 7446133598.895226
         }
       ]
     },
     {
-      "name": "Financials",
-      "etf": "XLF",
-      "week": 3.39,
+      "name": "Health Care",
+      "etf": "XLV",
+      "week": 2.76,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "ASST",
-          "n": "Strive, Inc.",
-          "p": 30.75,
-          "w": 15.56,
-          "m": -2.81,
-          "rsi": 63.0,
+          "t": "BHVN",
+          "n": "Biohaven Ltd.",
+          "p": 14.69,
+          "w": 34.16,
+          "m": 1.87,
+          "rsi": 63.7,
           "a": true,
-          "mc": 3121166028.409091
+          "mc": 2218833090.693617
         },
         {
-          "t": "KYIV",
-          "n": "Kyivstar Group Ltd.",
-          "p": 13.86,
-          "w": 15.02,
-          "m": 5.72,
-          "rsi": 68.8,
+          "t": "IRON",
+          "n": "Disc Medicine, Inc.",
+          "p": 75.03,
+          "w": 32.42,
+          "m": 7.72,
+          "rsi": 61.6,
           "a": true,
-          "mc": 3213630019.57571
+          "mc": 2880615172.196842
         },
         {
-          "t": "MIAX",
-          "n": "Miami International Holdings, Inc.",
-          "p": 33.58,
-          "w": 14.76,
-          "m": -15.48,
-          "rsi": 48.8,
-          "a": false,
-          "mc": 3332173471.7655044
-        },
-        {
-          "t": "COMP",
-          "n": "Compass, Inc.",
-          "p": 9.72,
-          "w": 13.29,
-          "m": -4.99,
-          "rsi": 52.2,
-          "a": false,
-          "mc": 7461506354.331934
-        },
-        {
-          "t": "RLI",
-          "n": "RLI Corp.",
-          "p": 63.9,
-          "w": 12.42,
-          "m": 7.92,
-          "rsi": 73.0,
+          "t": "TNGX",
+          "n": "Tango Therapeutics, Inc.",
+          "p": 27.93,
+          "w": 25.44,
+          "m": 25.08,
+          "rsi": 66.4,
           "a": true,
-          "mc": 5864292832.216553
+          "mc": 4709287465.774647
+        },
+        {
+          "t": "VRDN",
+          "n": "Viridian Therapeutics, Inc.",
+          "p": 22.82,
+          "w": 22.1,
+          "m": 3.63,
+          "rsi": 64.6,
+          "a": true,
+          "mc": 2585329555.085615
+        },
+        {
+          "t": "SYRE",
+          "n": "Spyre Therapeutics, Inc.",
+          "p": 92.33,
+          "w": 20.11,
+          "m": 0.87,
+          "rsi": 57.4,
+          "a": true,
+          "mc": 8521265117.95277
         }
       ],
       "follow": [
         {
-          "t": "BFH",
-          "n": "Bread Financial Holdings, Inc.",
-          "p": 108.63,
-          "w": 8.33,
-          "m": -0.83,
-          "rsi": 63.4,
+          "t": "CDNA",
+          "n": "CareDx, Inc.",
+          "p": 69.16,
+          "w": 8.54,
+          "m": 27.04,
+          "rsi": 64.0,
           "a": true,
-          "mc": 4173485276.527674
+          "mc": 3577938714.055414
         },
         {
-          "t": "ALL",
-          "n": "Allstate Corporation (The)",
-          "p": 251.04,
-          "w": 7.98,
-          "m": 0.42,
-          "rsi": 65.5,
+          "t": "PODD",
+          "n": "Insulet Corporation",
+          "p": 148.12,
+          "w": 8.5,
+          "m": 4.36,
+          "rsi": 64.9,
           "a": true,
-          "mc": 63477462187.39034
+          "mc": 10272742868.100918
         },
         {
-          "t": "OZK",
-          "n": "Bank OZK",
-          "p": 48.09,
-          "w": 7.85,
-          "m": 0.21,
-          "rsi": 58.7,
+          "t": "ALGN",
+          "n": "Align Technology, Inc.",
+          "p": 155.51,
+          "w": 8.05,
+          "m": 4.25,
+          "rsi": 62.0,
           "a": true,
-          "mc": 5249787069.394498
+          "mc": 11047406456.576202
         },
         {
-          "t": "ZION",
-          "n": "Zions Bancorporation N.A.",
-          "p": 65.71,
-          "w": 7.58,
-          "m": 0.32,
-          "rsi": 59.4,
+          "t": "AMRX",
+          "n": "Amneal Pharmaceuticals, Inc.",
+          "p": 20.48,
+          "w": 8.02,
+          "m": 2.4,
+          "rsi": 62.3,
           "a": true,
-          "mc": 9590594340.084068
+          "mc": 6540368371.833665
         },
         {
-          "t": "PNFP",
-          "n": "Pinnacle Financial Partners, Inc.",
-          "p": 98.21,
-          "w": 7.06,
-          "m": 0.73,
-          "rsi": 58.5,
+          "t": "NRIX",
+          "n": "Nurix Therapeutics, Inc.",
+          "p": 25.51,
+          "w": 7.77,
+          "m": 0.75,
+          "rsi": 59.3,
           "a": true,
-          "mc": 14840772554.144188
+          "mc": 2786962683.296311
         }
       ]
     }
