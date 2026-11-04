@@ -1,404 +1,404 @@
 {
-  "stand": "03.11.2026 (täglich nach US-Schluss)",
+  "stand": "04.11.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Materials</b> (+4,4 %). 8 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Materials, Consumer Discretionary, Consumer Staples.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Health Care</b> (+3,2 %). 8 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Health Care, Materials, Real Estate.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": -5.37,
-      "month": -13.39
+      "week": -5.9,
+      "month": -12.25
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": 2.53,
-      "month": -0.29
+      "week": 2.07,
+      "month": 0.66
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": 2.68,
-      "month": 9.5
+      "week": 1.83,
+      "month": 8.88
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 2.79,
-      "month": 7.51
+      "week": 1.63,
+      "month": 6.82
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": 4.38,
-      "month": 9.91
+      "week": 2.65,
+      "month": 7.7
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": 3.69,
-      "month": 7.53
+      "week": 2.16,
+      "month": 6.77
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": 3.12,
-      "month": 12.87
+      "week": 1.81,
+      "month": 10.54
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 2.52,
-      "month": 6.54
+      "week": 2.64,
+      "month": 6.62
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": -4.54,
-      "month": -9.11
+      "week": -2.06,
+      "month": -8.04
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": 2.69,
-      "month": 10.84
+      "week": 3.18,
+      "month": 10.49
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": -2.15,
-      "month": 8.71
+      "week": -3.75,
+      "month": 7.79
     }
   ],
   "topN": 3,
   "deep": [
     {
-      "name": "Materials",
-      "etf": "XLB",
-      "week": 4.38,
+      "name": "Health Care",
+      "etf": "XLV",
+      "week": 3.18,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "OLN",
-          "n": "Olin Corporation",
-          "p": 18.15,
-          "w": 16.76,
-          "m": 14.29,
-          "rsi": 68.2,
+          "t": "GKOS",
+          "n": "Glaukos Corporation",
+          "p": 233.04,
+          "w": 30.56,
+          "m": 39.07,
+          "rsi": 77.5,
           "a": true,
-          "mc": 2068782248.1562495
+          "mc": 13795239252.149364
         },
         {
-          "t": "CRH",
-          "n": "CRH PLC",
-          "p": 96.59,
-          "w": 13.88,
-          "m": 17.24,
-          "rsi": 75.4,
+          "t": "AXGN",
+          "n": "Axogen, Inc.",
+          "p": 49.5,
+          "w": 29.79,
+          "m": 24.0,
+          "rsi": 73.1,
           "a": true,
-          "mc": 64254638725.91169
+          "mc": 2956670386.790371
         },
         {
-          "t": "ATR",
-          "n": "AptarGroup, Inc.",
-          "p": 143.86,
-          "w": 13.48,
-          "m": 18.56,
-          "rsi": 82.9,
+          "t": "CDNA",
+          "n": "CareDx, Inc.",
+          "p": 88.47,
+          "w": 28.03,
+          "m": 33.38,
+          "rsi": 79.9,
           "a": true,
-          "mc": 9146780750.499857
+          "mc": 4648460097.471937
+        },
+        {
+          "t": "BHC",
+          "n": "Bausch Health Companies Inc.",
+          "p": 8.14,
+          "w": 27.79,
+          "m": 42.06,
+          "rsi": 70.0,
+          "a": true,
+          "mc": 3046531130.465778
+        },
+        {
+          "t": "GMAB",
+          "n": "Genmab A/S",
+          "p": 55.52,
+          "w": 25.02,
+          "m": 61.44,
+          "rsi": 79.8,
+          "a": true,
+          "mc": 32997906307.406395
+        }
+      ],
+      "follow": [
+        {
+          "t": "BBIO",
+          "n": "BridgeBio Pharma, Inc.",
+          "p": 74.03,
+          "w": 8.65,
+          "m": 10.33,
+          "rsi": 65.7,
+          "a": true,
+          "mc": 14421102364.207613
+        },
+        {
+          "t": "BCRX",
+          "n": "BioCryst Pharmaceuticals, Inc.",
+          "p": 8.57,
+          "w": 8.14,
+          "m": 5.54,
+          "rsi": 56.1,
+          "a": true,
+          "mc": 2189935866.7665257
+        },
+        {
+          "t": "BHVN",
+          "n": "Biohaven Ltd.",
+          "p": 15.61,
+          "w": 8.1,
+          "m": 16.41,
+          "rsi": 61.4,
+          "a": true,
+          "mc": 2358027482.898417
+        },
+        {
+          "t": "ELAN",
+          "n": "Elanco Animal Health Incorporated",
+          "p": 24.57,
+          "w": 7.25,
+          "m": 11.48,
+          "rsi": 66.3,
+          "a": true,
+          "mc": 12275709213.364729
+        },
+        {
+          "t": "AMLX",
+          "n": "Amylyx Pharmaceuticals, Inc.",
+          "p": 29.2,
+          "w": 7.04,
+          "m": 2.46,
+          "rsi": 53.5,
+          "a": true,
+          "mc": 3664981070.4136944
+        }
+      ]
+    },
+    {
+      "name": "Materials",
+      "etf": "XLB",
+      "week": 2.65,
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
+      "leaders": [
+        {
+          "t": "GPK",
+          "n": "Graphic Packaging Holding Company",
+          "p": 11.31,
+          "w": 29.41,
+          "m": 24.42,
+          "rsi": 76.8,
+          "a": true,
+          "mc": 3348569358.3890676
+        },
+        {
+          "t": "DD",
+          "n": "DuPont de Nemours, Inc.",
+          "p": 153.46,
+          "w": 12.19,
+          "m": 17.38,
+          "rsi": 82.3,
+          "a": true,
+          "mc": 20723694431.42364
         },
         {
           "t": "PPG",
           "n": "PPG Industries, Inc.",
-          "p": 124.89,
-          "w": 12.43,
-          "m": 17.75,
-          "rsi": 78.3,
+          "p": 121.24,
+          "w": 11.51,
+          "m": 14.31,
+          "rsi": 67.8,
           "a": true,
-          "mc": 27588199462.908386
-        },
-        {
-          "t": "SMG",
-          "n": "Scotts Miracle-Gro Company (The)",
-          "p": 65.13,
-          "w": 11.09,
-          "m": 27.83,
-          "rsi": 80.2,
-          "a": true,
-          "mc": 3791886421.8031807
-        }
-      ],
-      "follow": [
-        {
-          "t": "KNF",
-          "n": "Knife Riv Holding Co.",
-          "p": 57.73,
-          "w": 8.95,
-          "m": 11.81,
-          "rsi": 61.9,
-          "a": true,
-          "mc": 3276952242.6239996
+          "mc": 26781915129.21547
         },
         {
           "t": "MEOH",
           "n": "Methanex Corporation",
-          "p": 68.45,
-          "w": 8.51,
-          "m": 18.82,
-          "rsi": 62.6,
+          "p": 69.89,
+          "w": 9.15,
+          "m": 21.32,
+          "rsi": 65.1,
           "a": true,
-          "mc": 5295583888.3495245
+          "mc": 5406988649.055139
+        },
+        {
+          "t": "CRH",
+          "n": "CRH PLC",
+          "p": 93.53,
+          "w": 9.14,
+          "m": 13.52,
+          "rsi": 65.2,
+          "a": true,
+          "mc": 62219031925.975876
+        }
+      ],
+      "follow": [
+        {
+          "t": "SHW",
+          "n": "Sherwin-Williams Company (The)",
+          "p": 340.87,
+          "w": 7.99,
+          "m": 4.89,
+          "rsi": 55.5,
+          "a": true,
+          "mc": 82350125551.59085
+        },
+        {
+          "t": "KNF",
+          "n": "Knife Riv Holding Co.",
+          "p": 58.53,
+          "w": 7.97,
+          "m": 13.36,
+          "rsi": 63.8,
+          "a": true,
+          "mc": 3322362952.728391
+        },
+        {
+          "t": "RPM",
+          "n": "RPM International Inc.",
+          "p": 105.35,
+          "w": 7.76,
+          "m": 4.38,
+          "rsi": 61.1,
+          "a": true,
+          "mc": 13435673965.90909
+        },
+        {
+          "t": "SLGN",
+          "n": "Silgan Holdings Inc.",
+          "p": 41.51,
+          "w": 7.32,
+          "m": 18.19,
+          "rsi": 63.7,
+          "a": true,
+          "mc": 4386860658.980023
         },
         {
           "t": "TRLV",
           "n": "Trulieve Cannabis Corp. Subordinate Voting Shares",
-          "p": 11.1,
-          "w": 6.94,
-          "m": 1.28,
-          "rsi": 54.5,
+          "p": 11.54,
+          "w": 7.15,
+          "m": 5.29,
+          "rsi": 59.2,
           "a": true,
-          "mc": 2137474844.0369651
-        },
-        {
-          "t": "JHX",
-          "n": "James Hardie Industries plc.",
-          "p": 27.81,
-          "w": 6.63,
-          "m": 9.06,
-          "rsi": 63.5,
-          "a": true,
-          "mc": 16144331200.751099
-        },
-        {
-          "t": "CX",
-          "n": "Cemex, S.A.B. de C.V. Sponsored",
-          "p": 10.89,
-          "w": 6.45,
-          "m": 15.12,
-          "rsi": 64.6,
-          "a": true,
-          "mc": 16280365477.428
+          "mc": 2222203710.668468
         }
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "etf": "XLY",
-      "week": 3.69,
+      "name": "Real Estate",
+      "etf": "XLRE",
+      "week": 2.64,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "WING",
-          "n": "Wingstop Inc.",
-          "p": 163.04,
-          "w": 35.75,
-          "m": 56.63,
-          "rsi": 79.3,
+          "t": "CTOS",
+          "n": "Custom Truck One Source, Inc.",
+          "p": 10.62,
+          "w": 28.57,
+          "m": 10.4,
+          "rsi": 63.8,
           "a": true,
-          "mc": 4410742680.088159
+          "mc": 2412580895.576669
         },
         {
-          "t": "HAYW",
-          "n": "Hayward Holdings, Inc.",
-          "p": 16.81,
-          "w": 32.78,
-          "m": 35.35,
-          "rsi": 86.5,
+          "t": "PRCH",
+          "n": "Porch Group, Inc.",
+          "p": 21.52,
+          "w": 23.04,
+          "m": 25.7,
+          "rsi": 68.1,
           "a": true,
-          "mc": 3503038124.300868
+          "mc": 2460422065.704658
         },
         {
-          "t": "CPRI",
-          "n": "Capri Holdings Limited",
-          "p": 20.05,
-          "w": 27.46,
-          "m": 36.86,
-          "rsi": 77.9,
+          "t": "GPN",
+          "n": "Global Payments Inc.",
+          "p": 98,
+          "w": 19.85,
+          "m": 22.04,
+          "rsi": 70.5,
           "a": true,
-          "mc": 2278714997.5294433
+          "mc": 25932600298.26358
         },
         {
-          "t": "OSW",
-          "n": "OneSpaWorld Holdings Limited",
-          "p": 30.02,
-          "w": 24.93,
-          "m": 29.56,
-          "rsi": 82.6,
+          "t": "RKT",
+          "n": "Rocket Companies, Inc.",
+          "p": 13.81,
+          "w": 19.46,
+          "m": 9.08,
+          "rsi": 68.8,
           "a": true,
-          "mc": 3005149154.622766
+          "mc": 39191354096.94045
         },
         {
-          "t": "CVNA",
-          "n": "Carvana Co.",
-          "p": 72,
-          "w": 24.42,
-          "m": 11.92,
-          "rsi": 67.8,
+          "t": "WSC",
+          "n": "WillScot Holdings Corporation",
+          "p": 19.59,
+          "w": 17.52,
+          "m": 11.69,
+          "rsi": 67.1,
           "a": true,
-          "mc": 79434800273.30502
+          "mc": 3549530722.7056074
         }
       ],
       "follow": [
         {
-          "t": "AEO",
-          "n": "American Eagle Outfitters, Inc.",
-          "p": 19.75,
-          "w": 8.88,
-          "m": 9.66,
-          "rsi": 66.9,
+          "t": "OWL",
+          "n": "Blue Owl Capital Inc.",
+          "p": 10.33,
+          "w": 8.97,
+          "m": 13.27,
+          "rsi": 60.1,
           "a": true,
-          "mc": 3309573444.45436
+          "mc": 16184064095.421848
         },
         {
-          "t": "AS",
-          "n": "Amer Sports, Inc.",
-          "p": 30.67,
-          "w": 8.6,
-          "m": 12.43,
-          "rsi": 62.9,
+          "t": "UE",
+          "n": "Urban Edge Properties",
+          "p": 20.63,
+          "w": 7.5,
+          "m": 4.88,
+          "rsi": 63.9,
           "a": true,
-          "mc": 17844481584.128445
+          "mc": 2604738788.287996
         },
         {
-          "t": "WH",
-          "n": "Wyndham Hotels & Resorts, Inc.",
-          "p": 78.53,
-          "w": 7.8,
-          "m": 7.93,
-          "rsi": 62.4,
-          "a": true,
-          "mc": 5724899796.84867
-        },
-        {
-          "t": "KBH",
-          "n": "KB Home",
-          "p": 50.66,
-          "w": 7.6,
-          "m": 7.24,
-          "rsi": 66.2,
-          "a": true,
-          "mc": 3078239989.297872
-        },
-        {
-          "t": "CMCSA",
-          "n": "Comcast Corporation",
-          "p": 23.87,
-          "w": 7.52,
-          "m": 8.9,
-          "rsi": 63.7,
-          "a": true,
-          "mc": 84762519944.10295
-        }
-      ]
-    },
-    {
-      "name": "Consumer Staples",
-      "etf": "XLP",
-      "week": 3.12,
-      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
-      "leaders": [
-        {
-          "t": "CROX",
-          "n": "Crocs, Inc.",
-          "p": 153.13,
-          "w": 27.44,
-          "m": 27.26,
-          "rsi": 78.9,
-          "a": true,
-          "mc": 7001875640.929178
-        },
-        {
-          "t": "COLM",
-          "n": "Columbia Sportswear Company",
-          "p": 71.12,
-          "w": 15.93,
-          "m": 22.75,
-          "rsi": 79.2,
-          "a": true,
-          "mc": 3640860101.7944922
-        },
-        {
-          "t": "UAA",
-          "n": "Under Armour, Inc.",
-          "p": 5.24,
-          "w": 11.97,
-          "m": 10.55,
-          "rsi": 62.2,
-          "a": true,
-          "mc": 2220495920.8817635
-        },
-        {
-          "t": "UA",
-          "n": "Under Armour, Inc.",
-          "p": 5.08,
-          "w": 11.89,
-          "m": 10.92,
+          "t": "VCTR",
+          "n": "Victory Capital Holdings, Inc. Class A Common Stock",
+          "p": 115.75,
+          "w": 7.21,
+          "m": 2.05,
           "rsi": 62.1,
           "a": true,
-          "mc": 2214834154.309279
+          "mc": 7165150214.808416
         },
         {
-          "t": "VFC",
-          "n": "V.F. Corporation",
-          "p": 19.39,
-          "w": 11.69,
-          "m": 33.17,
-          "rsi": 81.0,
+          "t": "ICE",
+          "n": "Intercontinental Exchange Inc.",
+          "p": 170.93,
+          "w": 7.06,
+          "m": 13.12,
+          "rsi": 66.1,
           "a": true,
-          "mc": 7632661221.882513
-        }
-      ],
-      "follow": [
-        {
-          "t": "FRPT",
-          "n": "Freshpet, Inc.",
-          "p": 69.62,
-          "w": 8.58,
-          "m": 18.99,
-          "rsi": 63.1,
-          "a": true,
-          "mc": 3345803177.8900743
+          "mc": 95525675801.05571
         },
         {
-          "t": "LULU",
-          "n": "lululemon athletica inc.",
-          "p": 107.83,
-          "w": 8.21,
-          "m": 12.82,
-          "rsi": 59.6,
+          "t": "TPG",
+          "n": "TPG Inc.",
+          "p": 48.39,
+          "w": 6.99,
+          "m": 7.32,
+          "rsi": 61.3,
           "a": true,
-          "mc": 12489524103.694891
-        },
-        {
-          "t": "CPB",
-          "n": "The Campbell's Company",
-          "p": 22.14,
-          "w": 6.96,
-          "m": 13.36,
-          "rsi": 66.0,
-          "a": true,
-          "mc": 6602915842.487395
-        },
-        {
-          "t": "CELH",
-          "n": "Celsius Holdings, Inc.",
-          "p": 29.96,
-          "w": 6.94,
-          "m": 7.96,
-          "rsi": 60.2,
-          "a": true,
-          "mc": 7580930299.653847
-        },
-        {
-          "t": "ZGN",
-          "n": "Ermenegildo Zegna N.V.",
-          "p": 14.03,
-          "w": 6.21,
-          "m": 9.27,
-          "rsi": 65.9,
-          "a": true,
-          "mc": 5946906153.966642
+          "mc": 18607152326.083435
         }
       ]
     }
