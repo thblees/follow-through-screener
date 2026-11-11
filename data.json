@@ -1,73 +1,73 @@
 {
-  "stand": "10.11.2026 (täglich nach US-Schluss)",
+  "stand": "11.11.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Communication Services</b> (+7,0 %). 7 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Communication Services, Consumer Discretionary, Real Estate.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Communication Services</b> (+7,2 %). 7 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Communication Services, Health Care, Real Estate.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": -5.28,
-      "month": -14.3
+      "week": -3.59,
+      "month": -15.29
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": -0.09,
-      "month": 0.11
+      "week": -1.16,
+      "month": 0.01
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": 1.11,
-      "month": 6.88
+      "week": 0.48,
+      "month": 6.74
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": 1.81,
-      "month": 6.89
+      "week": 1.62,
+      "month": 7.45
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": -0.54,
-      "month": 7.06
+      "week": -1.21,
+      "month": 6.88
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": 3.52,
-      "month": 7.7
+      "week": 2.31,
+      "month": 7.74
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": 1.17,
-      "month": 9.56
+      "week": 1.25,
+      "month": 9.73
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 3.43,
-      "month": 8.4
+      "week": 2.48,
+      "month": 8.26
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 6.99,
-      "month": -3.51
+      "week": 7.23,
+      "month": -3.15
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": 1.97,
-      "month": 12.28
+      "week": 2.83,
+      "month": 12.61
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": -10.04,
-      "month": -4.65
+      "week": -6.63,
+      "month": -4.23
     }
   ],
   "topN": 3,
@@ -75,320 +75,330 @@
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": 6.99,
+      "week": 7.23,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "LBTYA",
-          "n": "Liberty Global Ltd.",
-          "p": 9.99,
-          "w": 27.75,
-          "m": 12.88,
-          "rsi": 69.0,
-          "a": true,
-          "mc": 3313869095.5363636
-        },
-        {
           "t": "LBTYK",
           "n": "Liberty Global Ltd.",
-          "p": 9.73,
-          "w": 26.53,
-          "m": 11.84,
-          "rsi": 69.1,
+          "p": 10.01,
+          "w": 23.89,
+          "m": 15.06,
+          "rsi": 71.8,
           "a": true,
-          "mc": 3287393034.6574073
+          "mc": 3397590324.5971227
         },
         {
-          "t": "KT",
-          "n": "KT Corporation",
-          "p": 19.17,
-          "w": 10.75,
-          "m": 3.34,
-          "rsi": 63.9,
+          "t": "LBTYA",
+          "n": "Liberty Global Ltd.",
+          "p": 10.26,
+          "w": 23.02,
+          "m": 15.93,
+          "rsi": 71.4,
           "a": true,
-          "mc": 9367917410.494772
-        },
-        {
-          "t": "TMUS",
-          "n": "T-Mobile US, Inc.",
-          "p": 168.71,
-          "w": 9.79,
-          "m": 8.49,
-          "rsi": 60.0,
-          "a": true,
-          "mc": 178709871419.50095
+          "mc": 3391811017.675676
         },
         {
           "t": "TIGO",
           "n": "Millicom International Cellular S.A.",
-          "p": 86.76,
-          "w": 9.34,
-          "m": -1.4,
-          "rsi": 59.7,
+          "p": 88.75,
+          "w": 13.8,
+          "m": 0.86,
+          "rsi": 63.1,
           "a": true,
-          "mc": 14535842256.333015
+          "mc": 14869249251.916204
+        },
+        {
+          "t": "SKM",
+          "n": "SK Telecom Co., Ltd.",
+          "p": 33.11,
+          "w": 7.67,
+          "m": -4.31,
+          "rsi": 53.7,
+          "a": false,
+          "mc": 12122410994.659475
+        },
+        {
+          "t": "KT",
+          "n": "KT Corporation",
+          "p": 18.78,
+          "w": 7.25,
+          "m": 1.24,
+          "rsi": 57.3,
+          "a": true,
+          "mc": 9338190389.318953
         }
       ],
       "follow": [
         {
+          "t": "KT",
+          "n": "KT Corporation",
+          "p": 18.78,
+          "w": 7.25,
+          "m": 1.24,
+          "rsi": 57.3,
+          "a": true,
+          "mc": 9338190389.318953
+        },
+        {
+          "t": "TMUS",
+          "n": "T-Mobile US, Inc.",
+          "p": 169.08,
+          "w": 5.94,
+          "m": 8.73,
+          "rsi": 60.3,
+          "a": true,
+          "mc": 179101815462.30978
+        },
+        {
+          "t": "ECHO",
+          "n": "EchoStar Corporation",
+          "p": 104.16,
+          "w": 5.01,
+          "m": 8.6,
+          "rsi": 61.6,
+          "a": true,
+          "mc": 30308285194.59709
+        },
+        {
           "t": "BCE",
           "n": "BCE, Inc.",
-          "p": 21.49,
-          "w": 5.81,
-          "m": 9.14,
-          "rsi": 58.9,
+          "p": 21.64,
+          "w": 4.92,
+          "m": 9.9,
+          "rsi": 60.4,
           "a": true,
-          "mc": 20039979626.179913
+          "mc": 20179858952.287315
         },
         {
-          "t": "VZ",
-          "n": "Verizon Communications Inc.",
-          "p": 46.06,
-          "w": 4.61,
-          "m": 7.54,
-          "rsi": 54.7,
+          "t": "IRDM",
+          "n": "Iridium Communications Inc",
+          "p": 46.13,
+          "w": 4.82,
+          "m": -3.31,
+          "rsi": 54.3,
           "a": true,
-          "mc": 190900184799.3854
-        },
-        {
-          "t": "GSAT",
-          "n": "Globalstar, Inc.",
-          "p": 85.78,
-          "w": 3.98,
-          "m": 2.63,
-          "rsi": 63.9,
-          "a": true,
-          "mc": 11113947125.421253
-        },
-        {
-          "t": "RCI",
-          "n": "Rogers Communication, Inc.",
-          "p": 33.37,
-          "w": 1.99,
-          "m": 9.37,
-          "rsi": 54.6,
-          "a": true,
-          "mc": 18098160740.613964
+          "mc": 4897090779.203416
         }
       ]
     },
     {
-      "name": "Consumer Discretionary",
-      "etf": "XLY",
-      "week": 3.52,
+      "name": "Health Care",
+      "etf": "XLV",
+      "week": 2.83,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "BOBS",
-          "n": "Bob's Discount Furniture, Inc.",
-          "p": 20.97,
-          "w": 24.16,
-          "m": 46.23,
-          "rsi": 81.9,
+          "t": "XERS",
+          "n": "Xeris Biopharma Holdings, Inc.",
+          "p": 15.83,
+          "w": 55.65,
+          "m": 55.96,
+          "rsi": 83.6,
           "a": true,
-          "mc": 2742297556.263645
+          "mc": 2892141372.2944517
         },
         {
-          "t": "WRBY",
-          "n": "Warby Parker Inc.",
-          "p": 30.21,
-          "w": 22.85,
-          "m": 21.23,
-          "rsi": 65.8,
+          "t": "VCEL",
+          "n": "Vericel Corporation",
+          "p": 59.03,
+          "w": 45.68,
+          "m": 48.2,
+          "rsi": 82.3,
           "a": true,
-          "mc": 3741519448.1609106
+          "mc": 3012287285.391163
         },
         {
-          "t": "ASO",
-          "n": "Academy Sports and Outdoors, Inc.",
-          "p": 71.18,
-          "w": 20.03,
-          "m": 35.63,
-          "rsi": 78.7,
+          "t": "TMDX",
+          "n": "TransMedics Group, Inc.",
+          "p": 90.94,
+          "w": 35.94,
+          "m": 14.93,
+          "rsi": 66.2,
           "a": true,
-          "mc": 4383185475.014941
+          "mc": 3158873011.184614
         },
         {
-          "t": "TBBB",
-          "n": "BBB Foods Inc.",
-          "p": 67.58,
-          "w": 18.83,
-          "m": 26.98,
+          "t": "XNCR",
+          "n": "Xencor, Inc.",
+          "p": 39.39,
+          "w": 33.03,
+          "m": 61.24,
+          "rsi": 81.6,
+          "a": true,
+          "mc": 2955813326.7333503
+        },
+        {
+          "t": "ACHC",
+          "n": "Acadia Healthcare Company, Inc.",
+          "p": 38.64,
+          "w": 28.97,
+          "m": 36.49,
           "rsi": 79.2,
           "a": true,
-          "mc": 8547928428.931118
-        },
-        {
-          "t": "ARHS",
-          "n": "Arhaus, Inc.",
-          "p": 15.02,
-          "w": 18.27,
-          "m": 54.05,
-          "rsi": 79.6,
-          "a": true,
-          "mc": 2129110940.4608881
+          "mc": 3592232960.745921
         }
       ],
       "follow": [
         {
-          "t": "JD",
-          "n": "JD.com, Inc.",
-          "p": 28.38,
-          "w": 8.74,
-          "m": 5.46,
-          "rsi": 63.1,
+          "t": "THC",
+          "n": "Tenet Healthcare Corporation",
+          "p": 290.27,
+          "w": 8.79,
+          "m": 11.72,
+          "rsi": 64.1,
           "a": true,
-          "mc": 34817920550.57104
+          "mc": 23102008015.743702
         },
         {
-          "t": "SKYD",
-          "n": "Skydance Corporation",
-          "p": 8.7,
-          "w": 8.07,
-          "m": -4.97,
-          "rsi": 55.4,
+          "t": "HCA",
+          "n": "HCA Healthcare, Inc.",
+          "p": 504.42,
+          "w": 8.78,
+          "m": 13.46,
+          "rsi": 64.7,
           "a": true,
-          "mc": 43866952547.0412
+          "mc": 105369558830.2913
         },
         {
-          "t": "CHTR",
-          "n": "Charter Communications, Inc.",
-          "p": 121.2,
-          "w": 8.05,
-          "m": 11.84,
-          "rsi": 56.8,
+          "t": "OSCR",
+          "n": "Oscar Health, Inc.",
+          "p": 33.47,
+          "w": 8.42,
+          "m": 0.93,
+          "rsi": 54.7,
           "a": true,
-          "mc": 21223960453.873127
+          "mc": 9153007060.309582
         },
         {
-          "t": "LVS",
-          "n": "Las Vegas Sands Corp.",
-          "p": 40.18,
-          "w": 7.98,
-          "m": 10.08,
-          "rsi": 60.9,
+          "t": "AMLX",
+          "n": "Amylyx Pharmaceuticals, Inc.",
+          "p": 30.91,
+          "w": 8.38,
+          "m": 13.14,
+          "rsi": 59.5,
           "a": true,
-          "mc": 25192462429.11024
+          "mc": 3973879488.653757
         },
         {
-          "t": "CHWY",
-          "n": "Chewy, Inc.",
-          "p": 23.05,
-          "w": 7.71,
-          "m": 22.09,
-          "rsi": 62.1,
+          "t": "PRGO",
+          "n": "Perrigo Company plc",
+          "p": 16.83,
+          "w": 8.37,
+          "m": 18.19,
+          "rsi": 65.9,
           "a": true,
-          "mc": 9264422878.526154
+          "mc": 2336035743.663717
         }
       ]
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": 3.43,
+      "week": 2.48,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "FG",
-          "n": "F&G Annuities & Life, Inc.",
-          "p": 25.55,
-          "w": 20.24,
-          "m": 31.29,
-          "rsi": 75.6,
-          "a": true,
-          "mc": 3345394526.1077847
-        },
-        {
           "t": "IBN",
           "n": "ICICI Bank Limited",
-          "p": 34.45,
-          "w": 16.58,
-          "m": 23.04,
-          "rsi": 81.9,
+          "p": 34.88,
+          "w": 15.12,
+          "m": 24.57,
+          "rsi": 83.0,
           "a": true,
-          "mc": 119703014284.123
+          "mc": 121573096210.99109
         },
         {
-          "t": "COMP",
-          "n": "Compass, Inc.",
-          "p": 10.79,
-          "w": 16.52,
-          "m": 14.18,
-          "rsi": 61.0,
+          "t": "FG",
+          "n": "F&G Annuities & Life, Inc.",
+          "p": 25,
+          "w": 15.05,
+          "m": 28.47,
+          "rsi": 70.5,
           "a": true,
-          "mc": 8282885802.562193
+          "mc": 3273605248.5322895
         },
         {
-          "t": "RKT",
-          "n": "Rocket Companies, Inc.",
-          "p": 15.19,
-          "w": 16.4,
-          "m": 29.72,
-          "rsi": 74.5,
+          "t": "PRVA",
+          "n": "Privia Health Group, Inc.",
+          "p": 24.37,
+          "w": 14.52,
+          "m": 19.99,
+          "rsi": 70.8,
           "a": true,
-          "mc": 43107651378.3247
+          "mc": 3113713286.288509
         },
         {
-          "t": "HGV",
-          "n": "Hilton Grand Vacations Inc.",
-          "p": 44.6,
-          "w": 15.81,
-          "m": 28.79,
-          "rsi": 78.8,
+          "t": "CLOV",
+          "n": "Clover Health Investments, Corp.",
+          "p": 4.93,
+          "w": 14.39,
+          "m": -4.64,
+          "rsi": 58.8,
           "a": true,
-          "mc": 3381693522.061433
+          "mc": 2618604960.2753625
+        },
+        {
+          "t": "BEN",
+          "n": "Franklin Templeton, Inc.",
+          "p": 36.29,
+          "w": 13.34,
+          "m": 12.01,
+          "rsi": 69.1,
+          "a": true,
+          "mc": 18438110307.445217
         }
       ],
       "follow": [
         {
-          "t": "SF",
-          "n": "Stifel Financial Corporation",
-          "p": 73.21,
-          "w": 8.65,
-          "m": 4.41,
-          "rsi": 60.7,
+          "t": "GCMG",
+          "n": "GCM Grosvenor Inc.",
+          "p": 13.92,
+          "w": 7.74,
+          "m": 6.1,
+          "rsi": 65.2,
           "a": true,
-          "mc": 10925627095.58276
-        },
-        {
-          "t": "MTH",
-          "n": "Meritage Homes Corporation",
-          "p": 70.34,
-          "w": 7.88,
-          "m": 16.5,
-          "rsi": 59.8,
-          "a": true,
-          "mc": 4531529877.779573
-        },
-        {
-          "t": "CWK",
-          "n": "Cushman & Wakefield Ltd.",
-          "p": 14.55,
-          "w": 7.78,
-          "m": 22.47,
-          "rsi": 64.0,
-          "a": true,
-          "mc": 3415692435.3653297
+          "mc": 2822866010.266171
         },
         {
           "t": "DB",
           "n": "Deutsche Bank AG",
-          "p": 36.57,
-          "w": 7.56,
-          "m": 8.23,
-          "rsi": 59.6,
+          "p": 37.1,
+          "w": 7.72,
+          "m": 9.8,
+          "rsi": 61.5,
           "a": true,
-          "mc": 67199605918.3194
+          "mc": 68173514725.01771
         },
         {
-          "t": "DOC",
-          "n": "Healthpeak Properties, Inc.",
-          "p": 20.62,
-          "w": 7.34,
-          "m": 11.1,
-          "rsi": 65.2,
+          "t": "CTRE",
+          "n": "CareTrust REIT, Inc.",
+          "p": 38.84,
+          "w": 7.44,
+          "m": 7.62,
+          "rsi": 62.6,
           "a": true,
-          "mc": 14568932541.26752
+          "mc": 10007434098.349974
+        },
+        {
+          "t": "VIRT",
+          "n": "Virtu Financial, Inc.",
+          "p": 57.75,
+          "w": 7.4,
+          "m": -0.31,
+          "rsi": 58.2,
+          "a": true,
+          "mc": 8967506880.079506
+        },
+        {
+          "t": "PRCH",
+          "n": "Porch Group, Inc.",
+          "p": 21.95,
+          "w": 6.86,
+          "m": 24.5,
+          "rsi": 65.0,
+          "a": true,
+          "mc": 2509584662.6308136
         }
       ]
     }
