@@ -1,344 +1,384 @@
 {
-  "stand": "20.11.2026 (täglich nach US-Schluss)",
+  "stand": "21.11.2026 (täglich nach US-Schluss)",
   "quelle": "TradingView (auto)",
-  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Utilities</b> (-2,1 %). 0 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Utilities, Consumer Staples, Real Estate.",
+  "insight": "<b>Auto-Überblick:</b> Stärkster Sektor der Woche: <b>Consumer Staples</b> (-1,2 %). 0 von 11 Sektoren positiv. Top-Sektoren für die Rotation: Consumer Staples, Utilities, Real Estate.",
   "sectors": [
     {
       "name": "Technology",
       "etf": "XLK",
-      "week": -5.39,
-      "month": -12.8
+      "week": -14.15,
+      "month": -20.54
     },
     {
       "name": "Industrials",
       "etf": "XLI",
-      "week": -5.34,
-      "month": -2.65
+      "week": -8.31,
+      "month": -7.11
     },
     {
       "name": "Utilities",
       "etf": "XLU",
-      "week": -2.09,
-      "month": 3.39
+      "week": -2.87,
+      "month": 1.04
     },
     {
       "name": "Financials",
       "etf": "XLF",
-      "week": -5.6,
-      "month": 0.71
+      "week": -6.88,
+      "month": -2.66
     },
     {
       "name": "Materials",
       "etf": "XLB",
-      "week": -6.91,
-      "month": -2.52
+      "week": -8.24,
+      "month": -5.6
     },
     {
       "name": "Consumer Discretionary",
       "etf": "XLY",
-      "week": -4.23,
-      "month": 0.76
+      "week": -6.97,
+      "month": -2.88
     },
     {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": -2.37,
-      "month": 2.33
+      "week": -1.24,
+      "month": 3.88
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": -4.16,
-      "month": 2.27
+      "week": -4.61,
+      "month": -0.07
     },
     {
       "name": "Communication Services",
       "etf": "XLC",
-      "week": -5.36,
-      "month": -6.62
+      "week": -7.63,
+      "month": -8.25
     },
     {
       "name": "Health Care",
       "etf": "XLV",
-      "week": -6.68,
-      "month": -0.12
+      "week": -5.95,
+      "month": -0.29
     },
     {
       "name": "Energy",
       "etf": "XLE",
-      "week": -4.68,
-      "month": -11.04
+      "week": -6.78,
+      "month": -10.83
     }
   ],
   "topN": 3,
   "deep": [
     {
-      "name": "Utilities",
-      "etf": "XLU",
-      "week": -2.09,
-      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
-      "leaders": [
-        {
-          "t": "PCG",
-          "n": "Pacific Gas & Electric Co.",
-          "p": 13.94,
-          "w": 6.33,
-          "m": 5.61,
-          "rsi": 63.2,
-          "a": true,
-          "mc": 30701869929.540478
-        },
-        {
-          "t": "EIX",
-          "n": "Edison International",
-          "p": 63.02,
-          "w": 4.44,
-          "m": 12.32,
-          "rsi": 70.7,
-          "a": true,
-          "mc": 24249290680.212032
-        },
-        {
-          "t": "BIP",
-          "n": "Brookfield Infrastructure Partners LP Limited Partnership",
-          "p": 41.07,
-          "w": 3.32,
-          "m": 10.52,
-          "rsi": 67.4,
-          "a": true,
-          "mc": 26617680938.169262
-        },
-        {
-          "t": "BIPC",
-          "n": "Brookfield Infrastructure Corporation",
-          "p": 41.08,
-          "w": 2.75,
-          "m": 9.31,
-          "rsi": 65.5,
-          "a": true,
-          "mc": 5053705303.736968
-        },
-        {
-          "t": "FE",
-          "n": "FirstEnergy Corp.",
-          "p": 47.13,
-          "w": 0.73,
-          "m": 3.45,
-          "rsi": 56.2,
-          "a": true,
-          "mc": 27283240940.428814
-        }
-      ],
-      "follow": [
-        {
-          "t": "PCG",
-          "n": "Pacific Gas & Electric Co.",
-          "p": 13.94,
-          "w": 6.33,
-          "m": 5.61,
-          "rsi": 63.2,
-          "a": true,
-          "mc": 30701869929.540478
-        },
-        {
-          "t": "BIPC",
-          "n": "Brookfield Infrastructure Corporation",
-          "p": 41.08,
-          "w": 2.75,
-          "m": 9.31,
-          "rsi": 65.5,
-          "a": true,
-          "mc": 5053705303.736968
-        }
-      ]
-    },
-    {
       "name": "Consumer Staples",
       "etf": "XLP",
-      "week": -2.37,
+      "week": -1.24,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
-        {
-          "t": "WWW",
-          "n": "Wolverine World Wide, Inc.",
-          "p": 24.99,
-          "w": 13.95,
-          "m": 27.83,
-          "rsi": 65.3,
-          "a": true,
-          "mc": 2051349952.1202161
-        },
         {
           "t": "TSN",
           "n": "Tyson Foods, Inc.",
-          "p": 63.86,
-          "w": 5.87,
-          "m": 17.11,
-          "rsi": 73.8,
+          "p": 65.12,
+          "w": 9.46,
+          "m": 17.82,
+          "rsi": 76.6,
           "a": true,
-          "mc": 22018967304.96031
-        },
-        {
-          "t": "HRL",
-          "n": "Hormel Foods Corporation",
-          "p": 23.06,
-          "w": 4.2,
-          "m": 12.16,
-          "rsi": 66.1,
-          "a": true,
-          "mc": 12691089932.110582
+          "mc": 22453416294.657063
         },
         {
           "t": "CPB",
           "n": "The Campbell's Company",
-          "p": 23.35,
-          "w": 4.19,
-          "m": 19.13,
-          "rsi": 60.2,
+          "p": 23.78,
+          "w": 7.55,
+          "m": 20.65,
+          "rsi": 62.8,
           "a": true,
-          "mc": 6963780021.752155
+          "mc": 7092020810.573018
         },
         {
-          "t": "FRPT",
-          "n": "Freshpet, Inc.",
-          "p": 65.63,
-          "w": 1.88,
-          "m": -0.88,
-          "rsi": 49.4,
+          "t": "HRL",
+          "n": "Hormel Foods Corporation",
+          "p": 23.54,
+          "w": 6.95,
+          "m": 15.11,
+          "rsi": 69.7,
           "a": true,
-          "mc": 3172465189.433677
+          "mc": 12955258240.326103
+        },
+        {
+          "t": "GIS",
+          "n": "General Mills, Inc.",
+          "p": 35.74,
+          "w": 5.9,
+          "m": 7.75,
+          "rsi": 57.4,
+          "a": true,
+          "mc": 19109717907.61949
+        },
+        {
+          "t": "WWW",
+          "n": "Wolverine World Wide, Inc.",
+          "p": 24.76,
+          "w": 5.81,
+          "m": 21.67,
+          "rsi": 63.7,
+          "a": true,
+          "mc": 2032469895.244498
         }
       ],
       "follow": [
         {
-          "t": "HRL",
-          "n": "Hormel Foods Corporation",
-          "p": 23.06,
-          "w": 4.2,
-          "m": 12.16,
-          "rsi": 66.1,
-          "a": true,
-          "mc": 12691089932.110582
-        },
-        {
           "t": "CPB",
           "n": "The Campbell's Company",
-          "p": 23.35,
-          "w": 4.19,
-          "m": 19.13,
-          "rsi": 60.2,
+          "p": 23.78,
+          "w": 7.55,
+          "m": 20.65,
+          "rsi": 62.8,
           "a": true,
-          "mc": 6963780021.752155
+          "mc": 7092020810.573018
         },
         {
-          "t": "FRPT",
-          "n": "Freshpet, Inc.",
-          "p": 65.63,
-          "w": 1.88,
-          "m": -0.88,
-          "rsi": 49.4,
+          "t": "GIS",
+          "n": "General Mills, Inc.",
+          "p": 35.74,
+          "w": 5.9,
+          "m": 7.75,
+          "rsi": 57.4,
           "a": true,
-          "mc": 3172465189.433677
+          "mc": 19109717907.61949
+        },
+        {
+          "t": "WWW",
+          "n": "Wolverine World Wide, Inc.",
+          "p": 24.76,
+          "w": 5.81,
+          "m": 21.67,
+          "rsi": 63.7,
+          "a": true,
+          "mc": 2032469895.244498
         },
         {
           "t": "KHC",
           "n": "The Kraft Heinz Company",
-          "p": 24.92,
-          "w": 1.3,
-          "m": 6.5,
-          "rsi": 54.9,
+          "p": 25.39,
+          "w": 3.34,
+          "m": 7.4,
+          "rsi": 59.2,
           "a": true,
-          "mc": 29501018788.731136
+          "mc": 30057417881.059788
+        },
+        {
+          "t": "CAG",
+          "n": "ConAgra Brands, Inc.",
+          "p": 14.91,
+          "w": 2.02,
+          "m": 3.94,
+          "rsi": 52.8,
+          "a": true,
+          "mc": 7120593110.768733
+        }
+      ]
+    },
+    {
+      "name": "Utilities",
+      "etf": "XLU",
+      "week": -2.87,
+      "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
+      "leaders": [
+        {
+          "t": "BIP",
+          "n": "Brookfield Infrastructure Partners LP Limited Partnership",
+          "p": 42.94,
+          "w": 9.78,
+          "m": 16.17,
+          "rsi": 74.3,
+          "a": true,
+          "mc": 27826397557.55722
+        },
+        {
+          "t": "BIPC",
+          "n": "Brookfield Infrastructure Corporation",
+          "p": 43.14,
+          "w": 9.08,
+          "m": 16.28,
+          "rsi": 73.1,
+          "a": true,
+          "mc": 5307128970.721519
+        },
+        {
+          "t": "PCG",
+          "n": "Pacific Gas & Electric Co.",
+          "p": 13.78,
+          "w": 5.59,
+          "m": 4.24,
+          "rsi": 59.2,
+          "a": true,
+          "mc": 30349480180.602585
+        },
+        {
+          "t": "EIX",
+          "n": "Edison International",
+          "p": 62.24,
+          "w": 2.98,
+          "m": 9.52,
+          "rsi": 64.4,
+          "a": true,
+          "mc": 23949157459.290386
+        },
+        {
+          "t": "DUK",
+          "n": "Duke Energy Corporation (Holding Company)",
+          "p": 129.78,
+          "w": 1.39,
+          "m": 6.73,
+          "rsi": 62.2,
+          "a": true,
+          "mc": 101189753225.11575
+        }
+      ],
+      "follow": [
+        {
+          "t": "PCG",
+          "n": "Pacific Gas & Electric Co.",
+          "p": 13.78,
+          "w": 5.59,
+          "m": 4.24,
+          "rsi": 59.2,
+          "a": true,
+          "mc": 30349480180.602585
+        },
+        {
+          "t": "EIX",
+          "n": "Edison International",
+          "p": 62.24,
+          "w": 2.98,
+          "m": 9.52,
+          "rsi": 64.4,
+          "a": true,
+          "mc": 23949157459.290386
+        },
+        {
+          "t": "DUK",
+          "n": "Duke Energy Corporation (Holding Company)",
+          "p": 129.78,
+          "w": 1.39,
+          "m": 6.73,
+          "rsi": 62.2,
+          "a": true,
+          "mc": 101189753225.11575
         }
       ]
     },
     {
       "name": "Real Estate",
       "etf": "XLRE",
-      "week": -4.16,
+      "week": -4.61,
       "note": "Leader = stärkste Wochengewinner (oft ausgereizt). Follow-Through = liquide Nachzügler über GD50 mit gesundem RSI (48–67).",
       "leaders": [
         {
-          "t": "BEKE",
-          "n": "KE Holdings Inc",
-          "p": 18.24,
-          "w": 2.76,
-          "m": 2.3,
-          "rsi": 54.1,
+          "t": "HDB",
+          "n": "HDFC Bank Limited",
+          "p": 27.42,
+          "w": 6.2,
+          "m": 20.53,
+          "rsi": 78.9,
           "a": true,
-          "mc": 21052372662.299023
-        },
-        {
-          "t": "SLDE",
-          "n": "Slide Insurance Holdings, Inc.",
-          "p": 26.85,
-          "w": 2.48,
-          "m": -1.47,
-          "rsi": 55.0,
-          "a": true,
-          "mc": 3148126268.553812
+          "mc": 135599443881.02888
         },
         {
           "t": "PRVA",
           "n": "Privia Health Group, Inc.",
-          "p": 24.69,
-          "w": 2.11,
-          "m": 9.01,
-          "rsi": 64.2,
+          "p": 25.05,
+          "w": 5.52,
+          "m": 9.48,
+          "rsi": 66.5,
           "a": true,
-          "mc": 3154599071.0670733
+          "mc": 3200595675.558931
         },
         {
-          "t": "FIGR",
-          "n": "Figure Technology Solutions, Inc.",
-          "p": 25.84,
-          "w": 1.97,
-          "m": 1.93,
-          "rsi": 52.8,
-          "a": false,
-          "mc": 5847136234.357636
+          "t": "GPN",
+          "n": "Global Payments Inc.",
+          "p": 91.83,
+          "w": 3.87,
+          "m": 7.87,
+          "rsi": 52.7,
+          "a": true,
+          "mc": 24301504833.411278
         },
         {
-          "t": "COLD",
-          "n": "Americold Realty Trust, Inc.",
-          "p": 16.34,
-          "w": 0.99,
-          "m": 19.36,
-          "rsi": 63.5,
+          "t": "IBN",
+          "n": "ICICI Bank Limited",
+          "p": 35.47,
+          "w": 3.11,
+          "m": 20.4,
+          "rsi": 80.4,
           "a": true,
-          "mc": 4665594067.557299
+          "mc": 123516879894.36392
+        },
+        {
+          "t": "BRO",
+          "n": "Brown & Brown, Inc.",
+          "p": 73.07,
+          "w": 2.61,
+          "m": 3.96,
+          "rsi": 57.3,
+          "a": true,
+          "mc": 24236721762.077263
         }
       ],
       "follow": [
         {
-          "t": "BEKE",
-          "n": "KE Holdings Inc",
-          "p": 18.24,
-          "w": 2.76,
-          "m": 2.3,
-          "rsi": 54.1,
-          "a": true,
-          "mc": 21052372662.299023
-        },
-        {
-          "t": "SLDE",
-          "n": "Slide Insurance Holdings, Inc.",
-          "p": 26.85,
-          "w": 2.48,
-          "m": -1.47,
-          "rsi": 55.0,
-          "a": true,
-          "mc": 3148126268.553812
-        },
-        {
           "t": "PRVA",
           "n": "Privia Health Group, Inc.",
-          "p": 24.69,
-          "w": 2.11,
-          "m": 9.01,
-          "rsi": 64.2,
+          "p": 25.05,
+          "w": 5.52,
+          "m": 9.48,
+          "rsi": 66.5,
           "a": true,
-          "mc": 3154599071.0670733
+          "mc": 3200595675.558931
+        },
+        {
+          "t": "GPN",
+          "n": "Global Payments Inc.",
+          "p": 91.83,
+          "w": 3.87,
+          "m": 7.87,
+          "rsi": 52.7,
+          "a": true,
+          "mc": 24301504833.411278
+        },
+        {
+          "t": "BRO",
+          "n": "Brown & Brown, Inc.",
+          "p": 73.07,
+          "w": 2.61,
+          "m": 3.96,
+          "rsi": 57.3,
+          "a": true,
+          "mc": 24236721762.077263
+        },
+        {
+          "t": "BEKE",
+          "n": "KE Holdings Inc",
+          "p": 17.88,
+          "w": 2.17,
+          "m": 0.79,
+          "rsi": 49.3,
+          "a": true,
+          "mc": 20851587518.1504
+        },
+        {
+          "t": "ADC",
+          "n": "Agree Realty Corporation",
+          "p": 70.91,
+          "w": 2.08,
+          "m": 5.52,
+          "rsi": 62.5,
+          "a": true,
+          "mc": 9225464247.736715
         }
       ]
     }
